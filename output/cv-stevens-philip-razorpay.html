@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stevens Philip — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('../fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('../fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  .header { margin-bottom: 20px; }
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187,74%,32%), hsl(270,70%,45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 18px; }
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187,74%,32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+  a { white-space: nowrap; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187,74%,28%);
+    background: hsl(187,40%,95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187,40%,88%);
+  }
+
+  .job { margin-bottom: 14px; }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270,70%,45%);
+  }
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 12px; }
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270,70%,45%);
+  }
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187,74%,32%);
+    background: hsl(187,40%,95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+  .project-tech { font-size: 9.5px; color: #888; margin-top: 3px; }
+
+  .edu-item { margin-bottom: 8px; }
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270,70%,45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .skill-item { font-size: 10.5px; color: #444; }
+  .skill-category { font-weight: 600; color: #333; font-size: 10.5px; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 0; }
+  }
+
+  .avoid-break, .job, .project, .edu-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Stevens Philip</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>9380546501</span>
+      <span class="separator">|</span>
+      <span>stevensp99@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/stevens-philip/">linkedin.com/in/stevens-philip</a>
+      <span class="separator">|</span>
+      <span>Bengaluru, India</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">AI-native full-stack builder with 5 years of end-to-end product ownership — from discovery and prototyping to production adoption at scale. Shipped 3 AI systems at Acko: an ML claims classification agent (fraud/admissibility decisioning at scale), a 0&rarr;1 LLM medical tourism pipeline, and an AI-powered roadside assistance platform (+91% app registrations, &minus;50% registration time). Holds a Gen AI patent at Dell. React + Angular SDUI specialist with Spring Boot backend fluency — flexes between frontend and backend based on what the problem needs. Uses AI agents and LLM APIs as the primary build layer, not an afterthought.</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">AI-Native Product Engineering</span>
+      <span class="competency-tag">End-to-End Feature Ownership</span>
+      <span class="competency-tag">React + Angular SDUI</span>
+      <span class="competency-tag">0&rarr;1 Product Development</span>
+      <span class="competency-tag">LLM &amp; AI Agent Systems</span>
+      <span class="competency-tag">Customer-Backward Thinking</span>
+      <span class="competency-tag">Spring Boot &amp; REST APIs</span>
+      <span class="competency-tag">CI/CD &amp; DevOps</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <!-- Acko -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Acko General Insurance</span>
+        <span class="job-period">Jan 2025 – Present</span>
+      </div>
+      <div class="job-role">Software Development Engineer 2 — AI-Enabled &middot; Bengaluru</div>
+      <ul>
+        <li><strong>Admissibility AI Agent (0&rarr;1):</strong> Architected and shipped an AI agentic system that auto-analyses claim parameters against configurable rules, cross-references damage reports with incident descriptions using ML, and classifies each claim as admissible, fraudulent, document-deficient, or manual-review — eliminating handler decisioning time at scale.</li>
+        <li><strong>Acko Global Care — Ackathon 2025 (4th Place):</strong> Built a 0&rarr;1 LLM-powered medical tourism platform end-to-end: LLM-based diagnosis extraction from medical reports &rarr; hospital &amp; specialist recommendation &rarr; treatment cost estimation &rarr; best-doctor ranking. Full AI pipeline scoped, designed, and shipped within the hackathon window.</li>
+        <li><strong>RSA Platform (React + Angular SDUI):</strong> Owned the complete Roadside Assistance frontend and backend — dynamic question engine, slot booking, Google Maps location handling, garage selection, live tracking, and Advisor Portal for ops teams. Impact: app registrations +91% (18% &rarr; 34.5%), registration time &minus;50% (12 &rarr; 6 min), support calls &minus;43% (350 &rarr; 200/week), CES ~90%.</li>
+        <li><strong>PUD Platform (SDUI / React, 1,000+ Garages):</strong> Owned SDUI config-driven frontend for pickup &amp; drop: garage selection, dynamic slot booking bias (ADSC vs non-ADSC), free/paid pricing by pin code, real-time status polling. Built reusable node-based navigation and data-enricher patterns adopted as shared primitives.</li>
+        <li><strong>CES Live Tracking &amp; Claim Timeline:</strong> Built real-time field-executive tracking UI (Google Maps + Distance Matrix API), SLA audit trail (On Time / At Risk / Breached), Segment analytics, and Growthbook feature-flag rollouts — adopted across all claim-handler workflows.</li>
+        <li>Implemented auto-attendance tracking &amp; team analytics APIs; resolved 30+ portal bugs in 3&ndash;4 days; mentored junior engineers; led API contract discussions and cross-team code reviews.</li>
+      </ul>
+    </div>
+
+    <!-- Dell SWE2 -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Dell Technologies</span>
+        <span class="job-period">Feb 2023 – Jan 2025</span>
+      </div>
+      <div class="job-role">Software Engineer 2 (Promoted from SDE1) &middot; Bengaluru</div>
+      <ul>
+        <li><strong>Unified Cost Management Dashboard:</strong> Scoped, architected, and shipped an Angular + DevExtreme + Spring Boot procurement dashboard from 0&rarr;1 — $65M ROI in FY, 50% approval-efficiency gain, Layer-7 auth, PCF production deployment. Security &amp; DevOps lead; raised coverage 60% &rarr; 97%+.</li>
+        <li><strong>Item Usage Dashboard:</strong> Flask Mail + Angular TLS email engine — reduced manual process intervention by 20%.</li>
+      </ul>
+    </div>
+
+    <!-- Dell SWE1 -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Dell Technologies</span>
+        <span class="job-period">Aug 2021 – Feb 2023</span>
+      </div>
+      <div class="job-role">Software Engineer 1 &middot; Bengaluru</div>
+      <ul>
+        <li><strong>Eye On Desktop Widget (Electron JS):</strong> Proactive monitoring tool — reduced issue-identification response time by 35% for Ops and Dev Engineering teams.</li>
+        <li><strong>Buddy Board:</strong> Angular + Python + Spring Boot automated data-validation and status dashboard — eliminated manual data-entry errors across procurement workflows.</li>
+      </ul>
+    </div>
+
+    <!-- Dell Intern -->
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Dell Technologies</span>
+        <span class="job-period">Feb 2021 – May 2021</span>
+      </div>
+      <div class="job-role">Software Engineer Intern — AI-Enabled &middot; Bengaluru</div>
+      <ul>
+        <li><strong>PRISMO &amp; DISCP AI Chatbot</strong> (Rasa NLP, wake-word detection): containerised with Docker &amp; Kubernetes — 20% interaction efficiency gain; trained on real user conversation data.</li>
+        <li><strong>Speech Recognition Engine:</strong> Custom domain model tuned for DELL abbreviations — 85% accuracy in production transcriptions.</li>
+        <li><strong>Gen AI Patent (Authorised):</strong> TIDE Hack2Evolve — Gen AI for Code Reusability &amp; Sustainability. Patent filed and authorised at Dell.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <span class="project-title">Admissibility AI Agent — Acko</span>
+      <span class="project-badge">Production AI System</span>
+      <div class="project-desc">End-to-end AI agentic system for insurance claims decisioning. Scoped configurable rules engine, cross-references damage reports with incident descriptions via ML, classifies claims across four categories at production scale. Architected from 0&rarr;1 — discovery through production rollout.</div>
+      <div class="project-tech">Python · LLM APIs · ML Classification · Spring Boot · React</div>
+    </div>
+
+    <div class="project">
+      <span class="project-title">Acko Global Care — LLM Medical Tourism Pipeline</span>
+      <span class="project-badge">Ackathon 2025 · 4th Place</span>
+      <div class="project-desc">0&rarr;1 AI platform built end-to-end in a hackathon: LLM-based diagnosis extraction from medical reports, optimal hospital &amp; specialist recommendation, treatment cost estimation, best-doctor ranking. Full discovery-to-demo ownership in a single sprint.</div>
+      <div class="project-tech">LLMs · Prompt Engineering · Node.js · React</div>
+    </div>
+
+    <div class="project">
+      <span class="project-title">DELL Supply Chain Optimisation using QUBO</span>
+      <span class="project-badge">Research · IIT Delhi</span>
+      <div class="project-desc">Applied Adiabatic Quantum Optimisation to minimise procurement backlog — jointly optimised Net MRP, demand forecast, and inventory levels. End-to-end model design through cloud deployment on AWS.</div>
+      <div class="project-tech">Quantum Computing · Python · AWS · IoT</div>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech — Computer Science &middot; <span class="edu-org">Sikkim Manipal Institute of Technology</span></span>
+        <span class="edu-year">2017 – 2021</span>
+      </div>
+      <div class="edu-desc">CGPA: 9.69 / 10 &nbsp;&middot;&nbsp; Debashish Chatterjee Award — Highest marks in Computer Science</div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS / ACHIEVEMENTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Achievements</div>
+    <div class="edu-item">
+      <div class="edu-desc">
+        <strong>Patent Authorised — Dell Technologies:</strong> Gen AI for Code Reusability &amp; Sustainability (TIDE Hack2Evolve)<br>
+        <strong>1st Place — GSCM-TECH-A-THON, Dell:</strong> Parquet automation — 8 hrs &rarr; 2 min for large data files<br>
+        <strong>4th Place — Ackathon 2025, Acko:</strong> Acko Global Care — AI-powered medical tourism platform<br>
+        <strong>3rd Place — HackerEarth Hackathon v1.0:</strong> C++ game, 33 competing teams
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Skills</div>
+    <div class="skills-grid">
+      <span class="skill-item"><span class="skill-category">Frontend:</span> React, Angular (3 yrs), TypeScript, JavaScript, SDUI, Material UI, Micro-frontends</span>
+      <span class="skill-item"><span class="skill-category">Backend:</span> Spring Boot, Python, Node.js, REST APIs, BFF Pattern, Microservices</span>
+      <span class="skill-item"><span class="skill-category">AI / ML:</span> LLM APIs, AI Agents, Gen AI, NLP, Rasa, Prompt Engineering, ML Classification</span>
+      <span class="skill-item"><span class="skill-category">DevOps &amp; Cloud:</span> Docker, Kubernetes, PCF, CI/CD, Git</span>
+      <span class="skill-item"><span class="skill-category">Databases:</span> MongoDB, Oracle, SQL</span>
+      <span class="skill-item"><span class="skill-category">Analytics:</span> Segment, Growthbook, Google Maps API, Figma</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

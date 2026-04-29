@@ -1,0 +1,1136 @@
+# Portal Scanner Configuration
+# Used by /career-ops scan to discover new offers automatically.
+#
+# Strategy (3 levels):
+#   1. Playwright → careers_url of each company (real-time, reliable)
+#   2. Greenhouse API → structured JSON (fast, Greenhouse-only)
+#   3. WebSearch with site: filters (broad discovery, may be stale)
+#
+# IMPORTANT: Each company in tracked_companies MUST have careers_url.
+#   Prefer the BRANDED company careers URL whenever available; use ATS-hosted URL only as fallback.
+#   ✅ https://careers.mastercard.com   ⚠️ https://mastercard.wd1.myworkdayjobs.com (fallback only)
+#   ✅ https://openai.com/careers       ⚠️ https://job-boards.greenhouse.io/openai (fallback only)
+#   Exception: ATS-hosted careers_url is acceptable when no branded careers page exists.
+#   Using raw ATS URLs when a branded page exists can cause false 410 errors (job ID mismatch).
+#
+# HOW TO CUSTOMIZE:
+#   1. Copy this file to portals.yml in the project root
+#   2. Edit title_filter.positive with YOUR target role keywords
+#   3. Add/remove companies in tracked_companies
+#   4. Adjust search_queries for your preferred job boards
+#   5. Set enabled: false on companies you don't care about
+
+# -- Title filter --
+# Tailored for Stevens Philip — Senior Full-Stack & AI Engineer, Bengaluru
+
+title_filter:
+  positive:
+    # -- Full-Stack / General Senior IC --
+    - "Full Stack"
+    - "Full-Stack"
+    - "Software Engineer"
+    - "Software Developer"
+    - "Software Development Engineer"
+    - "SDE"
+    - "SDE3"
+    - "SDE-3"
+    - "Software Developer 3"
+    - "Software Development Engineer 3"
+    - "Software Engineer III"
+    - "Software Engineer 3"
+    - "Engineer III"
+    - "Engineer 3"
+    - "Product Engineer"
+    - "Member of Technical Staff"
+    - "MTS"
+    # -- Frontend --
+    - "Frontend"
+    - "Frontend Developer"
+    - "React"
+    - "Angular"
+    - "UI Developer"
+    - "UI Engineer"
+    # -- Lead / Tech Lead --
+    - "Tech Lead"
+    - "Technical Lead"
+    - "Lead Software"
+    - "Lead Engineer"
+    # -- AI/ML roles --
+    - "AI"
+    - "ML"
+    - "LLM"
+    - "Agent"
+    - "Agentic"
+    - "GenAI"
+    - "Generative AI"
+    - "NLP"
+    - "LLMOps"
+    - "MLOps"
+    # -- Architecture / Platform --
+    - "Platform Engineer"
+    - "Solutions Architect"
+    - "Solutions Engineer"
+  negative:
+    - "Junior"
+    - "Intern"
+    - "Trainee"
+    - "Fresher"
+    - "iOS"
+    - "Android"
+    - "PHP"
+    - "Ruby"
+    - "Data Scientist"
+    - "Research Scientist"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "ASIC"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "SAP "
+    - "Mainframe"
+    - "COBOL"
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head"
+    - "Director"
+
+# -- Search queries --
+# Target: India product companies, 35+ LPA, Bengaluru/remote
+# Stevens Philip — Full-Stack SDE2 + AI background
+
+search_queries:
+
+  # -- Cutshort (curated India tech hiring) --
+  - name: Cutshort — Senior Full-Stack India
+    query: 'site:cutshort.io "Senior Software Engineer" OR "Senior SDE" OR "Full Stack" Bengaluru OR Bangalore OR India React OR Angular'
+    enabled: true
+
+  - name: Cutshort — AI Engineer India
+    query: 'site:cutshort.io "AI Engineer" OR "LLM Engineer" OR "ML Engineer" OR "GenAI" Senior Bengaluru OR India'
+    enabled: true
+
+  - name: Cutshort — SDE2 SDE3 India
+    query: 'site:cutshort.io "SDE2" OR "SDE3" OR "SDE-2" OR "SDE-3" India React OR Angular OR AI'
+    enabled: true
+
+  # -- Wellfound / AngelList (startup jobs India) --
+  - name: Wellfound — Senior SDE India
+    query: 'site:wellfound.com "Senior Software Engineer" OR "Full Stack" India Bengaluru OR Bangalore React OR Angular'
+    enabled: true
+
+  - name: Wellfound — AI Engineer India
+    query: 'site:wellfound.com "AI Engineer" OR "LLM" OR "GenAI" Senior India Bengaluru'
+    enabled: true
+
+  - name: Wellfound — AI Startup India
+    query: 'site:wellfound.com AI startup India "Senior" engineer "35" OR "40" OR "45" lpa'
+    enabled: true
+
+  # -- iimjobs (senior India roles) --
+  - name: iimjobs — Senior Full-Stack Bengaluru
+    query: 'site:iimjobs.com "Senior Software Engineer" OR "Full Stack" Bengaluru OR Bangalore React OR Angular'
+    enabled: true
+
+  - name: iimjobs — AI ML Engineer India
+    query: 'site:iimjobs.com "AI Engineer" OR "ML Engineer" OR "Generative AI" Senior India'
+    enabled: true
+
+  # -- Naukri (India's largest job board) --
+  - name: Naukri — Senior SDE Full-Stack Bengaluru
+    query: 'site:naukri.com "Senior Software Engineer" OR "Senior SDE" "React" OR "Angular" Bengaluru OR Bangalore "5 years" OR "4 years"'
+    enabled: true
+
+  - name: Naukri — AI ML Engineer Bengaluru
+    query: 'site:naukri.com "AI Engineer" OR "ML Engineer" OR "LLM" OR "Generative AI" Senior Bengaluru OR Bangalore'
+    enabled: true
+
+  - name: Naukri — SDUI Full-Stack Product Company
+    query: 'site:naukri.com "Full Stack" "React" OR "Angular" Senior "product company" OR "product based" Bengaluru'
+    enabled: true
+
+  # -- LinkedIn India (broad discovery) --
+  - name: LinkedIn — Senior SDE India product companies
+    query: 'site:linkedin.com/jobs "Senior Software Engineer" "Full Stack" OR "Frontend" India "React" OR "Angular" "product" -"service" after:2026-03-28'
+    enabled: true
+
+  - name: LinkedIn — AI Engineer India 35LPA+
+    query: 'site:linkedin.com/jobs "Senior AI Engineer" OR "AI Engineer" OR "LLM Engineer" "Full Stack" OR "Frontend" India Bengaluru OR Bangalore after:2026-03-28'
+    enabled: true
+
+  # -- Greenhouse India companies --
+  - name: Greenhouse — India product companies Full-Stack AI
+    query: 'site:job-boards.greenhouse.io "Software Engineer" OR "Full Stack" OR "AI Engineer" India OR Bengaluru OR Bangalore Senior'
+    enabled: true
+
+  - name: Greenhouse — India Fintech AI Senior
+    query: 'site:job-boards.greenhouse.io "Software Engineer" India fintech OR insurtech OR payments Senior React OR Angular'
+    enabled: true
+
+  # -- Lever India companies --
+  - name: Lever — India product companies Senior SDE
+    query: 'site:jobs.lever.co "Software Engineer" OR "Full Stack" Bengaluru OR Bangalore OR India Senior React OR Angular OR AI'
+    enabled: true
+
+  - name: Lever — India AI startups Senior
+    query: 'site:jobs.lever.co "AI" OR "LLM" OR "GenAI" Senior Engineer India OR Bengaluru'
+    enabled: true
+
+  # -- Instahyre (AI-powered India hiring) --
+  - name: Instahyre — Senior Full-Stack India
+    query: 'site:instahyre.com "Senior Software Engineer" OR "Full Stack" React OR Angular Bengaluru OR India'
+    enabled: true
+
+  # -- foundit.in / Monster India --
+  - name: foundit — Senior SDE Bengaluru
+    query: 'site:foundit.in "Senior Software Engineer" OR "Senior SDE" React OR Angular Bengaluru "product"'
+    enabled: true
+
+  # -- YC India startups --
+  - name: YC — India-based startups Senior SDE
+    query: 'site:workatastartup.com India Bengaluru "Senior Software Engineer" OR "Full Stack" OR "AI Engineer"'
+    enabled: true
+
+  # -- Global AI companies hiring remotely / India offices --
+  - name: Ashby — AI Engineer remote or India
+    query: 'site:jobs.ashbyhq.com "AI Engineer" OR "LLM Engineer" OR "Full Stack" Senior India OR remote'
+    enabled: true
+
+  - name: Greenhouse — Global AI companies India office
+    query: 'site:job-boards.greenhouse.io "AI Engineer" OR "LLM" OR "GenAI" Senior India OR Bengaluru OR Bangalore remote'
+    enabled: true
+
+
+# -- Tracked Companies --
+# India product companies + global cos with India offices
+# Target: 35+ LPA CTC, Senior Full-Stack or AI roles
+# Stevens Philip — Bengaluru
+
+tracked_companies:
+
+  # ========================================
+  # TIER 1 — FAANG / Big Tech India Offices
+  # ========================================
+
+  - name: Google India
+    careers_url: https://careers.google.com/jobs/results/?location=India
+    scan_method: websearch
+    scan_query: 'site:careers.google.com "Software Engineer" India Bengaluru Senior'
+    notes: "Bengaluru + Hyderabad. SWE L5/L6 = 60-120LPA. Strong AI hiring."
+    enabled: true
+
+  - name: Microsoft India
+    careers_url: https://careers.microsoft.com/global/en/search-results?location=India
+    scan_method: websearch
+    scan_query: 'site:careers.microsoft.com "Software Engineer" OR "AI Engineer" India Bengaluru Senior'
+    notes: "Bengaluru + Hyderabad. SDE2/SDE3 = 40-80LPA. Azure AI, Copilot teams."
+    enabled: true
+
+  - name: Amazon India
+    careers_url: https://www.amazon.jobs/en/search?country=IN
+    scan_method: websearch
+    scan_query: 'site:amazon.jobs "Software Engineer" OR "SDE2" India Bengaluru Senior React AI'
+    notes: "Bengaluru + Hyderabad. SDE2/SDE3. AWS, Alexa, Amazon Pay teams."
+    enabled: true
+
+  - name: Flipkart
+    careers_url: https://www.flipkartcareers.com
+    scan_method: websearch
+    scan_query: 'site:flipkartcareers.com "Senior Software Engineer" OR "SDE2" React Angular AI'
+    notes: "Bengaluru. India largest e-commerce. Senior SDE 40-70LPA."
+    enabled: true
+
+  - name: Atlassian India
+    careers_url: https://www.atlassian.com/company/careers/all-jobs
+    scan_method: websearch
+    scan_query: 'site:atlassian.com/company/careers "Software Engineer" Bengaluru India Senior React'
+    notes: "Bengaluru. JIRA/Confluence. Senior SDE 50-80LPA. High bar."
+    enabled: true
+
+  # ========================================
+  # TIER 2 — Indian Unicorns and Decacorns
+  # ========================================
+
+  - name: Razorpay
+    careers_url: https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited
+    api: https://boards-api.greenhouse.io/v1/boards/razorpaysoftwareprivatelimited/jobs
+    notes: "Bengaluru. Payments unicorn. Senior SDE/AI 40-60LPA. Strong product culture."
+    enabled: true
+
+  - name: PhonePe
+    careers_url: https://job-boards.greenhouse.io/phonepe
+    api: https://boards-api.greenhouse.io/v1/boards/phonepe/jobs
+    notes: "Bengaluru. UPI payments leader. Senior SDE 40-65LPA. Walmart-backed."
+    enabled: true
+
+  - name: CRED
+    careers_url: https://jobs.lever.co/cred
+    notes: "Bengaluru. Premium fintech. Senior SDE 45-70LPA. High eng bar, React-heavy."
+    enabled: true
+
+  - name: Meesho
+    careers_url: https://jobs.lever.co/meesho
+    notes: "Bengaluru. Social commerce unicorn. Senior SDE 35-55LPA. React/Node."
+    enabled: true
+
+  - name: Swiggy
+    careers_url: https://careers.swiggy.com
+    scan_method: websearch
+    scan_query: '"swiggy" "Senior Software Engineer" OR "AI Engineer" React Bengaluru site:linkedin.com/jobs'
+    notes: "Bengaluru. Food + quick commerce. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Zomato
+    careers_url: https://www.zomato.com/careers
+    scan_method: websearch
+    scan_query: '"zomato" "Senior Software Engineer" OR "AI Engineer" site:careers.smartrecruiters.com React India'
+    notes: "Gurugram + Bengaluru. Food + Blinkit. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Groww
+    careers_url: https://groww.sensehq.com/careers
+    scan_method: websearch
+    scan_query: '"groww" "Senior Software Engineer" OR "AI Engineer" React Bengaluru site:linkedin.com/jobs'
+    notes: "Bengaluru. Investment platform unicorn. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Zepto
+    careers_url: https://zepto.talentrecruit.com/career-page
+    scan_method: websearch
+    scan_query: '"zepto" "Senior Software Engineer" React AI Bengaluru site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Quick commerce. Senior SDE 40-60LPA. Hyper-growth."
+    enabled: true
+
+  - name: Krutrim AI (Ola)
+    careers_url: https://www.olacabs.com/careers
+    scan_method: websearch
+    scan_query: '"krutrim" "AI Engineer" OR "Senior Software Engineer" Bengaluru site:linkedin.com/jobs'
+    notes: "Bengaluru. Ola frontier AI lab. AI SDE 45-70LPA."
+    enabled: true
+
+  - name: Navi Technologies
+    careers_url: https://navi.com/careers
+    scan_method: websearch
+    scan_query: '"navi" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs'
+    notes: "Bengaluru. Sachin Bansal fintech. Senior SDE 40-55LPA."
+    enabled: true
+
+  # ========================================
+  # TIER 3 — High-growth Indian Product Cos
+  # ========================================
+
+  - name: Postman
+    careers_url: https://job-boards.greenhouse.io/postman
+    api: https://boards-api.greenhouse.io/v1/boards/postman/jobs
+    notes: "Bengaluru HQ. API dev tools. Senior SDE 50-80LPA. High eng bar."
+    enabled: true
+
+  - name: BrowserStack
+    careers_url: https://www.browserstack.com/careers
+    scan_method: websearch
+    scan_query: 'site:browserstack.com/careers "Senior Software Engineer" OR "Full Stack" React Angular AI'
+    notes: "Bengaluru + Mumbai. Cross-browser testing. Senior SDE 40-65LPA."
+    enabled: true
+
+  - name: Freshworks
+    careers_url: https://www.freshworks.com/company/careers
+    scan_method: websearch
+    scan_query: 'site:freshworks.com/company/careers "Senior Software Engineer" OR "AI Engineer" India React Angular'
+    notes: "Chennai + Bengaluru. SaaS CRM unicorn. Senior SDE 40-60LPA. AI roadmap."
+    enabled: true
+
+  - name: Chargebee
+    careers_url: https://jobs.chargebee.com
+    scan_method: websearch
+    scan_query: 'site:jobs.chargebee.com "Senior Software Engineer" OR "Full Stack" OR "AI Engineer" React Angular'
+    notes: "Chennai + remote. Billing SaaS. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Hasura
+    careers_url: https://hasura.io/careers
+    scan_method: websearch
+    scan_query: 'site:hasura.io/careers "Senior Software Engineer" OR "AI" React Node Bengaluru'
+    notes: "Bengaluru + remote. GraphQL + AI data layer. Senior SDE 45-70LPA."
+    enabled: true
+
+  - name: Druva
+    careers_url: https://job-boards.greenhouse.io/druva
+    api: https://boards-api.greenhouse.io/v1/boards/druva/jobs
+    notes: "Pune + remote. Data protection SaaS. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: ThoughtSpot
+    careers_url: https://www.thoughtspot.com/careers
+    scan_method: websearch
+    scan_query: 'site:thoughtspot.com/careers "Senior Software Engineer" OR "AI Engineer" India Bengaluru React'
+    notes: "Bengaluru. AI-powered analytics. Senior SDE 50-80LPA."
+    enabled: true
+
+  - name: Darwinbox
+    careers_url: https://apply.workable.com/dbox/
+    scan_method: websearch
+    scan_query: '"darwinbox" "Senior Software Engineer" OR "AI Engineer" Hyderabad Bengaluru React site:linkedin.com/jobs'
+    notes: "Hyderabad + Bengaluru. HR SaaS unicorn. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Sprinklr
+    careers_url: https://www.sprinklr.com/careers
+    scan_method: websearch
+    scan_query: 'site:sprinklr.com/careers "Senior Software Engineer" OR "AI Engineer" India Bengaluru React Angular'
+    notes: "Bengaluru. Unified CX platform. Senior SDE 40-65LPA. AI-first roadmap."
+    enabled: true
+
+  - name: MoEngage
+    careers_url: https://moengage.hire.trakstar.com
+    scan_method: websearch
+    scan_query: '"moengage" "Senior Software Engineer" OR "AI Engineer" Bengaluru site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Customer engagement platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: CleverTap
+    careers_url: https://clevertap.com/careers
+    scan_method: websearch
+    scan_query: 'site:clevertap.com/careers "Senior Software Engineer" OR "AI Engineer" India React Angular'
+    notes: "Mumbai + Bengaluru. Customer engagement SaaS. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: WebEngage
+    careers_url: https://webengage.com/company/careers
+    scan_method: websearch
+    scan_query: '"webengage" "Senior Software Engineer" OR "AI Engineer" India site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Mumbai + Bengaluru. Marketing automation SaaS. Senior SDE 35-50LPA."
+    enabled: true
+
+  # ========================================
+  # FINTECH — India
+  # ========================================
+
+  - name: Fi Money (epifi)
+    careers_url: https://jobs.lever.co/epifi
+    notes: "Bengaluru. Neo-banking. Senior SDE 40-60LPA. React/Angular frontend."
+    enabled: true
+
+  - name: Jupiter Money
+    careers_url: https://jupiter.money/careers
+    scan_method: websearch
+    scan_query: 'site:jupiter.money/careers "Senior Software Engineer" OR "AI Engineer" React Angular Bengaluru'
+    notes: "Bengaluru. Digital banking. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Slice
+    careers_url: https://sliceit.com/careers
+    scan_method: websearch
+    scan_query: '"slice" fintech "Senior Software Engineer" React Bengaluru site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Credit + UPI. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Juspay
+    careers_url: https://juspay.io/careers
+    scan_method: websearch
+    scan_query: 'site:juspay.io/careers "Senior Software Engineer" OR "AI Engineer" React Bengaluru'
+    notes: "Bengaluru. Payments infra (ONDC, NPCI). Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Setu (Pine Labs)
+    careers_url: https://setu.co/careers
+    scan_method: websearch
+    scan_query: 'site:setu.co/careers "Senior Software Engineer" OR "AI" React Angular Bengaluru'
+    notes: "Bengaluru. Fintech API infra. Senior SDE 40-60LPA. Pine Labs subsidiary."
+    enabled: true
+
+  - name: Perfios
+    careers_url: https://careers.perfios.com
+    scan_method: websearch
+    scan_query: 'site:careers.perfios.com "Senior Software Engineer" OR "AI Engineer" React Angular Bengaluru'
+    notes: "Bengaluru. Fintech SaaS (bank statement analysis). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: KreditBee
+    careers_url: https://kreditbee.in/careers
+    scan_method: websearch
+    scan_query: '"kreditbee" "Senior Software Engineer" OR "AI Engineer" Bengaluru site:linkedin.com/jobs'
+    notes: "Bengaluru. Digital lending. Senior SDE 35-50LPA."
+    enabled: true
+
+  - name: BharatPe
+    careers_url: https://bharatpe.com/careers
+    scan_method: websearch
+    scan_query: '"bharatpe" "Senior Software Engineer" OR "AI Engineer" Delhi Bengaluru React site:linkedin.com/jobs'
+    notes: "Delhi + Bengaluru. Merchant payments. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: PolicyBazaar
+    careers_url: https://policybazaar.hire.trakstar.com
+    scan_method: websearch
+    scan_query: '"policybazaar" "Senior Software Engineer" OR "AI Engineer" React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Gurugram + Bengaluru. Insurance marketplace. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Digit Insurance
+    careers_url: https://www.godigit.com/careers
+    scan_method: websearch
+    scan_query: 'site:godigit.com/careers "Senior Software Engineer" OR "AI Engineer" React Angular Bengaluru'
+    notes: "Bengaluru. Digital-first insurer. Senior SDE 35-55LPA. Relevant: insurtech background."
+    enabled: true
+
+  # ========================================
+  # AI-FIRST COMPANIES — India
+  # ========================================
+
+  - name: Sarvam AI
+    careers_url: https://www.sarvam.ai/careers
+    scan_method: websearch
+    scan_query: '"sarvam AI" "Software Engineer" OR "AI Engineer" OR "Full Stack" Bengaluru site:linkedin.com/jobs'
+    notes: "Bengaluru. Indian sovereign LLM (Indic languages). AI SDE 50-80LPA."
+    enabled: true
+
+  - name: Yellow.ai
+    careers_url: https://yellow.ai/career
+    scan_method: websearch
+    scan_query: 'site:yellow.ai/career "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular'
+    notes: "Bengaluru. Enterprise conversational AI. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Uniphore
+    careers_url: https://jobs.lever.co/uniphore
+    notes: "Chennai + Bengaluru. Enterprise voice AI + automation. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Haptik (JioHaptik)
+    careers_url: https://www.haptik.ai/careers
+    scan_method: websearch
+    scan_query: 'site:haptik.ai/careers "Senior Software Engineer" OR "AI Engineer" Mumbai Bengaluru React'
+    notes: "Mumbai + remote. Conversational AI (Jio-backed). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Observe.AI
+    careers_url: https://www.observe.ai/careers
+    scan_method: websearch
+    scan_query: 'site:observe.ai/careers "Senior Software Engineer" OR "AI Engineer" React Angular Bengaluru remote'
+    notes: "Bengaluru + SF. Contact center AI. Senior SDE 45-70LPA."
+    enabled: true
+
+  - name: Skit.ai (Vernacular.ai)
+    careers_url: https://skit.ai/careers
+    scan_method: websearch
+    scan_query: '"skit.ai" OR "vernacular.ai" "Senior Software Engineer" OR "AI Engineer" Bengaluru site:linkedin.com/jobs'
+    notes: "Bengaluru. Voice AI for enterprises. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Exotel
+    careers_url: https://exotel.com/company/careers
+    scan_method: websearch
+    scan_query: '"exotel" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs'
+    notes: "Bengaluru. Cloud communications + AI. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Innovaccer
+    careers_url: https://apply.workable.com/innovaccer-analytics/
+    scan_method: websearch
+    scan_query: 'site:apply.workable.com/innovaccer-analytics "Senior Software Engineer" OR "AI Engineer" React India'
+    notes: "Noida + SF. Healthcare data + AI. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Qure.ai
+    careers_url: https://qure.ai/careers
+    scan_method: websearch
+    scan_query: 'site:qure.ai/careers "Senior Software Engineer" OR "AI Engineer" Mumbai Bengaluru React'
+    notes: "Mumbai. AI radiology diagnostics. Senior SDE 40-60LPA."
+    enabled: true
+
+  # ========================================
+  # SAAS / DEV TOOLS — India
+  # ========================================
+
+  - name: Zoho
+    careers_url: https://careers.zohocorp.com
+    scan_method: websearch
+    scan_query: 'site:careers.zohocorp.com "Senior Software Engineer" OR "AI Engineer" React Angular Chennai India'
+    notes: "Chennai. Large SaaS suite. Zoho AI expanding. Senior SDE 30-50LPA."
+    enabled: true
+
+  - name: Scaler (InterviewBit)
+    careers_url: https://www.scaler.com/careers
+    scan_method: websearch
+    scan_query: 'site:scaler.com/careers "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular'
+    notes: "Bengaluru. Ed-tech + job platform. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: upGrad
+    careers_url: https://careers.upgrad.com
+    scan_method: websearch
+    scan_query: 'site:careers.upgrad.com "Senior Software Engineer" OR "AI Engineer" React Angular Mumbai Bengaluru'
+    notes: "Mumbai + Bengaluru. Ed-tech unicorn. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # LOGISTICS / MOBILITY / COMMERCE — India
+  # ========================================
+
+  - name: Porter
+    careers_url: https://porter.in/careers
+    scan_method: websearch
+    scan_query: '"porter" logistics "Senior Software Engineer" Bengaluru React site:linkedin.com/jobs'
+    notes: "Bengaluru. Intra-city logistics. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Rapido
+    careers_url: https://www.rapido.bike/careers
+    scan_method: websearch
+    scan_query: '"rapido" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs'
+    notes: "Bengaluru. Bike taxi + auto aggregator. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Zetwerk
+    careers_url: https://www.zetwerk.com/careers
+    scan_method: websearch
+    scan_query: '"zetwerk" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs'
+    notes: "Bengaluru. B2B manufacturing network. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Udaan
+    careers_url: https://udaan.com/careers.html
+    scan_method: websearch
+    scan_query: '"udaan" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs'
+    notes: "Bengaluru. B2B e-commerce. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # GLOBAL AI — India office / remote-India
+  # ========================================
+
+  - name: Anthropic (remote)
+    careers_url: https://job-boards.greenhouse.io/anthropic
+    api: https://boards-api.greenhouse.io/v1/boards/anthropic/jobs
+    notes: "Remote/SF. Claude AI. India-remote possible. Very high bar."
+    enabled: true
+
+  - name: Glean
+    careers_url: https://job-boards.greenhouse.io/gleanwork
+    api: https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs
+    notes: "Bengaluru + Palo Alto. Enterprise AI search. Senior SDE 50-80LPA. India hiring."
+    enabled: true
+
+  - name: Salesforce India
+    careers_url: https://careers.salesforce.com/en/jobs
+    scan_method: websearch
+    scan_query: 'site:careers.salesforce.com "Software Engineer" OR "AI Engineer" India Bengaluru Hyderabad Senior'
+    notes: "Hyderabad + Bengaluru. Agentforce + Einstein AI. Senior SDE 50-80LPA."
+    enabled: true
+
+  - name: Adobe India
+    careers_url: https://careers.adobe.com
+    scan_method: websearch
+    scan_query: 'site:careers.adobe.com "Senior Software Engineer" OR "AI Engineer" India Bengaluru Noida React'
+    notes: "Bengaluru + Noida. Creative + Document AI. Senior SDE 50-80LPA."
+    enabled: true
+
+  - name: Intuit India
+    careers_url: https://jobs.intuit.com/search-jobs/India
+    scan_method: websearch
+    scan_query: 'site:jobs.intuit.com "Senior Software Engineer" OR "AI Engineer" India Bengaluru React Angular'
+    notes: "Bengaluru. TurboTax + QuickBooks. Senior SDE 50-80LPA. Strong AI teams."
+    enabled: true
+
+  - name: Uber India
+    careers_url: https://www.uber.com/us/en/careers
+    scan_method: websearch
+    scan_query: 'site:uber.com/us/en/careers "Senior Software Engineer" OR "AI Engineer" Bengaluru India React'
+    notes: "Bengaluru. Large India eng team. Senior SDE 50-80LPA."
+    enabled: true
+
+  - name: Arize AI (remote)
+    careers_url: https://job-boards.greenhouse.io/arizeai
+    api: https://boards-api.greenhouse.io/v1/boards/arizeai/jobs
+    notes: "Remote/SF. LLMOps + AI observability. India remote possible."
+    enabled: true
+
+  - name: Cohere (remote)
+    careers_url: https://jobs.ashbyhq.com/cohere
+    scan_method: websearch
+    scan_query: 'site:jobs.ashbyhq.com/cohere "Software Engineer" OR "AI Engineer" remote India'
+    notes: "Remote. Enterprise LLM provider. India remote possible."
+    enabled: true
+
+  # ========================================
+  # FINTECH — India (Additional)
+  # ========================================
+
+  - name: Cashfree Payments
+    careers_url: https://www.cashfree.com/company/careers
+    scan_method: websearch
+    scan_query: '"cashfree" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Payment gateway + APIs. Senior SDE 35-55LPA. Product-led fintech infra."
+    enabled: true
+
+  - name: smallcase
+    careers_url: https://smallcase.com/careers
+    scan_method: websearch
+    scan_query: '"smallcase" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Stock/ETF investment platform. Senior SDE 35-55LPA. Strong eng culture."
+    enabled: true
+
+  - name: INDmoney
+    careers_url: https://indmoney.com/careers
+    scan_method: websearch
+    scan_query: '"indmoney" "Senior Software Engineer" OR "AI Engineer" Gurugram Delhi React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Gurugram. Wealth management + US stocks. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Open Financial Technologies
+    careers_url: https://open.money/careers
+    scan_method: websearch
+    scan_query: '"open financial" OR "open.money" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs'
+    notes: "Bengaluru. SMB neobank + business banking platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Niyo
+    careers_url: https://www.niyo.com/careers
+    scan_method: websearch
+    scan_query: '"niyo" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Travel + global neobank for salaried. Senior SDE 35-50LPA."
+    enabled: true
+
+  # ========================================
+  # B2B SAAS — India
+  # ========================================
+
+  - name: Whatfix
+    careers_url: https://whatfix.com/careers
+    scan_method: websearch
+    scan_query: 'site:whatfix.com/careers "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular'
+    notes: "Bengaluru. Digital adoption platform (DAP). Senior SDE 40-60LPA. US-listed trajectory."
+    enabled: true
+
+  - name: LeadSquared
+    careers_url: https://www.leadsquared.com/careers
+    scan_method: websearch
+    scan_query: '"leadsquared" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. CRM + marketing automation SaaS. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Keka HR
+    careers_url: https://www.keka.com/careers
+    scan_method: websearch
+    scan_query: '"keka" "Senior Software Engineer" OR "AI Engineer" Hyderabad React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Hyderabad. HR SaaS (payroll + HRMS). Senior SDE 35-55LPA. Strong product culture."
+    enabled: true
+
+  - name: Wingify (VWO)
+    careers_url: https://jobs.lever.co/wingify
+    scan_method: websearch
+    scan_query: '"wingify" OR "VWO" "Senior Software Engineer" OR "AI Engineer" Delhi React site:linkedin.com/jobs OR site:jobs.lever.co'
+    notes: "Delhi. A/B testing + web experimentation SaaS (VWO). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Multiplier
+    careers_url: https://www.usemultiplier.com/careers
+    scan_method: websearch
+    scan_query: '"multiplier" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Node site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru + Singapore HQ. Global EOR + payroll SaaS. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Capillary Technologies
+    careers_url: https://www.capillarytech.com/careers
+    scan_method: websearch
+    scan_query: '"capillary" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Loyalty + CRM SaaS for retail. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Rocketlane
+    careers_url: https://www.rocketlane.com/careers
+    scan_method: websearch
+    scan_query: '"rocketlane" "Senior Software Engineer" OR "AI Engineer" Chennai React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Chennai. Customer onboarding + PSA SaaS. Senior SDE 35-55LPA. Strong AI roadmap."
+    enabled: true
+
+  - name: Zluri
+    careers_url: https://www.zluri.com/careers
+    scan_method: websearch
+    scan_query: '"zluri" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. SaaS management + spend optimization platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Suprsend
+    careers_url: https://www.suprsend.com/careers
+    scan_method: websearch
+    scan_query: '"suprsend" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Notification infrastructure platform. Senior SDE 35-50LPA."
+    enabled: true
+
+  # ========================================
+  # AI / SPEECH — India (Additional)
+  # ========================================
+
+  - name: Gnani.ai
+    careers_url: https://gnani.ai/careers
+    scan_method: websearch
+    scan_query: '"gnani.ai" OR "gnani ai" "Senior Software Engineer" OR "AI Engineer" Bengaluru site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Indian language speech AI + NLP (Hindi, Tamil, etc.). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Arya.ai
+    careers_url: https://arya.ai/careers
+    scan_method: websearch
+    scan_query: '"arya.ai" "Senior Software Engineer" OR "AI Engineer" Mumbai Bengaluru site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Mumbai. AI platform for BFSI (credit, fraud, lending). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: CloudSEK
+    careers_url: https://cloudsek.com/careers
+    scan_method: websearch
+    scan_query: '"cloudsek" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. AI-powered cybersecurity + threat intelligence. Senior SDE 30-50LPA."
+    enabled: true
+
+  - name: Locus
+    careers_url: https://locus.sh/careers
+    scan_method: websearch
+    scan_query: '"locus" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Supply chain + logistics route optimization AI. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # EDTECH — India
+  # ========================================
+
+  - name: Physics Wallah (PW)
+    careers_url: https://www.pw.live/careers
+    scan_method: websearch
+    scan_query: '"physics wallah" OR "PW" "Senior Software Engineer" OR "AI Engineer" Noida Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Noida + Bengaluru. Edtech unicorn. Senior SDE 35-55LPA. Fast-growing eng team."
+    enabled: true
+
+  - name: Testbook
+    careers_url: https://testbook.com/careers
+    scan_method: websearch
+    scan_query: '"testbook" "Senior Software Engineer" OR "AI Engineer" React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Mumbai. Govt exam prep edtech. Senior SDE 30-50LPA."
+    enabled: true
+
+  - name: Classplus
+    careers_url: https://classplus.co/careers
+    scan_method: websearch
+    scan_query: '"classplus" "Senior Software Engineer" OR "AI Engineer" Noida React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Noida. Teacher/tutor SaaS platform. Senior SDE 30-50LPA."
+    enabled: true
+
+  # ========================================
+  # HEALTHTECH — India
+  # ========================================
+
+  - name: Practo
+    careers_url: https://careers.practo.com
+    scan_method: websearch
+    scan_query: 'site:careers.practo.com "Senior Software Engineer" OR "AI Engineer" React Angular Bengaluru'
+    notes: "Bengaluru. Health platform (appointments, teleconsult, EHR). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Healthplix
+    careers_url: https://healthplix.com/careers
+    scan_method: websearch
+    scan_query: '"healthplix" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Doctor EHR + clinical AI SaaS. Senior SDE 30-50LPA."
+    enabled: true
+
+  # ========================================
+  # LOGISTICS / COMMERCE TECH — India (Additional)
+  # ========================================
+
+  - name: Shiprocket
+    careers_url: https://www.shiprocket.in/careers
+    scan_method: websearch
+    scan_query: '"shiprocket" "Senior Software Engineer" OR "AI Engineer" Delhi Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Delhi + Bengaluru. D2C logistics SaaS (unicorn). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: GoKwik
+    careers_url: https://gokwik.co/careers
+    scan_method: websearch
+    scan_query: '"gokwik" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. D2C checkout + RTO reduction tech. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: ElasticRun
+    careers_url: https://www.elasticrun.in/careers
+    scan_method: websearch
+    scan_query: '"elasticrun" "Senior Software Engineer" OR "AI Engineer" Pune Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Pune. Rural distribution logistics platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # REMOTE-FIRST / GLOBAL — India hiring
+  # ========================================
+
+  - name: Turing
+    careers_url: https://www.turing.com/careers
+    scan_method: websearch
+    scan_query: '"turing" "Senior Software Engineer" OR "AI Engineer" India React Angular site:linkedin.com/jobs OR site:jobs.lever.co'
+    notes: "Remote. AI talent network + product. India remote roles 35-55LPA."
+    enabled: true
+
+  - name: InVideo AI
+    careers_url: https://invideo.io/careers
+    scan_method: websearch
+    scan_query: '"invideo" "Senior Software Engineer" OR "AI Engineer" Mumbai React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Mumbai + remote. AI video creation platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Springworks
+    careers_url: https://springworks.in/careers
+    scan_method: websearch
+    scan_query: '"springworks" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. HR tech SaaS (Trivia, Springverify, EngageWith). Senior SDE 30-50LPA."
+    enabled: true
+
+  - name: HyperTrack
+    careers_url: https://hypertrack.com/careers
+    scan_method: websearch
+    scan_query: '"hypertrack" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru + US. Location tracking API for logistics/mobility. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Stripe India
+    careers_url: https://stripe.com/jobs/search?location=india
+    scan_method: websearch
+    scan_query: 'site:stripe.com/jobs "Software Engineer" OR "AI Engineer" India Bengaluru Senior React'
+    notes: "Bengaluru. Stripe India eng hub. Senior SDE 60-100LPA. Very high bar."
+    enabled: true
+
+  # ========================================
+  # DEVELOPER TOOLS / LOW-CODE — India
+  # ========================================
+
+  - name: HackerRank
+    careers_url: https://job-boards.greenhouse.io/hackerrank
+    api: https://boards-api.greenhouse.io/v1/boards/hackerrank/jobs
+    notes: "Bangalore hybrid (Mon/Wed/Thu). Developer assessment platform. Senior SWE median ~₹41.7L; Lead ~₹48-55L. React-heavy frontend."
+    enabled: true
+
+  - name: Appsmith
+    careers_url: https://jobs.lever.co/appsmith
+    scan_method: websearch
+    scan_query: '"appsmith" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:jobs.lever.co'
+    notes: "Bengaluru. Open-source low-code app builder (React-heavy). Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Tooljet
+    careers_url: https://www.tooljet.com/careers
+    scan_method: websearch
+    scan_query: '"tooljet" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Open-source low-code platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: DevRev
+    careers_url: https://devrev.ai/careers
+    scan_method: websearch
+    scan_query: '"devrev" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru + Palo Alto. Dev + CRM platform (Dheeraj Pandey). Senior SDE 50-80LPA."
+    enabled: true
+
+  - name: Requestly
+    careers_url: https://requestly.com/careers
+    scan_method: websearch
+    scan_query: '"requestly" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. API mock + frontend debugging SaaS. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # ENTERPRISE SAAS — India (Additional)
+  # ========================================
+
+  - name: Kissflow
+    careers_url: https://kissflow.com/careers
+    scan_method: websearch
+    scan_query: '"kissflow" "Senior Software Engineer" OR "AI Engineer" Chennai React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Chennai. Workflow automation + low-code SaaS. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Vymo
+    careers_url: https://getvymo.com/careers
+    scan_method: websearch
+    scan_query: '"vymo" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. AI-powered sales productivity SaaS for BFSI. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Netcore Cloud
+    careers_url: https://netcorecloud.com/careers
+    scan_method: websearch
+    scan_query: '"netcore" "Senior Software Engineer" OR "AI Engineer" Mumbai React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Mumbai. AI-powered marketing SaaS + email/push infra. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Plum
+    careers_url: https://plumhq.com/careers
+    scan_method: websearch
+    scan_query: '"plum" employee benefits "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Employee benefits + group health insurance SaaS. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Loop Health
+    careers_url: https://loophealth.com/careers
+    scan_method: websearch
+    scan_query: '"loop health" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Employee health insurance + wellness platform. Senior SDE 35-50LPA."
+    enabled: true
+
+  # ========================================
+  # PROPTECH & REAL ESTATE — India
+  # ========================================
+
+  - name: NoBroker
+    careers_url: https://www.nobroker.in/careers
+    scan_method: websearch
+    scan_query: '"nobroker" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Real estate platform + PropTech unicorn. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # SOCIAL / MEDIA / CONTENT — India
+  # ========================================
+
+  - name: ShareChat (Moj)
+    careers_url: https://sharechat.com/careers
+    scan_method: websearch
+    scan_query: '"sharechat" OR "moj" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Indian-language social + short video (Moj). Senior SDE 40-65LPA. Heavy AI/ML."
+    enabled: true
+
+  - name: DailyHunt (VerSe)
+    careers_url: https://verse.in/careers
+    scan_method: websearch
+    scan_query: '"dailyhunt" OR "verse" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. Indian-language news + content (Josh short video). Senior SDE 40-60LPA."
+    enabled: true
+
+  # ========================================
+  # TRAVEL & MOBILITY TECH — India
+  # ========================================
+
+  - name: ixigo
+    careers_url: https://www.ixigo.com/info/careers
+    scan_method: websearch
+    scan_query: '"ixigo" "Senior Software Engineer" OR "AI Engineer" Gurugram React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Gurugram. AI-powered travel booking (NSE listed). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: MakeMyTrip
+    careers_url: https://careers.makemytrip.com
+    scan_method: websearch
+    scan_query: 'site:careers.makemytrip.com "Senior Software Engineer" OR "AI Engineer" React Angular Gurugram Bengaluru'
+    notes: "Gurugram. OTA + travel. Senior SDE 40-60LPA. AI personalization teams."
+    enabled: true
+
+  - name: Ola Electric
+    careers_url: https://www.olaelectric.com/careers
+    scan_method: websearch
+    scan_query: '"ola electric" "Senior Software Engineer" OR "AI Engineer" Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. EV + mobility tech (NSE listed). Senior SDE 40-65LPA. Large eng team."
+    enabled: true
+
+  # ========================================
+  # B2B COMMERCE & PROCUREMENT — India
+  # ========================================
+
+  - name: OfBusiness
+    careers_url: https://www.ofbusiness.com/careers
+    scan_method: websearch
+    scan_query: '"ofbusiness" "Senior Software Engineer" OR "AI Engineer" Gurugram React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Gurugram. B2B raw material marketplace + fintech (unicorn). Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Moglix
+    careers_url: https://www.moglix.com/careers
+    scan_method: websearch
+    scan_query: '"moglix" "Senior Software Engineer" OR "AI Engineer" Noida React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Noida. B2B industrial procurement platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Khatabook
+    careers_url: https://khatabook.com/careers
+    scan_method: websearch
+    scan_query: '"khatabook" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. SMB bookkeeping + payments app. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # AI TOOLS — India (Additional)
+  # ========================================
+
+  - name: Leena AI
+    careers_url: https://leena.ai/careers
+    scan_method: websearch
+    scan_query: '"leena ai" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. HR conversational AI + autonomous agent. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Murf AI
+    careers_url: https://murf.ai/careers
+    scan_method: websearch
+    scan_query: '"murf" OR "murf ai" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. AI voice + TTS SaaS (global user base). Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Pixis AI
+    careers_url: https://pixis.ai/careers
+    scan_method: websearch
+    scan_query: '"pixis" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. AI-powered marketing automation. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # ANALYTICS / DATA TOOLS — India offices
+  # ========================================
+
+  - name: Mixpanel India
+    careers_url: https://job-boards.greenhouse.io/mixpanel
+    api: https://boards-api.greenhouse.io/v1/boards/mixpanel/jobs
+    notes: "Bengaluru. Product analytics platform. Senior SDE 50-80LPA. India eng hub."
+    enabled: true
+
+  - name: Amplitude India
+    careers_url: https://job-boards.greenhouse.io/amplitude
+    api: https://boards-api.greenhouse.io/v1/boards/amplitude/jobs
+    notes: "Bengaluru. Digital analytics + experimentation. Senior SDE 50-80LPA. India hiring."
+    enabled: true
+
+  # ========================================
+  # HEALTHTECH — India (Additional)
+  # ========================================
+
+  - name: Pristyn Care
+    careers_url: https://www.pristyncare.com/careers
+    scan_method: websearch
+    scan_query: '"pristyn care" "Senior Software Engineer" OR "AI Engineer" Gurugram React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Gurugram. Surgical care + healthtech platform. Senior SDE 35-55LPA."
+    enabled: true
+
+  # ========================================
+  # FINTECH — India (Round 3)
+  # ========================================
+
+  - name: Pine Labs
+    careers_url: https://www.pinelabs.com/careers
+    scan_method: websearch
+    scan_query: '"pine labs" "Senior Software Engineer" OR "AI Engineer" Noida Bengaluru React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Noida. POS + merchant payments + BNPL platform. Senior SDE 40-60LPA."
+    enabled: true
+
+  - name: Signzy
+    careers_url: https://signzy.com/careers
+    scan_method: websearch
+    scan_query: '"signzy" "Senior Software Engineer" OR "AI Engineer" Bengaluru React site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Bengaluru. AI-powered digital banking compliance + KYC. Senior SDE 35-55LPA."
+    enabled: true
+
+  - name: Turtlemint
+    careers_url: https://turtlemint.com/careers
+    scan_method: websearch
+    scan_query: '"turtlemint" "Senior Software Engineer" OR "AI Engineer" Mumbai React Angular site:linkedin.com/jobs OR site:cutshort.io'
+    notes: "Mumbai. Insurtech + insurance distribution SaaS. Senior SDE 35-55LPA."
+    enabled: true
+
