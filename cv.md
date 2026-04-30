@@ -22,7 +22,7 @@ Full-stack ownership across RSA, PUD, Claims & CES using React + Angular SDUI ar
 - Architected an AI Agentic system that auto-analyses claim parameters against configurable rules and cross-references damage reports with incident descriptions using ML.
 - Classifies each claim as admissible, fraudulent, document-deficient, or manual-review — reducing handler decisioning time and improving audit consistency at scale.
 
-**Acko Global Care — Ackathon 2024 (4th Place)**
+**Acko Global Care — Ackathon 2024, Jan 2025 (4th Place)**
 - Built an AI-powered medical tourism platform for India in Acko's internal hackathon.
 - Core AI pipeline: LLM-based diagnosis extraction from medical reports → optimal hospital & specialist recommendation → treatment cost estimation → best-doctor ranking, end-to-end.
 
@@ -119,7 +119,7 @@ Sikkim Manipal Institute of Technology · 2017 – 2021 · CGPA: 9.69 / 10
 
 - **Patent Authorised — DELL:** TIDE Hack2Evolve — Gen AI for Code Reusability & Sustainability
 - **1st — GSCM-TECH-A-THON, DELL:** Parquet automation: 8 hrs → 2 min for large data files
-- **4th — Ackathon 2024, ACKO:** Acko Global Care — AI-powered medical tourism platform
+- **4th — Ackathon 2024, ACKO (Jan 2025):** Acko Global Care — AI-powered medical tourism platform
 - **3rd — Code-Zen, Coding Ninjas:** Competitive coding, Tech ADRISHTA '19
 - **3rd — Hackathon v1.0, HackerEarth:** C++ String Eliminator game, 33 teams
 - **Debashish Chatterjee Award:** Highest marks in Computer Science

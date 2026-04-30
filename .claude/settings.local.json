@@ -45,7 +45,11 @@
       "Bash(curl -s -X POST https://api.github.com/user/repos -H 'Authorization: token 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' -H 'Accept: application/vnd.github.v3+json' -d '{\"name\":\"career-ops\",\"private\":true,\"description\":\"AI-powered job search pipeline\"}')",
       "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('html_url', d.get\\('message','error'\\)\\)\\)\")",
       "Bash(git remote *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(/usr/local/bin/node /Users/stevens/Desktop/career-ops-stevens/merge-tracker.mjs)",
+      "Bash(/opt/homebrew/bin/node /Users/stevens/Desktop/career-ops-stevens/merge-tracker.mjs)",
+      "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-razorpay-ai-builder.html output/cv-stevens-philip-razorpay-ai-builder-2026-04-30.pdf --format=a4)",
+      "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-alphasense-senior-swe-ai.html output/cv-stevens-philip-alphasense-senior-swe-ai-2026-04-30.pdf --format=a4)"
     ]
   }
 }

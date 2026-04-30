@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stevens Philip — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('/Users/stevens/Desktop/career-ops-stevens/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('/Users/stevens/Desktop/career-ops-stevens/fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('/Users/stevens/Desktop/career-ops-stevens/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('/Users/stevens/Desktop/career-ops-stevens/fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  .header { margin-bottom: 20px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 18px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+
+  a { white-space: nowrap; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 14px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+
+  .job ul { padding-left: 18px; margin-top: 6px; }
+  .job li { font-size: 10.5px; line-height: 1.6; color: #333; margin-bottom: 4px; }
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 12px; }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+  .project-tech { font-size: 9.5px; color: #888; margin-top: 3px; }
+
+  .edu-item { margin-bottom: 8px; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+
+  .cert-title { font-size: 10.5px; font-weight: 500; color: #333; }
+  .cert-org { color: hsl(270, 70%, 45%); }
+  .cert-year { font-size: 10px; color: #777; white-space: nowrap; }
+
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .skill-item { font-size: 10.5px; color: #444; }
+  .skill-category { font-weight: 600; color: #333; font-size: 10.5px; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 0; }
+  }
+
+  .avoid-break, .job, .project, .edu-item, .cert-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Stevens Philip</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>9380546501</span>
+      <span class="separator">|</span>
+      <span>stevensp99@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/stevens-philip/">linkedin.com/in/stevens-philip</a>
+      <span class="separator">|</span>
+      <a href="https://stevens-philip-portfolio.vercel.app">stevens-philip-portfolio.vercel.app</a>
+      <span class="separator">|</span>
+      <span>Bengaluru, India</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">Full-stack engineer with ~5 years of end-to-end delivery at Dell Technologies (enterprise) and Acko General Insurance (insurtech). Deep expertise in React and Angular SDUI architectures, Spring Boot REST APIs, SQL-backed microservices, and enterprise-grade security and DevOps — PCF deployment, Layer-7 auth, DevOps pipeline coverage scaled from 60% to 97%. Shipped production systems serving 1M+ policies and drove $65M ROI via full-stack ownership from REST API contract design to monitored production rollout. Consistent track record of enterprise integration, CI/CD delivery discipline, and measurable outcomes. Case study: stevens-philip-portfolio.vercel.app</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Full Stack Development</span>
+      <span class="competency-tag">REST API Integration &amp; Design</span>
+      <span class="competency-tag">React &amp; Angular (SDUI)</span>
+      <span class="competency-tag">Spring Boot / Java Backend</span>
+      <span class="competency-tag">Enterprise Security &amp; DevOps</span>
+      <span class="competency-tag">SQL &amp; Database Systems</span>
+      <span class="competency-tag">CI/CD &amp; Git Workflows</span>
+      <span class="competency-tag">Microservices &amp; Middleware</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Acko General Insurance</span>
+        <span class="job-period">Jan 2025 – Present</span>
+      </div>
+      <div class="job-role">Software Development Engineer 2 (AI-Enabled) · Bengaluru</div>
+      <ul>
+        <li>Designed REST API contracts and BFF middleware patterns for cross-team consumption across RSA, PUD, Claims, and CES products — zero breaking changes shipped to production; led API contract discussions and cross-team code reviews.</li>
+        <li><strong>RSA Platform (React + Angular SDUI):</strong> Owned full frontend — dynamic question engine, slot booking, Google Maps location handling, live tracking, and Growthbook feature-flag rollouts. Impact: app registrations +91%, registration time -50%, weekly support calls -43%, CES ~90%.</li>
+        <li><strong>Admissibility AI Agent:</strong> Architected an ML-based claims classification system that cross-references damage reports with incident descriptions and classifies each claim as admissible, fraudulent, document-deficient, or manual-review — reducing handler decisioning time and improving audit consistency at scale.</li>
+        <li><strong>PUD — Pickup &amp; Drop (1,000+ Garages):</strong> Built SDUI config-driven frontend with dynamic garage steerability, slot booking with ADSC bias logic, and reusable node-based navigation primitives adopted as shared patterns across RSA and PUD.</li>
+        <li><strong>CES Live Tracking &amp; Claim Timeline:</strong> Real-time field-executive tracking UI — Google Maps, Distance Matrix API for ETA, SLA tags (On Time / At Risk / Breached), task-history navigation; feature-flag-controlled rollout via Growthbook.</li>
+        <li>Mentored junior engineers; resolved 30+ portal bugs in 3-4 days; implemented auto-attendance tracking and team analytics APIs for Claims handlers with SQL-backed DB config for timeline event mapping.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Dell Technologies</span>
+        <span class="job-period">Feb 2023 – Jan 2025</span>
+      </div>
+      <div class="job-role">Software Engineer 2 (Promoted) · Security &amp; DevOps Lead — DISCP &amp; One Cost · Bengaluru</div>
+      <ul>
+        <li><strong>Enterprise Security &amp; DevOps Lead:</strong> PCF vulnerability remediation 60-70%; CI/CD pipeline coverage scaled from 60% to 97%; Layer-7 auth implementation for PCF production systems.</li>
+        <li><strong>Unified Cost Management Dashboard (Angular + Spring Boot):</strong> Full-stack build with DevExtreme — $65M ROI in FY, 50% approval-efficiency gain, PCF production deployment with Layer-7 auth and SQL-backed data layer.</li>
+        <li><strong>Item Usage Dashboard:</strong> Flask Mail + Angular TLS email engine — reduced manual process intervention by 20% across procurement workflows.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Dell Technologies</span>
+        <span class="job-period">Aug 2021 – Feb 2023</span>
+      </div>
+      <div class="job-role">Software Engineer 1 · Bengaluru</div>
+      <ul>
+        <li><strong>Buddy Board (Angular + Python + Spring Boot):</strong> Automated data-validation and status dashboard for DISCP procurement — eliminated manual data-entry errors across workflows via REST API and SQL-backed backend.</li>
+        <li><strong>Eye On Desktop Widget (Electron JS):</strong> Proactive enterprise monitoring tool — reduced issue-identification response time by 35% for Ops and Dev Engineering teams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Dell Technologies</span>
+        <span class="job-period">Feb 2021 – May 2021</span>
+      </div>
+      <div class="job-role">Software Engineer Intern (AI-Enabled) · Bengaluru</div>
+      <ul>
+        <li><strong>PRISMO &amp; DISCP AI Chatbot (Rasa NLP):</strong> Containerised with Docker &amp; Kubernetes — 20% interaction efficiency gain; trained on real user conversation data with wake-word detection.</li>
+        <li><strong>Speech Recognition Engine:</strong> Custom domain model tuned for DELL abbreviations — 85% accuracy in production transcriptions.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Projects</div>
+
+    <div class="project">
+      <div>
+        <span class="project-title">DELL Supply Chain Optimisation using QUBO</span>
+        <span class="project-badge">ENTERPRISE</span>
+      </div>
+      <div class="project-desc">Applied Adiabatic Quantum Optimisation to minimise procurement backlog by jointly optimising Net MRP, demand forecast, and inventory — significantly reducing logistics costs at scale.</div>
+      <div class="project-tech">Python · Optimisation Algorithms · Supply Chain Analytics</div>
+    </div>
+
+    <div class="project">
+      <div>
+        <span class="project-title">Acko Global Care — Ackathon 2024 (4th Place)</span>
+        <span class="project-badge">AI / LLM</span>
+      </div>
+      <div class="project-desc">End-to-end AI medical tourism platform: LLM-based diagnosis extraction from medical reports, optimal hospital &amp; specialist recommendation, treatment cost estimation, and best-doctor ranking pipeline.</div>
+      <div class="project-tech">LLM APIs · Python · React · Full Stack</div>
+    </div>
+
+    <div class="project">
+      <div>
+        <span class="project-title">Energy Prediction Model — Robotech Labs (IIT Delhi)</span>
+        <span class="project-badge">ML / CLOUD</span>
+      </div>
+      <div class="project-desc">ML model forecasting power output for a Combined Cycle Power Plant using IoT sensor data and regression techniques — with end-to-end cloud deployment.</div>
+      <div class="project-tech">Python · Machine Learning · AWS · IoT Sensors</div>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <div>
+          <span class="edu-title">B.Tech — Computer Science</span>
+          <span class="edu-org"> · Sikkim Manipal Institute of Technology</span>
+        </div>
+        <span class="edu-year">2017 – 2021</span>
+      </div>
+      <div class="edu-desc">CGPA: 9.69 / 10 &nbsp;·&nbsp; Debashish Chatterjee Award — Highest marks in Computer Science</div>
+    </div>
+  </div>
+
+  <!-- ACHIEVEMENTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Achievements</div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">Dell Technologies</span> — Patent Authorised: TIDE Hack2Evolve — Gen AI for Code Reusability &amp; Sustainability</span>
+      <span class="cert-year">2024</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">Dell Technologies</span> — 1st Place, GSCM-TECH-A-THON: Parquet automation (8 hrs to 2 min for large data files)</span>
+      <span class="cert-year">2023</span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><span class="cert-org">Acko General Insurance</span> — 4th Place, Ackathon 2024: Acko Global Care (AI-powered medical tourism platform)</span>
+      <span class="cert-year">2024</span>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Skills</div>
+    <div class="skills-grid">
+      <span class="skill-item"><span class="skill-category">Frontend:</span> Angular (3 yrs), React, TypeScript, JavaScript, HTML5, CSS3, Material UI</span>
+      <span class="skill-item"><span class="skill-category">SDUI:</span> Server-Driven UI (React + Angular), BFF Pattern</span>
+      <span class="skill-item"><span class="skill-category">Backend:</span> Spring Boot, Python, Node.js</span>
+      <span class="skill-item"><span class="skill-category">Integration:</span> REST APIs, Microservices, Micro-frontends</span>
+      <span class="skill-item"><span class="skill-category">DevOps:</span> Docker, Kubernetes, PCF, CI/CD, Git</span>
+      <span class="skill-item"><span class="skill-category">Databases:</span> MongoDB, Oracle, SQL</span>
+      <span class="skill-item"><span class="skill-category">AI / ML:</span> Gen AI, LLM APIs, NLP, Rasa, Prompt Engineering</span>
+      <span class="skill-item"><span class="skill-category">Tools:</span> Segment, Growthbook, Google Maps API, JIRA, Figma</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -3,6 +3,10 @@
 ## Pendientes
 <!-- Add URLs here: - [ ] {url} | {company} | {title} -->
 
+- [x] #066 | https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4688061005 | Razorpay | AI Builder | 4.2/5 | PDF ✅
+- [x] #067 | https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4684249005 | Razorpay | Lead Software Development Engineer | 3.2/5 | PDF ❌
+- [x] #068 | https://job-boards.greenhouse.io/alphasense/jobs/8240996002 | AlphaSense | Senior Software Engineer (AI Applications) | 3.6/5 | PDF ✅
+
 - [x] #063 | https://www.amazon.jobs/en/jobs/3179551/software-development-engineer-cam | Amazon | Software Development Engineer, CAM (Retail Business Services) | 3.7/5 | PDF ❌
 
 - [x] #055 | https://job-boards.greenhouse.io/postman/jobs/7680085003 | Postman | Senior Applied AI Engineer | 4.1/5 | PDF ❌
