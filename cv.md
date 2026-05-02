@@ -21,6 +21,8 @@ Full-stack ownership across RSA, PUD, Claims & CES using React + Angular SDUI ar
 **Admissibility AI Agent — Claims Intelligence**
 - Architected an AI Agentic system that auto-analyses claim parameters against configurable rules and cross-references damage reports with incident descriptions using ML.
 - Classifies each claim as admissible, fraudulent, document-deficient, or manual-review — reducing handler decisioning time and improving audit consistency at scale.
+- Owned the complete claims handler frontend: built the recommendation display layer showing the AI verdict, per-rule pass/fail breakdown, and supporting evidence for each classification.
+- Implemented contrary-action flagging — when a handler overrides the AI recommendation, they must select a reason; these override signals feed back into the system to retrain and improve agent accuracy over time.
 
 **Acko Global Care — Ackathon 2024, Jan 2025 (4th Place)**
 - Built an AI-powered medical tourism platform for India in Acko's internal hackathon.

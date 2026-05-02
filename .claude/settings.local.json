@@ -49,7 +49,20 @@
       "Bash(/usr/local/bin/node /Users/stevens/Desktop/career-ops-stevens/merge-tracker.mjs)",
       "Bash(/opt/homebrew/bin/node /Users/stevens/Desktop/career-ops-stevens/merge-tracker.mjs)",
       "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-razorpay-ai-builder.html output/cv-stevens-philip-razorpay-ai-builder-2026-04-30.pdf --format=a4)",
-      "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-alphasense-senior-swe-ai.html output/cv-stevens-philip-alphasense-senior-swe-ai-2026-04-30.pdf --format=a4)"
+      "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-alphasense-senior-swe-ai.html output/cv-stevens-philip-alphasense-senior-swe-ai-2026-04-30.pdf --format=a4)",
+      "Bash(sed -n '485,495p' /Users/stevens/Desktop/career-ops-stevens/portals.yml)",
+      "Bash(sed -n '621,630p' /Users/stevens/Desktop/career-ops-stevens/portals.yml)",
+      "Bash(sed -n '841,852p' /Users/stevens/Desktop/career-ops-stevens/portals.yml)",
+      "Bash(sed -n '884,894p' /Users/stevens/Desktop/career-ops-stevens/portals.yml)",
+      "Bash(sed -n '1029,1039p' /Users/stevens/Desktop/career-ops-stevens/portals.yml)",
+      "Bash(/usr/local/bin/node scan.mjs)",
+      "Bash(python3 -)",
+      "WebFetch(domain:vercel.com)",
+      "Bash(python3)",
+      "WebFetch(domain:www.okta.com)",
+      "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-dbt-labs.html output/cv-stevens-philip-dbt-labs-2026-05-01.pdf --format=a4)",
+      "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-wissen-technology.html output/cv-stevens-philip-wissen-technology-2026-05-02.pdf --format=a4)",
+      "WebFetch(domain:www.linkedin.com)"
     ]
   }
 }

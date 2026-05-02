@@ -78,6 +78,67 @@
 - [x] #040 | https://job-boards.greenhouse.io/surveymonkey/jobs/6083459 | SurveyMonkey | Senior Software Engineer I [Fullstack] | 4.0/5 | PDF ❌
 - [x] #041 | https://job-boards.greenhouse.io/sumologic/jobs/7404921 | Sumo Logic | Senior Software Engineer I - UI (Front End) | 4.2/5 | PDF ❌
 
+- [x] #111 | https://job-boards.greenhouse.io/gleanwork/jobs/4656281005 | Glean | Technical Lead, Billing & Revenue Platform | 2.0/5 | PDF ❌
+- [x] #112 | https://www.okta.com/company/careers/opportunity/7648974?gh_jid=7648974 | Okta | Principal Data Platform Engineer (Bengaluru) | 1.8/5 | PDF ❌
+- [x] #113 | https://www.okta.com/company/careers/opportunity/7648977?gh_jid=7648977 | Okta | Senior Data Platform Engineer (Bengaluru) | 1.8/5 | PDF ❌
+- [x] #114 | https://jobs.ashbyhq.com/linear/069c4628-88d7-4e4d-b393-c996fc7f3076 | Linear | Senior / Staff Product Engineer | 2.5/5 | PDF ❌
+- [x] #115 | https://jobs.ashbyhq.com/linear/b4a7764e-c680-4bdf-9956-dc78f2ca94d5 | Linear | Senior / Staff Product Engineer, AI | 2.5/5 | PDF ❌
+- [x] #069 | https://jobs.ashbyhq.com/perplexity/043d6a58-87a1-4e3c-bf47-4dc351b94cf4 | Perplexity AI | MTS (Software Engineer, Monetization) | 1.5/5 | PDF ❌
+- [x] #070 | https://jobs.ashbyhq.com/perplexity/8a976851-9bef-4b07-8d36-567fa9540aef | Perplexity AI | MTS (AI Inference Engineer) | 1.5/5 | PDF ❌
+- [x] #071 | https://jobs.ashbyhq.com/perplexity/b932d73f-49f3-4367-8fa7-a22f760e55a3 | Perplexity AI | MTS (Cloud Security Engineer) | 1.5/5 | PDF ❌
+- [x] #072 | https://jobs.ashbyhq.com/perplexity/598e1f7d-b802-4de2-99ac-90eb2bc33315 | Perplexity AI | MTS (AI Infrastructure Engineer) | 1.5/5 | PDF ❌
+- [x] #073 | https://jobs.ashbyhq.com/perplexity/cdbf6ccb-2078-4499-b0a6-af8a04754eee | Perplexity AI | MTS (AI Security Engineer) | 1.5/5 | PDF ❌
+- [x] #074 | https://jobs.ashbyhq.com/perplexity/dd80ab52-34bd-42af-aa5e-6283b7e6c194 | Perplexity AI | MTS (Backend/Infra Engineer, Search) | 1.5/5 | PDF ❌
+- [x] #075 | https://jobs.ashbyhq.com/perplexity/0190699f-010b-44f2-8399-278899fef018 | Perplexity AI | MTS (ML Engineer, Search) | 1.5/5 | PDF ❌
+- [x] #076 | https://jobs.ashbyhq.com/perplexity/27aa1a14-bc59-4613-a65a-38598695076f | Perplexity AI | MTS (Search Engine Developer) | 1.5/5 | PDF ❌
+- [x] #077 | https://jobs.ashbyhq.com/perplexity/94ccf41e-d3e1-41aa-9569-c3bcbffc4184 | Perplexity AI | MTS (Backend SWE, Search Crawler) | 1.5/5 | PDF ❌
+- [x] #078 | https://jobs.ashbyhq.com/perplexity/8fe61c73-0daf-4432-a47d-44714c1ef764 | Perplexity AI | MTS (AI Researcher) | 1.5/5 | PDF ❌
+- [x] #079 | https://jobs.ashbyhq.com/perplexity/3c656963-876a-458d-bca6-916a42a24c1a | Perplexity AI | MTS (Software Engineer, Applied AI) | 1.5/5 | PDF ❌
+- [x] #080 | https://jobs.ashbyhq.com/perplexity/8673866c-f624-4b58-b171-752cf003630e | Perplexity AI | MTS (Software Engineer, AI Platform) | 1.5/5 | PDF ❌
+- [x] #081 | https://jobs.ashbyhq.com/perplexity/a19f1774-5944-4981-b446-e3e40d0dd281 | Perplexity AI | MTS (Rust Engineer, Search) | 1.5/5 | PDF ❌
+- [x] #082 | https://jobs.ashbyhq.com/perplexity/30a09c0f-8715-447d-92b7-9f0adb772fd6 | Perplexity AI | MTS (Golang Engineer, Search) | 1.5/5 | PDF ❌
+- [x] #083 | https://jobs.ashbyhq.com/perplexity/9ac5e638-85f6-4308-bcd5-7dfe0a30a79b | Perplexity AI | MTS (Backend SWE, API Platform) | 1.5/5 | PDF ❌
+- [x] #084 | https://jobs.ashbyhq.com/perplexity/6c9b3c71-85ba-47db-bce5-44fd9fa95d03 | Perplexity AI | MTS (Software Engineer, Security) | 1.5/5 | PDF ❌
+- [x] #085 | https://jobs.ashbyhq.com/perplexity/bc1a6878-8de9-48c2-a791-95b2f8f27261 | Perplexity AI | MTS (AI Software Engineer, Agents) | 1.5/5 | PDF ❌
+- [x] #086 | https://jobs.ashbyhq.com/perplexity/9904db61-b8ca-4207-8f93-88ab6f0cd3fd | Perplexity AI | MTS (Model Behavior Architect) | 1.5/5 | PDF ❌
+- [x] #087 | https://jobs.ashbyhq.com/perplexity/c03bf199-9faa-48a4-809d-095c72b06000 | Perplexity AI | MTS (Software Engineer, Acceleration) | 1.5/5 | PDF ❌
+- [x] #088 | https://jobs.ashbyhq.com/perplexity/2cef7831-6ed3-4663-aec4-57f79f08c95a | Perplexity AI | MTS (Software Engineer, Infrastructure) | 1.5/5 | PDF ❌
+- [x] #089 | https://jobs.ashbyhq.com/perplexity/3b349a2f-360e-44e6-a57d-6a87bc3016a7 | Perplexity AI | MTS (Search Quality Analyst) | 1.5/5 | PDF ❌
+- [x] #090 | https://jobs.ashbyhq.com/perplexity/7755eb0a-0f51-4286-b75e-591e44c741bc | Perplexity AI | MTS (Software Engineer, Data Flywheel) | 1.5/5 | PDF ❌
+- [x] #091 | https://jobs.ashbyhq.com/perplexity/fed8d2c4-9c82-43ad-a168-434146c759ff | Perplexity AI | MTS (Analytics Engineer) | 1.5/5 | PDF ❌
+- [x] #092 | https://jobs.ashbyhq.com/perplexity/2b5a9f9c-7cd5-4579-b7c2-69d09e0214c8 | Perplexity AI | MTS (Backend Software Engineer) | 1.5/5 | PDF ❌
+- [x] #093 | https://jobs.ashbyhq.com/perplexity/e48aaf8c-24cd-4733-aa5b-752773467bfa | Perplexity AI | MTS (Secure Intelligence Institute) | 1.5/5 | PDF ❌
+- [x] #094 | https://jobs.ashbyhq.com/perplexity/0359ebb4-7cbd-4641-a6d1-1127823e2fd5 | Perplexity AI | MTS (AI Policy and Strategic Initiatives) | 1.5/5 | PDF ❌
+- [x] #095 | https://jobs.ashbyhq.com/perplexity/69fd6a56-0050-44f7-9ed2-2c3a7320908d | Perplexity AI | MTS (Offensive Security Engineer) | 1.5/5 | PDF ❌
+- [x] #096 | https://jobs.ashbyhq.com/perplexity/4c0ac8bb-55bf-4fb0-b7d7-36d69f55e6c8 | Perplexity AI | MTS (Software Engineer, Computer) | 1.5/5 | PDF ❌
+- [x] #097 | https://job-boards.greenhouse.io/vercel/jobs/5788954004 | Vercel | Senior SWE, Trust & Safety | 2.0/5 | PDF ❌
+- [x] #098 | https://job-boards.greenhouse.io/vercel/jobs/5704320004 | Vercel | Software Engineer, Agent | 2.0/5 | PDF ❌
+- [x] #099 | https://job-boards.greenhouse.io/vercel/jobs/5798406004 | Vercel | Software Engineer, AI Gateway | 2.0/5 | PDF ❌
+- [x] #100 | https://job-boards.greenhouse.io/vercel/jobs/5474915004 | Vercel | Software Engineer, AI SDK | 2.0/5 | PDF ❌
+- [x] #101 | https://job-boards.greenhouse.io/vercel/jobs/5431123004 | Vercel | Software Engineer, Backend | 2.0/5 | PDF ❌
+- [x] #102 | https://job-boards.greenhouse.io/vercel/jobs/5179639004 | Vercel | Software Engineer, CDN | 2.0/5 | PDF ❌
+- [x] #103 | https://job-boards.greenhouse.io/vercel/jobs/5473266004 | Vercel | Software Engineer, CDN Security | 2.0/5 | PDF ❌
+- [x] #104 | https://job-boards.greenhouse.io/vercel/jobs/5551619004 | Vercel | Software Engineer, Compute | 2.0/5 | PDF ❌
+- [x] #105 | https://job-boards.greenhouse.io/vercel/jobs/5808568004 | Vercel | Software Engineer, Dashboard | 2.0/5 | PDF ❌
+- [x] #106 | https://job-boards.greenhouse.io/vercel/jobs/5633880004 | Vercel | Software Engineer, Deployment Infrastructure | 2.0/5 | PDF ❌
+- [x] #107 | https://job-boards.greenhouse.io/vercel/jobs/5813134004 | Vercel | Software Engineer, Domains | 2.0/5 | PDF ❌
+- [x] #108 | https://job-boards.greenhouse.io/vercel/jobs/5613601004 | Vercel | Software Engineer, Growth | 2.0/5 | PDF ❌
+- [x] #109 | https://job-boards.greenhouse.io/vercel/jobs/5661583004 | Vercel | Software Engineer, Lua | 2.0/5 | PDF ❌
+- [x] #110 | https://job-boards.greenhouse.io/vercel/jobs/5798416004 | Vercel | Software Engineer, Workflows | 2.0/5 | PDF ❌
+- [x] #116 | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4685888005 | dbt Labs | Senior Platform SWE, Transport | 2.0/5 | PDF ❌
+- [x] #117 | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4650235005 | dbt Labs | Senior SWE II - Authoring Apps | 2.5/5 | PDF ❌
+- [x] #118 | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4682132005 | dbt Labs | Senior SWE II (Platform Services) | 1.8/5 | PDF ❌
+- [x] #119 | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4665640005 | dbt Labs | Staff SWE (Agentic Automation, India) | 3.5/5 | PDF ❌
+- [x] #120 | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4666468005 | dbt Labs | Staff SWE, Quality and Release Platform | 2.0/5 | PDF ❌
+- [x] #121 | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4691256005 | dbt Labs | Staff SWE - Semantic Layer (India) | 2.2/5 | PDF ❌
+- [x] #122 | https://jobs.ashbyhq.com/supabase/2ed5e80d-438b-47a5-9efe-12d168b8de81 | Supabase | SWE - Support Tooling (APAC/AMER) | 3.2/5 | PDF ❌
+- [x] #123 | https://jobs.ashbyhq.com/supabase/14a99b8b-444b-4d28-b4fd-6fa8e71bcb4e | Supabase | AI Tooling Engineer | 3.7/5 | PDF ❌
+- [x] #124 | https://jobs.ashbyhq.com/supabase/8a49c4b3-a48b-4d6a-9c3c-36943fcd0dfb | Supabase | SWE - Supavisor (Elixir) | 1.5/5 | PDF ❌
+- [x] #125 | https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d | Supabase | SWE (Go) - Auth Product | 1.8/5 | PDF ❌
+- [x] #126 | https://jobs.ashbyhq.com/supabase/77439e1c-e4eb-483c-aa8e-7686913886e3 | Supabase | SWE (Go) - Auth | 1.8/5 | PDF ❌
+- [x] #127 | https://jobs.ashbyhq.com/supabase/847a7bd7-6b75-444a-aeda-d0b28a11c764 | Supabase | Platform Engineer - Multicloud | 2.2/5 | PDF ❌
+- [x] #128 | https://jobs.ashbyhq.com/supabase/bf3628f2-f6e8-414e-a3fd-2f5ff481b60c | Supabase | AWS Tech Lead - Platform Operations | 2.0/5 | PDF ❌
+
 ## Procesados
 <!-- URLs moved here once evaluated -->
 - [x] #001 | https://job-boards.greenhouse.io/postman/jobs/7583237003 | Postman | SWE Frontend, Performance & Monitoring | 4.3/5 | PDF ❌

@@ -57,6 +57,8 @@ AI-powered job search automation built on Claude Code: pipeline tracking, offer 
 | `templates/cv-template.tex` | LaTeX/Overleaf template for CVs |
 | `generate-pdf.mjs` | Playwright: HTML to PDF |
 | `generate-latex.mjs` | LaTeX CV validator + pdflatex compiler |
+| `doctor.mjs` | Setup validation — prerequisites checklist |
+| `cv-sync-check.mjs` | Validates cv.md, profile.yml consistency, and hardcoded-metric hygiene |
 | `article-digest.md` | Compact proof points from portfolio (optional) |
 | `interview-prep/story-bank.md` | Accumulated STAR+R stories across evaluations |
 | `interview-prep/{company}-{role}.md` | Company-specific interview intel reports |
@@ -67,6 +69,7 @@ AI-powered job search automation built on Claude Code: pipeline tracking, offer 
 | `check-liveness.mjs` | Job posting liveness checker |
 | `liveness-core.mjs` | Shared liveness logic (expired signals win over generic Apply text) |
 | `reports/` | Evaluation reports (format: `{###}-{company-slug}-{YYYY-MM-DD}.md`). Blocks A-F + G (Posting Legitimacy). Header includes `**Legitimacy:** {tier}`. |
+| `output/` | Generated CVs (format: `cv-{firstname}-{lastname}-{company-slug}-{YYYY-MM-DD}.{html\|pdf}`). Gitignored. |
 
 ### OpenCode Commands
 
@@ -258,6 +261,7 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 | Batch processes offers | `batch` |
 | Asks about rejection patterns or wants to improve targeting | `patterns` |
 | Asks about follow-ups or application cadence | `followup` |
+| Wants CV as LaTeX/Overleaf export | `latex` |
 
 ### CV Source of Truth
 
@@ -303,6 +307,24 @@ Default modes are in `modes/` (English). Additional language-specific modes are 
 - **Security**: private vulnerability reporting via email (see `SECURITY.md`)
 - **Support**: help questions go to Discord/Discussions, not issues (see `SUPPORT.md`)
 - **Discord**: https://discord.gg/8pRpHETxa4
+
+## Scripts Reference
+
+| Command | What it does |
+|---------|-------------|
+| `node test-all.mjs` | Full test suite (63+ checks); `--quick` skips dashboard build |
+| `node doctor.mjs` | Prerequisites checklist — run on fresh setup |
+| `node cv-sync-check.mjs` | Validate cv.md + profile.yml consistency |
+| `node generate-pdf.mjs <in.html> <out.pdf>` | HTML → PDF via Playwright; optional `--format=letter\|a4` |
+| `node generate-latex.mjs` | LaTeX CV validator + pdflatex compiler |
+| `node scan.mjs` | Scan all enabled portals; `--dry-run` preview; `--company Cohere` single-target |
+| `node merge-tracker.mjs` | Merge `batch/tracker-additions/` TSVs into `applications.md` |
+| `node verify-pipeline.mjs` | Pipeline health check |
+| `node normalize-statuses.mjs` | Normalize status fields to canonical values |
+| `node dedup-tracker.mjs` | Remove duplicate entries in `applications.md` |
+| `node analyze-patterns.mjs` | Rejection pattern analysis (JSON output) |
+| `node followup-cadence.mjs` | Follow-up cadence calculator (JSON output) |
+| `node update-system.mjs check\|apply\|dismiss\|rollback` | System update management |
 
 ## Stack and Conventions
 
