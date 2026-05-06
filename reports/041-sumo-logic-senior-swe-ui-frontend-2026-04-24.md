@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 4.5/5
+## A. CV Match — 4.5/5
 
 Excellent technical match. The role requires: JavaScript/ES6/TypeScript (expertise), React (3+ years), NodeJS, Frontend Build Tools (Webpack/Vite), modern testing frameworks (React Testing Library, Jest, Karma, Cypress). Preferred: full-stack Node.js/Next/Remix/GraphQL, component-based architecture (React + Redux). Stevens's direct matches: React (3yr+), TypeScript (strong), Node.js, Angular (transferable component architecture knowledge), SDUI (component-based at scale). The role focuses on building rich UIs for a mission-critical analytics platform — Stevens's SDUI platform at Acko (serving the RSA platform with +91% registrations, 50% time reduction, CES ~90%) is a direct structural parallel. Testing framework experience and CI/CD emphasis match his profile. The "Senior I" level (similar to SDE2-equivalent senior band) fits his ~5yr experience.
 

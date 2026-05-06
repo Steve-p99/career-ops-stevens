@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.8/5
+## A. CV Match — 2.8/5
 
 **Strengths:**
 - Mumbai/Bangalore-based role — ideal geography for Stevens, no relocation required

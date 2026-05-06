@@ -1,5 +1,9 @@
 # User Profile Context — Stevens Philip
 
+## Output Language
+
+**ALWAYS generate all reports, evaluations, section headers, recommendations, CV content, cover letters, and any other output in English — regardless of the JD language.** This overrides the `_shared.md` rule that defaults to the JD's language.
+
 ## Target Role Archetypes
 
 | Archetype | Thematic axes | What they buy | Full-stack required? |

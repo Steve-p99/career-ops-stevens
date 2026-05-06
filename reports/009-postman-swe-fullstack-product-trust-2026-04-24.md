@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.8/5
+## A. CV Match — 3.8/5
 
 The role requires 3–5 years of experience developing complex distributed software applications — Stevens' ~5 years sits at the upper bound, which is fine for a Senior-adjacent SWE role. The tech stack is React.js, JavaScript/TypeScript, Node.js — a strong match with Stevens' toolkit (React, TypeScript confirmed; Node.js listed in skills). Key JD quotes:
 

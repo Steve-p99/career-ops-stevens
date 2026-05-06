@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.1/5
+## A. CV Match — 4.1/5
 
 Symphony is PhonePe's internal backend platform/framework team — building the core infrastructure and developer platform that powers PhonePe's micro-app ecosystem and backend services. Context from PhonePe's tech blog reveals Symphony is connected to their "App Platform" initiative and LiquidUI (PhonePe's own Server-Driven UI framework). This is the most interesting PhonePe team for Stevens.
 

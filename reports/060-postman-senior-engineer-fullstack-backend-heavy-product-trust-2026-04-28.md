@@ -14,7 +14,7 @@ Same Product Trust team as #009, but the backend-heavy variant — owning tier 0
 
 ---
 
-## Block A — Match con CV: 3.5/5
+## Block A — CV Match: 3.5/5
 
 **Matches:**
 - **Node.js + TypeScript/JavaScript:** ✅ Listed in skills; used at Acko (Node.js) and Dell

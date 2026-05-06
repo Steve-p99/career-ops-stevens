@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.0/5
+## A. CV Match — 2.0/5
 
 **Strengths:**
 - LLM/AI production experience (Admissibility AI Agent, Acko Global Care LLM pipeline, Gen AI Patent) is relevant to any AI Solutions Architect role

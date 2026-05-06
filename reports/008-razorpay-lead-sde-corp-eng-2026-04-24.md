@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.5/5
+## A. CV Match — 4.5/5
 
 This is a **Corp Engineering** role at Razorpay, building internal employee platforms: HR self-service, AI-assisted query resolution, interview environments, performance management tools, and internal search. Experience requirement is 4–6 years — Stevens' ~5 years is a perfect fit. The technical stack and product scope align extremely well:
 

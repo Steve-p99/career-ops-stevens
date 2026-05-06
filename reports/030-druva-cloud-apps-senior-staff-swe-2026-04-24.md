@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.5/5
+## A. CV Match — 2.5/5
 
 The Cloud Apps team builds multi-tenant, cloud-native SaaS backend services at Druva. The core stack is Go/Python/Java on Linux, AWS (S3, DynamoDB, Kinesis), Docker/Kubernetes — a backend-infrastructure profile that is meaningfully different from Stevens' product SWE background (React/Angular SDUI, Spring Boot, Node.js).
 

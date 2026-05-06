@@ -14,7 +14,7 @@ Strong frontend leadership role at a well-known developer-tools product company 
 
 ---
 
-## Block A — Match con CV: 3.5/5
+## Block A — CV Match: 3.5/5
 
 **Matches:**
 - React + TypeScript: ✅ — RSA, PUD, CES at Acko all built in React with TypeScript; SDUI architecture at scale

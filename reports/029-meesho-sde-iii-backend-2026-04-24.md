@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.3/5
+## A. CV Match — 4.3/5
 
 SDE-III at Meesho is a Senior SWE equivalent (3-6yr experience required). Role involves building resilient backend systems managing millions of orders with zero downtime, collaborating across engineering teams, and creating scalable solutions. Tech stack: Java (primary), Python (scripting), MySQL/NoSQL/PostgreSQL, REST APIs, concurrency/async systems, Docker/K8s, Kafka.
 

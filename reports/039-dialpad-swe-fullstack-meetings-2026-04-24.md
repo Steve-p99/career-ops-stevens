@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 4.2/5
+## A. CV Match — 4.2/5
 
 Strong technical match. Dialpad Meetings requires: Python, APIs, Vue/React, HTML, CSS, JavaScript, TypeScript, GCP or cloud infra. Stevens's direct matches: React (strong), TypeScript, JavaScript, Node.js, Spring Boot (APIs), Docker/K8s (cloud infra equivalent). The fullstack scope (frontend + backend) aligns with his SDUI/BFF architecture at Acko and Angular+Spring Boot at Dell. Vue is listed alongside React — Stevens has React natively; Vue is adjacent and typically learnable quickly for React engineers. WebRTC (meetings stack) is new domain but the JD doesn't require prior WebRTC experience. The Engineering Manager is Bangalore-based, confirming this is a genuine Bengaluru product role with local management. Weekly release cadence and on-call ownership match his current work environment.
 

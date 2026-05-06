@@ -14,7 +14,7 @@ Solid Senior Frontend role at HackerRank Bangalore on the Integrity team (detect
 
 ---
 
-## Block A — Match con CV: 4.0/5
+## Block A — CV Match: 4.0/5
 
 **Matches:**
 - React: ✅ — RSA and PUD frontends at Acko built in React; owns full SDUI layer

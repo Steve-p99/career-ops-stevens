@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.8/5
+## A. CV Match — 3.8/5
 
 The Core platform role is a general backend/platform engineering position. Key requirements and fit assessment:
 

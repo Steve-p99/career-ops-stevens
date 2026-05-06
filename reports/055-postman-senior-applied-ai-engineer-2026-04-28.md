@@ -14,7 +14,7 @@ Strong AI-product engineering match. Stevens' Admissibility AI Agent and Acko Gl
 
 ---
 
-## Block A — Match con CV: 4.0/5
+## Block A — CV Match: 4.0/5
 
 **Role signals:** Agent architectures backed on Postman's API knowledge graph, full-stack prototyping, AI-powered product features for Postman Insights, data pipelines and experimentation infrastructure, staying at cutting edge of agentic tooling.
 
@@ -97,7 +97,7 @@ The cultural picture for Bengaluru specifically is a red flag. The RTO trajector
 
 | Block | Weight | Score | Contribution |
 |-------|--------|-------|--------------|
-| A — Match con CV | 0.30 | 4.0 | 1.20 |
+| A — CV Match | 0.30 | 4.0 | 1.20 |
 | B — North Star | 0.25 | 4.5 | 1.125 |
 | C — Comp | 0.25 | 4.0 | 1.00 |
 | D — Cultural Signals | 0.15 | 2.5 | 0.375 |

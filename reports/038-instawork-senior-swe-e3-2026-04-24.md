@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 3.5/5
+## A. CV Match — 3.5/5
 
 Moderate match. The role requires fullstack expertise (Python/Django backend + React frontend) with AWS infra ownership (ECS, Docker, CloudWatch) and 6+ years experience. Stevens's strengths: React (strong), TypeScript, fullstack architecture (SDUI, BFF pattern), Docker/K8s. Gaps: Python/Django is not his primary backend stack (he is Java/Spring Boot dominant on the backend); AWS/ECS/CloudWatch depth is weaker than required (his cloud is PCF-native with K8s). The role is specifically for Instawork Robotics — building physical AI training data systems (video processing pipelines, petabyte-scale data, Instawork Lens/Prism platforms). This is robotics data infrastructure, not web product engineering, which is a meaningful domain mismatch for Stevens's profile.
 

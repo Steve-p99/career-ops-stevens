@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.8/5
+## A. CV Match — 2.8/5
 
 The Engineering Escalations role is different from the other Druva roles in this batch: it is focused on product reliability, bug fixing, incident handling, and cross-team collaboration — not pure infrastructure engineering. The role requires fixing production bugs, delivering code changes to improve product resiliency/stability, and working with CloudOps, Product, and customer-facing teams.
 

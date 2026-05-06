@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.2/5
+## A. CV Match — 4.2/5
 
 Strong technical match. Rephrase.ai is an AI video generation platform (text-to-video, synthetic media) — a React-heavy frontend product with AI at the core. The Senior Frontend Developer role requires:
 

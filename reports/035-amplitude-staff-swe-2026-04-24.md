@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 2.5/5
+## A. CV Match — 2.5/5
 
 Significant experience gap. Staff SWE at Amplitude requires 6+ years with demonstrated technical leadership, architecture vision for distributed systems at scale (800 PB/month), and ETL/data pipeline expertise (Kafka, Temporal, stream processing, Redis, DynamoDB, Kubernetes, Terraform). Stevens has ~5 years total and no deep distributed data pipeline background — his infra exposure is PCF/K8s/Docker (app deployment level), not stream processing at petabyte scale. Python or Java proficiency is listed — Stevens's Python is present but not his primary stack. The role sits 2–3 levels above his current trajectory. Technical leadership (leading engineering teams) is expected at Staff level — Stevens mentors peers but hasn't formally led engineering teams.
 

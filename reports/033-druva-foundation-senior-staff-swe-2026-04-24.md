@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.2/5
+## A. CV Match — 2.2/5
 
 The Foundation team is responsible for the lowest layer of Druva's platform: a petabyte-scale, distributed cloud file system on AWS. Components include the cloud filesystem itself, an indexing engine, a key-value store, and a big data pipeline for search, analytics, and compliance. AWS primitives: S3, DynamoDB, Kinesis. Primary languages: Go/Python/C/C++.
 

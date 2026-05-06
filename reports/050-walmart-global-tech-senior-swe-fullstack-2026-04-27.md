@@ -22,7 +22,7 @@
 
 ---
 
-## B — Match con CV
+## B — CV Match
 
 | JD Requirement | Stevens Match | Source |
 |---|---|---|

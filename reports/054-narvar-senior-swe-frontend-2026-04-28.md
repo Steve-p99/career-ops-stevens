@@ -14,7 +14,7 @@ Senior Frontend role at Narvar (Sequoia/Accel-backed Series D, post-purchase ret
 
 ---
 
-## Block A — Match con CV: 3.5/5
+## Block A — CV Match: 3.5/5
 
 **Matches:**
 - **React + Redux + GraphQL:** ✅ React at Acko (RSA, PUD, CES); Redux and GraphQL not explicitly in CV but common with React stack — partial

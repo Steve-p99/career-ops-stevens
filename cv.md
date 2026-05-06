@@ -99,12 +99,12 @@ ML model forecasting power output for a Combined Cycle Power Plant using AWS, Io
 
 | Category | Skills |
 |----------|--------|
-| **Frontend** | Angular (3 yrs), React, TypeScript, JavaScript, CSS, Material UI |
+| **Frontend** | Angular (3 yrs), React, Next.js (SSR/SSG), TypeScript, JavaScript, SCSS, CSS Modules, CSS-in-JS, Material UI, Design Systems |
 | **SDUI** | Server-Driven UI (React + Angular), BFF Pattern |
 | **Backend** | Spring Boot, Python, Node.js |
 | **AI / ML** | Gen AI, LLM APIs, NLP, Rasa, Prompt Engineering |
-| **Architecture** | Microservices, REST APIs, Micro-frontends |
-| **DevOps & Cloud** | Docker, Kubernetes, PCF, CI/CD, Git |
+| **Architecture** | Microservices, REST APIs, Micro-frontends (Module Federation) |
+| **DevOps & Cloud** | Docker, Kubernetes, AWS, PCF, CI/CD, Git |
 | **Databases** | MongoDB, Oracle, SQL |
 | **Analytics & Tools** | Segment, Growthbook, Google Maps API, JIRA, Figma |
 

@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.5/5
+## A. CV Match — 4.5/5
 
 Exceptional technical stack match — possibly the strongest raw skills alignment in this batch. Siemens Technology India's Senior Fullstack stack is:
 

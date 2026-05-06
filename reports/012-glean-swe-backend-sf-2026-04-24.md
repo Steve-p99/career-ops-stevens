@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.5/5
+## A. CV Match — 3.5/5
 
 Role requirements are near-identical to Report 010 (Glean Backend Bangalore): 3+ years, distributed systems/cloud-native, Go/Python/Java/C++. Stevens meets the technical bar as analyzed in Report 010 — Spring Boot/Java backend, Dell infra work, 97%+ coverage, $65M ROI dashboard. The skill match itself would score 4.0/5.
 

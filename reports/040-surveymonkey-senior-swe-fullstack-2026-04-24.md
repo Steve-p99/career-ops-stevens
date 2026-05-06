@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 4.1/5
+## A. CV Match — 4.1/5
 
 Good match. The Growth Platform Team builds an internal Experimentation Platform (SDK, backend service, admin panel) — this is feature flagging / A/B testing infrastructure. Stevens's direct relevant experience: Growthbook (feature flagging tool) usage at Acko is a near-perfect proof point for this role. React/TypeScript/Node.js fullstack skills match the stack. The role requires: strong frontend technologies, production-scale web application experience, building high-traffic/high-availability systems, mentoring engineers. Stevens's SDUI platform (+91% registrations, CES ~90%, −43% support calls) demonstrates exactly the kind of high-impact platform engineering this role demands. 5–8 years experience (per Naukri listing) — Stevens at ~5 years is at the lower bound, acceptable for "Senior I" (junior-senior) level.
 

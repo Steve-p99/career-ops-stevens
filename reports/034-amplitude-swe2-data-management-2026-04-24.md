@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 4.2/5
+## A. CV Match — 4.2/5
 
 Strong alignment. The role requires 2–4 years of fullstack development with JavaScript/TypeScript (Node.js and/or React) and Python — Stevens has Angular (3yr), React, TypeScript, and Node.js directly. The fullstack scope (backend services + data pipelines + UI) maps cleanly to his BFF-pattern and SDUI experience at Acko. Data governance/observability (anomaly detection, schema drift) is adjacent to his AI/ML systems work and LLM pipeline at Acko. AWS exposure is listed as preferred — his PCF/K8s/Docker background covers cloud infra at a comparable level. The role is SDE2-equivalent (2–4 yr req) which matches his ~5yr experience, placing him near the top of the band. Minor gap: event analytics domain knowledge (Amplitude is a product analytics platform) is not explicitly in his background, though working with Segment at Acko is a direct analog.
 

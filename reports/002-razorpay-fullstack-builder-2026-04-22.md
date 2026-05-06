@@ -9,7 +9,7 @@
 
 ---
 
-## A. Match con CV — 4.5/5
+## A. CV Match — 4.5/5
 
 This role was written for Stevens' profile. The JD explicitly describes the ownership pattern he already operates in:
 

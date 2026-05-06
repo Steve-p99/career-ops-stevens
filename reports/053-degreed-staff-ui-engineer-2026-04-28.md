@@ -14,7 +14,7 @@ Staff-level frontend architecture role at Degreed (skills intelligence platform,
 
 ---
 
-## Block A — Match con CV: 4.0/5
+## Block A — CV Match: 4.0/5
 
 **Matches:**
 - **Angular:** ✅✅ — 3 years at Dell (Unified Cost Management Dashboard, Item Usage Dashboard, Buddy Board, Eye on Desktop); listed as primary skill

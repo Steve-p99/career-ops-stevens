@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 3.8/5
+## A. CV Match — 3.8/5
 
 Good alignment on the GenAI/AI side; moderate gap on the ML engineering depth. Stevens's GenAI credentials are strong: LLM pipeline (Acko Global Care), Admissibility AI Agent (ML claims classification), Gen AI Patent authorized, Speech Recognition (85% accuracy), Prompt Engineering, Rasa NLP. Conga requires Python with TensorFlow, PyTorch, FastAPI, LangChain, LangGraph — Stevens has Python and LLM/API experience but his stack is more LLM-orchestration and NLP than deep ML framework usage (TensorFlow/PyTorch). The 7+ years experience requirement is an overshoot (Stevens has ~5 years). 3+ years AI/ML or GenAI experience is borderline — his GenAI work began meaningfully at Acko (Jan 2025) though AI work at Dell (NLP, Speech Recognition) adds credibility. KubeFlow and MLOps pipeline experience is not explicitly present. Cloud (GCP/AWS/Azure) — Stevens has PCF/K8s/Docker; GCP/AWS exposure is indirect.
 

@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.3/5
+## A. CV Match — 4.3/5
 
 Very strong alignment. Sarvam Arya Team is building AI agent interfaces — conversational UIs, streaming responses, real-time AI product frontends. Stevens's profile maps directly:
 

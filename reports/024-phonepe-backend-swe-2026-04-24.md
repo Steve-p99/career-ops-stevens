@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.9/5
+## A. CV Match — 3.9/5
 
 This is a standard backend SDE role at PhonePe's payments platform (330M+ daily transactions, 600M users). Requirement mapping:
 

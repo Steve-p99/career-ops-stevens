@@ -62,7 +62,33 @@
       "WebFetch(domain:www.okta.com)",
       "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-dbt-labs.html output/cv-stevens-philip-dbt-labs-2026-05-01.pdf --format=a4)",
       "Bash(node generate-pdf.mjs /tmp/cv-stevens-philip-wissen-technology.html output/cv-stevens-philip-wissen-technology-2026-05-02.pdf --format=a4)",
-      "WebFetch(domain:www.linkedin.com)"
-    ]
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:vegapay.keka.com)",
+      "WebFetch(domain:www.glassdoor.co.in)",
+      "Bash(node fix-reports.mjs)",
+      "WebFetch(domain:capitalone.wd12.myworkdayjobs.com)",
+      "WebFetch(domain:www.capitalonecareers.com)",
+      "WebFetch(domain:paypal.eightfold.ai)",
+      "Bash(node generate-pdf.mjs cv-temp-cloudflare.html output/cv-stevens-philip-cloudflare-2026-05-03.pdf --format=a4)",
+      "Bash(node generate-pdf.mjs cv-temp-capitalone.html output/cv-stevens-philip-capital-one-2026-05-03.pdf --format=a4)",
+      "Bash(node generate-pdf.mjs cv-temp-paypal.html output/cv-stevens-philip-paypal-2026-05-03.pdf --format=a4)",
+      "WebFetch(domain:jobs.anitab.org)",
+      "Bash(node generate-pdf.mjs output/cv-stevens-philip-paypal-ai-2026-05-03.html output/cv-stevens-philip-paypal-ai-2026-05-03.pdf --format=a4)",
+      "Bash(node generate-pdf.mjs output/cv-stevens-philip-vegapay-2026-05-03.html output/cv-stevens-philip-vegapay-2026-05-03.pdf --format=a4)",
+      "WebFetch(domain:www.geeksforgeeks.org)",
+      "WebFetch(domain:www.levels.fyi)",
+      "Bash(node generate-pdf.mjs output/cv-stevens-philip-oracle-2026-05-05.html output/cv-stevens-philip-oracle-2026-05-05.pdf --format=a4)",
+      "WebFetch(domain:www.databricks.com)",
+      "WebFetch(domain:boards.greenhouse.io)",
+      "Bash(node generate-pdf.mjs output/cv-stevens-philip-databricks-2026-05-06.html output/cv-stevens-philip-databricks-2026-05-06.pdf --format=a4)",
+      "WebFetch(domain:www.rippling.com)",
+      "WebFetch(domain:rippling.com)",
+      "WebFetch(domain:ats.rippling.com)",
+      "WebFetch(domain:www.businesswire.com)",
+      "Bash(node generate-pdf.mjs output/cv-stevens-philip-rippling-2026-05-06.html output/cv-stevens-philip-rippling-2026-05-06.pdf --format=a4)",
+      "Bash(node \"c:\\\\Users\\\\steve\\\\OneDrive\\\\Desktop\\\\job ai\\\\career-ops\\\\generate-pdf.mjs\" \"output/cv-stevens-philip-postman-monetization-2026-05-06.html\" \"output/cv-stevens-philip-postman-monetization-2026-05-06.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"output/cv-stevens-philip-sprinklr-frontend-2026-05-06.html\" \"output/cv-stevens-philip-sprinklr-frontend-2026-05-06.pdf\" --format=a4)"
+    ],
+    "defaultMode": "bypassPermissions"
   }
 }

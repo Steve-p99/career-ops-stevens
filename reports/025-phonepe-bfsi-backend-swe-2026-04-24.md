@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.9/5
+## A. CV Match — 3.9/5
 
 BFSI (Banking, Financial Services & Insurance) backend SDE — one of PhonePe's highest-stakes divisions given their payments, lending, and insurance products. Requirement mapping against Stevens' profile:
 

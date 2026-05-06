@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.8/5
+## A. CV Match — 3.8/5
 
 **Strengths:**
 - 4+ years required (vs 8+ for the Bangalore variant) — Stevens at ~5 years clears this bar

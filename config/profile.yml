@@ -194,3 +194,4 @@ location:
 
 language:
   modes_dir: "modes"
+  output: "en"  # All reports, evaluations, and generated content must be in English

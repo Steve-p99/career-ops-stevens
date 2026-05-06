@@ -9,7 +9,7 @@
 
 ---
 
-## A. Match con CV — 3.8/5
+## A. CV Match — 3.8/5
 
 This is an **AI Inference Platform** role — not a product AI engineering role. The team builds the internal LLMOps layer: model routing, fallbacks, cost tracking, A/B testing for model swaps, observability across all of Razorpay's agentic products. That's a meaningful distinction.
 

@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.5/5
+## A. CV Match — 3.5/5
 
 The JD asks for "5+ years of experience in Technology" — Stevens meets this. The technical scope centers on payments infrastructure, REST API design, and backend work in PHP, Python, Django, Golang, Java, or C++. Stevens' Spring Boot and Python background aligns with the Java/Python options. However, the payments domain specificity is a moderate gap — Stevens' fintech exposure is primarily from Acko (insurance) and the AI/SDUI layer rather than core payments infrastructure. Key JD quotes:
 

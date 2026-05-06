@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.0/5
+## A. CV Match — 4.0/5
 
 This role sits in Razorpay's **AI Inference Platform** team and requires 5–8 years of backend/platform engineering experience. Stevens' ~5 years fits the lower bound cleanly. Strong alignment on multiple axes:
 

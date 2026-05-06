@@ -14,7 +14,7 @@ Weak match. The role is pure Python/ML backend (FastAPI, LangChain, LangGraph, A
 
 ---
 
-## Block A — Match con CV: 2.5/5
+## Block A — CV Match: 2.5/5
 
 **Role signals:** Python, FastAPI, PyTest, Celery, LangChain, LangGraph, REST APIs, SQL/NoSQL (MongoDB, MSSQL, Postgres), CI/CD (Terraform, GitHub Actions), AWS and Azure, OOP, concurrency, design patterns. Minimum 3 years with AI/ML background.
 
@@ -94,7 +94,7 @@ The local team culture used to be good, but the company itself is in a period of
 
 | Block | Weight | Score | Contribution |
 |-------|--------|-------|--------------|
-| A — Match con CV | 0.30 | 2.5 | 0.75 |
+| A — CV Match | 0.30 | 2.5 | 0.75 |
 | B — North Star | 0.25 | 3.0 | 0.75 |
 | C — Comp | 0.25 | 1.5 | 0.375 |
 | D — Cultural Signals | 0.15 | 2.0 | 0.30 |

@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.3/5
+## A. CV Match — 3.3/5
 
 SDE-IV at Meesho is a Staff-level role (equivalent to Staff SWE / L6 at US companies). The team context from search results points to the **Supplier Growth & Marketplace** team: 10+ microservices, 150K+ TPS, 5K+ Kafka messages/second, 99.995% SLA, <30ms average API latency. This is serious distributed systems engineering.
 

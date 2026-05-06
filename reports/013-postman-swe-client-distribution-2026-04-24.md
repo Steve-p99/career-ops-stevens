@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.5/5
+## A. CV Match — 3.5/5
 
 The Client Distribution team owns release pipelines, artifact hosting, versioning, and rollout controls for 45M+ developers. Required experience:
 

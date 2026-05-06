@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.0/5
+## A. CV Match — 3.0/5
 
 The JD requires "6+ years" of experience and specifically demands a track record in "search, recommendations, NLP, or large ML systems" with experience "training ranking models," "domain adaptation approaches for language models," and "shipping production models." Stevens has ~5 years total and his ML experience is primarily applied/integration rather than model training. Relevant signals exist:
 

@@ -14,7 +14,7 @@ Solid AI match with one notable gap: C#/.NET is required alongside Python, and S
 
 ---
 
-## Block A — Match con CV: 3.5/5
+## Block A — CV Match: 3.5/5
 
 **Role signals:** Agentic workflows (Reflection, Self-Correction, Planning, Multi-Agent Orchestration), OpenAI/Google/Perplexity APIs (function calling, structured outputs), Python for AI orchestration, C#/.NET (working knowledge), AWS serverless (Lambda, Step Functions, EventBridge), LLM-as-a-Judge evaluation frameworks, trace-based testing, multi-model synthesis (sentiment discrepancy detection, brand hallucination detection).
 
@@ -98,7 +98,7 @@ Built In is a tech jobs platform using AI for reputation intelligence — a prod
 
 | Block | Weight | Score | Contribution |
 |-------|--------|-------|--------------|
-| A — Match con CV | 0.30 | 3.5 | 1.05 |
+| A — CV Match | 0.30 | 3.5 | 1.05 |
 | B — North Star | 0.25 | 4.5 | 1.125 |
 | C — Comp | 0.25 | 3.5 | 0.875 |
 | D — Cultural Signals | 0.15 | 3.5 | 0.525 |

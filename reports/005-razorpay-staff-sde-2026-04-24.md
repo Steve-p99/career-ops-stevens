@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.5/5
+## A. CV Match — 2.5/5
 
 The role requires 8–12 years of software engineering experience with a minimum of 10 years. Stevens has ~5 years total (Acko Jan 2025–present + Dell Aug 2021–Jan 2025). This is a hard gap — the JD explicitly calls for "minimum 10 years as a software engineer." The JD's technical requirements (design patterns, OOP, data-driven web apps) align well with Stevens' skill profile and his work on RSA Platform, Acko SDUI, and Dell dashboards. However, the Staff-level seniority bar is significantly above the current experience band. The location is also Gurugram (not Bengaluru), which is an additional friction point.
 

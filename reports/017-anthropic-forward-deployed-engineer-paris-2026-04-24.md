@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.5/5
+## A. CV Match — 2.5/5
 
 **Strengths:**
 - 4+ years experience requirement — Stevens at ~5 years meets the bar

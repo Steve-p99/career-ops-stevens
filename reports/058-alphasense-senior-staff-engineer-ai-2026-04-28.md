@@ -14,7 +14,7 @@ Experience level mismatch is the primary blocker. AlphaSense requires 10+ years 
 
 ---
 
-## Block A — Match con CV: 2.0/5
+## Block A — CV Match: 2.0/5
 
 **Role signals:** 10+ years professional software engineering building data-intensive backend systems; 5+ years production-grade service development using FastAPI, Django, Sanic, Spring Boot, or similar; 3+ years hands-on AI/ML model lifecycle in cloud environments; distributed systems, async patterns, streaming/queuing/caching, observability; LLM latency management, prompt engineering; mentor engineering teams; Docker/Kubernetes (nice to have); CI/CD/MLOps (nice to have).
 
@@ -96,7 +96,7 @@ The role is the right direction but the wrong level. In 3–4 years, this would 
 
 | Block | Weight | Score | Contribution |
 |-------|--------|-------|--------------|
-| A — Match con CV | 0.30 | 2.0 | 0.60 |
+| A — CV Match | 0.30 | 2.0 | 0.60 |
 | B — North Star | 0.25 | 3.5 | 0.875 |
 | C — Comp | 0.25 | 3.5 | 0.875 |
 | D — Cultural Signals | 0.15 | 3.0 | 0.45 |

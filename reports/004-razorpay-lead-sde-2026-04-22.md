@@ -9,7 +9,7 @@
 
 ---
 
-## A. Match con CV — 4.0/5
+## A. CV Match — 4.0/5
 
 The Lead SDE role at Razorpay is a general senior+ engineering role. The JD describes a "well-grounded" engineer who is "innovative, quality-focused, product thinker, business-conscious."
 

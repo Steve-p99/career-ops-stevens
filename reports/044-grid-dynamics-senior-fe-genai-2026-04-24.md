@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.3/5
+## A. CV Match — 4.3/5
 
 Strong stack alignment. The role explicitly calls out React.js, Angular, CUI (Conversational UI), and WebSocket — Stevens has all four covered directly: 3yr Angular at Dell, React at Acko, SDUI/BFF-pattern work, and real-time status polling in the PUD garage system. The "GenAI Applications" framing aligns with his Admissibility AI Agent (ML classification at production scale) and Acko Global Care LLM pipeline. The "immediate joiners" tag suggests urgency — Stevens is currently employed, which may create friction.
 

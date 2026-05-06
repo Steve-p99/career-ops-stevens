@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.5/5
+## A. CV Match — 3.5/5
 
 **Strengths:**
 - Strong LLM/AI production experience: Admissibility AI Agent (ML claims classification at scale), Acko Global Care (LLM pipeline), Speech Recognition (85% accuracy, custom domain model), Gen AI Patent

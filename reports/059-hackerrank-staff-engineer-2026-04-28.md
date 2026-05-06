@@ -14,7 +14,7 @@ Two compounding blockers: 8+ years required (Stevens has ~5) and the role is bac
 
 ---
 
-## Block A — Match con CV: 2.5/5
+## Block A — CV Match: 2.5/5
 
 **Role signals:** 8+ years building/operating production-grade backend services; Go, Java, Ruby, Python, or JavaScript; system design and distributed systems; AWS/GCP, Kubernetes, Terraform, CI/CD; PostgreSQL, MySQL, NoSQL; Kafka or event-driven architecture; AI systems and LLM infrastructure (preferred); developer experience improvement; platform engineering for multiple product teams.
 
@@ -102,7 +102,7 @@ The cultural picture is genuinely concerning. Frequent layoffs + leadership inst
 
 | Block | Weight | Score | Contribution |
 |-------|--------|-------|--------------|
-| A — Match con CV | 0.30 | 2.5 | 0.75 |
+| A — CV Match | 0.30 | 2.5 | 0.75 |
 | B — North Star | 0.25 | 2.5 | 0.625 |
 | C — Comp | 0.25 | 3.0 | 0.75 |
 | D — Cultural Signals | 0.15 | 2.0 | 0.30 |

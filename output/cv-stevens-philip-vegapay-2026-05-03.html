@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stevens Philip — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./templates/fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./templates/fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./templates/fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./templates/fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page { width: 100%; max-width: 210mm; margin: 0 auto; padding: 2px 0; }
+
+  .header { margin-bottom: 20px; }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a { color: #555; text-decoration: none; }
+  .contact-row .separator { color: #ccc; }
+
+  .section { margin-bottom: 18px; }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text { font-size: 11px; line-height: 1.7; color: #2f2f2f; }
+
+  a { white-space: nowrap; }
+
+  .competencies-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job { margin-bottom: 14px; }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period { font-size: 10.5px; color: #777; white-space: nowrap; }
+  .job-role { font-size: 11px; font-weight: 600; color: #333; margin-bottom: 6px; }
+
+  .job ul { padding-left: 18px; margin-top: 6px; }
+
+  .job li {
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  .job li strong { font-weight: 600; }
+
+  .project { margin-bottom: 12px; }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc { font-size: 10.5px; color: #444; margin-top: 3px; line-height: 1.55; }
+
+  .edu-item { margin-bottom: 8px; }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title { font-weight: 600; font-size: 11px; color: #333; }
+  .edu-org { color: hsl(270, 70%, 45%); font-weight: 500; }
+  .edu-year { font-size: 10px; color: #777; white-space: nowrap; }
+  .edu-desc { font-size: 10px; color: #666; margin-top: 2px; line-height: 1.5; }
+
+  .cert-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+
+  .cert-title { font-size: 10.5px; font-weight: 500; color: #333; }
+  .cert-org { color: hsl(270, 70%, 45%); }
+
+  .skills-grid { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+  .skill-item { font-size: 10.5px; color: #444; }
+  .skill-category { font-weight: 600; color: #333; font-size: 10.5px; }
+
+  @media print {
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .page { padding: 0; }
+  }
+
+  .avoid-break, .job, .project, .edu-item, .cert-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Stevens Philip</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>9380546501</span>
+      <span class="separator">|</span>
+      <span>stevensp99@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/stevens-philip/">linkedin.com/in/stevens-philip</a>
+      <span class="separator">|</span>
+      <a href="https://stevens-philip-portfolio.vercel.app/">stevens-philip-portfolio.vercel.app</a>
+      <span class="separator">|</span>
+      <span>Bengaluru, India</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">React developer with ~5 years of end-to-end frontend ownership across Insurtech and enterprise tech. Deep expertise in React and Angular SDUI component architectures, Redux state management, TypeScript, and RESTful API integration. Track record of shipping high-impact user-facing products: +91% app registrations on RSA, −43% support calls on Pickup &amp; Drop, real-time tracking UIs adopted across all claim workflows. Writes clean, responsive, cross-browser-compatible JavaScript with strong attention to user experience and code reuse.</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">React JS &amp; React Hooks</span>
+      <span class="competency-tag">Redux State Management</span>
+      <span class="competency-tag">TypeScript / JavaScript ES6+</span>
+      <span class="competency-tag">SDUI Component Architecture</span>
+      <span class="competency-tag">RESTful API Integration</span>
+      <span class="competency-tag">Responsive &amp; Cross-browser UI</span>
+      <span class="competency-tag">HTML5 / CSS3</span>
+      <span class="competency-tag">Git &amp; CI/CD</span>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Acko General Insurance</span>
+        <span class="job-period">Jan 2025 – Present</span>
+      </div>
+      <div class="job-role">Software Development Engineer 2 · Bengaluru</div>
+      <ul>
+        <li><strong>RSA — Roadside Assistance Platform (React + SDUI):</strong> Owned the complete React frontend: config-driven question engine, dynamic slot booking, Google Maps location handling, garage selection, custodian flow, review screen, and live tracking. Impact: registrations 18% to 34.5% (+91%), registration time −50%, weekly support calls −43%. Built Advisor Portal — internal ops tool for human agents to manage RSA bookings and live-track field executives end-to-end.</li>
+        <li><strong>PUD — Pickup &amp; Drop (React SDUI, 1,000+ Garages):</strong> SDUI config-driven React frontend — garage selection, dynamic slot booking with ADSC/non-ADSC bias logic, free/paid pricing by pin code, real-time status polling. Built reusable node-based navigation and data-enricher components adopted as shared primitives across RSA and PUD. Growthbook feature-flag rollouts and Segment analytics instrumented throughout.</li>
+        <li><strong>CES Live Tracking &amp; Claim Timeline (React):</strong> Real-time field-executive tracking UI: Google Maps route visualisation, ETA via Distance Matrix API, dynamic status titles, feature-flag-controlled rollout. Claim Timeline: SLA tags (On Time / At Risk / Breached), task-history navigation, IST date formatting — adopted across all claim-handler workflows.</li>
+        <li><strong>Admissibility AI Agent — Frontend Layer:</strong> Built the complete React recommendation display layer: AI verdict per-rule pass/fail breakdown, supporting evidence, and contrary-action flagging UI (handler overrides feed back into model retraining). Segment tracking and Growthbook rollout across all claims handler workflows.</li>
+        <li><strong>Cross-team &amp; Mentorship:</strong> Stabilised Self PI flow (fallbacks, re-upload, Segment tracking); completion 70–72%. Mentored junior engineers on RSA fast-follower features and SDUI patterns; led API contract design and cross-team code reviews.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Dell Technologies</span>
+        <span class="job-period">Aug 2021 – Jan 2025</span>
+      </div>
+      <div class="job-role">Software Engineer 2 (Promoted from SDE1) · Bengaluru</div>
+      <ul>
+        <li><strong>Unified Cost Management Dashboard (Angular + DevExtreme):</strong> Full Angular frontend with DevExtreme data grid — complex procurement approval workflows, Layer-7 auth integration, PCF production deployment. 50% approval-efficiency gain on $65M spend.</li>
+        <li><strong>Eye On Desktop Widget (Electron JS):</strong> Proactive monitoring tool for OPs and Dev Engineering — cross-platform desktop UI, reduced issue-identification response time by 35%.</li>
+        <li><strong>Buddy Board (Angular + Python):</strong> Automated data-validation and status dashboard for DISCP procurement — eliminated manual data-entry errors across workflows.</li>
+        <li><strong>Item Usage Dashboard (Angular + Flask Mail):</strong> TLS email engine — reduced manual process intervention by 20%.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Key Projects</div>
+    <div class="project">
+      <div class="project-title">Speech-to-Sign Language Translator <span class="project-badge">JavaScript / NLP</span></div>
+      <div class="project-desc">End-to-end system interpreting grammatical sentence structure for precise Sign Language output — from speech recognition to gesture sequence mapping.</div>
+    </div>
+    <div class="project">
+      <div class="project-title">DELL Supply Chain Optimisation using QUBO <span class="project-badge">Quantum ML</span></div>
+      <div class="project-desc">Applied Adiabatic Quantum Optimisation to minimise procurement backlog by jointly optimising Net MRP, demand forecast, and inventory, significantly reducing logistics costs.</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Tech — Computer Science · <span class="edu-org">Sikkim Manipal Institute of Technology</span></span>
+        <span class="edu-year">2017 – 2021</span>
+      </div>
+      <div class="edu-desc">CGPA: 9.69 / 10</div>
+    </div>
+  </div>
+
+  <!-- ACHIEVEMENTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Achievements</div>
+    <div class="cert-item">
+      <span class="cert-title"><strong>Patent Authorised</strong> — DELL TIDE Hack2Evolve · <span class="cert-org">Gen AI for Code Reusability &amp; Sustainability</span></span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><strong>1st Place</strong> — GSCM-TECH-A-THON, DELL · <span class="cert-org">Parquet automation: 8 hrs to 2 min for large data files</span></span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><strong>4th Place</strong> — Ackathon 2024, ACKO · <span class="cert-org">Acko Global Care — AI-powered medical tourism platform</span></span>
+    </div>
+    <div class="cert-item">
+      <span class="cert-title"><strong>Debashish Chatterjee Award</strong> · <span class="cert-org">Highest marks in Computer Science</span></span>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <span class="skill-item"><span class="skill-category">Frontend:</span> React JS, React Hooks, Redux, Angular (3 yrs), TypeScript, JavaScript ES6+, HTML5, CSS3, Material UI, Electron JS</span>
+      <span class="skill-item"><span class="skill-category">Architecture:</span> SDUI (Server-Driven UI), BFF Pattern, Component Architecture, Micro-frontends, Responsive Design</span>
+      <span class="skill-item"><span class="skill-category">API &amp; Integration:</span> RESTful APIs, Node.js, Spring Boot, Webpack, Babel, ESLint</span>
+      <span class="skill-item"><span class="skill-category">DevOps &amp; Cloud:</span> Git, CI/CD, Docker, Kubernetes, PCF</span>
+      <span class="skill-item"><span class="skill-category">Analytics &amp; Tools:</span> Segment, Growthbook, Google Maps API, JIRA, Figma</span>
+      <span class="skill-item"><span class="skill-category">Databases:</span> MongoDB, Oracle, SQL</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

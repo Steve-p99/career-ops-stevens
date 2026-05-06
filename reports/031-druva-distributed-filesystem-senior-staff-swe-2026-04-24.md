@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.0/5
+## A. CV Match — 2.0/5
 
 The Distributed Filesystem team builds a petabyte-scale, distributed, services-oriented cloud file system on AWS — using S3, DynamoDB, Kinesis as underlying primitives, plus custom metadata management, versioning, and eventual consistency systems. Primary stack: Go/Python/C/C++, Linux/Unix, AWS-native services, Kubernetes.
 

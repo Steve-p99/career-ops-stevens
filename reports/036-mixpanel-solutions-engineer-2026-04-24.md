@@ -7,7 +7,7 @@
 
 ---
 
-## A. Match con CV — 1.5/5
+## A. CV Match — 1.5/5
 
 Wrong archetype — this is a pre-sales Solutions Engineer role, not a software development role. The position requires: 3+ years in Sales Engineering, Customer Success, Solutions Consulting, or related customer-facing field; delivering product demos to prospects; supporting sales cycles through technical discovery; managing proof-of-concept projects. Stevens's background is entirely in product engineering (building systems, not selling them). While he has technical breadth (SQL, analytics awareness), he has no pre-sales, sales engineering, or customer-facing SE experience. The role does not involve writing code at scale or building products. This is a fundamentally different career track.
 

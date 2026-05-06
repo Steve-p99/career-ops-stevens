@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.8/5
+## A. CV Match — 3.8/5
 
 Moderate-to-good technical match. Enkrypt AI builds an AI security platform (LLM red-teaming, homomorphic encryption, differential privacy for ML models). The Lead Full Stack Engineer role involves:
 

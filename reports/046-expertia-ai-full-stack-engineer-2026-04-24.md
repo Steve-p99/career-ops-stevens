@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.0/5
+## A. CV Match — 4.0/5
 
 Solid technical stack overlap. Expertia AI is an AI-powered HR-tech/talent matching platform — a React+Node.js fullstack shop at its core. Stevens's profile covers the essentials:
 

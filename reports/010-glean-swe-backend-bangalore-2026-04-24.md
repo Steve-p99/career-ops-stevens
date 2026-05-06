@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 4.0/5
+## A. CV Match — 4.0/5
 
 Strong alignment on backend engineering fundamentals. JD requires "minimum 3+ years building infrastructure for distributed systems or cloud-native applications" — Stevens clears this with ~5 years total (Dell + Acko). Required coding in "Go, Python, Java, or C++" — Stevens has Java (Spring Boot) at both Dell and Acko, plus Python. JD asks for "robust, high-quality and well-tested code" — directly evidenced by Dell DevOps: 60%→97%+ coverage.
 

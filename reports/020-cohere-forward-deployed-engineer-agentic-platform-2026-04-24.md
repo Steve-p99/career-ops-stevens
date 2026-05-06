@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 3.0/5
+## A. CV Match — 3.0/5
 
 **Strengths:**
 - Production LLM/AI experience is directly relevant to an "Agentic Platform" FDE role: Admissibility AI Agent, Acko Global Care LLM pipeline, Gen AI Patent, Rasa NLP

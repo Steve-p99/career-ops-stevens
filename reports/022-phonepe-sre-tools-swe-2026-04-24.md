@@ -8,7 +8,7 @@
 
 ---
 
-## A. Match con CV — 2.8/5
+## A. CV Match — 2.8/5
 
 This is an **SRE/Infrastructure engineering** role, not a product software engineering role. The JD requires:
 - Proficiency in Python, Go, Rust, or C (Stevens has Python; no Go/Rust/C)
