@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 148 | 2026-05-06 | NVIDIA | Senior SWE Full Stack (Security Platform) | 3.1/5 | Evaluated | ✅ | [148](reports/148-nvidia-senior-swe-fullstack-security-2026-05-06.md) | CAUTION: "Full Stack" title but security platform role (IAM/SAML/Databricks/Kafka). Apply only if pivoting to security eng. Exceptional comp (₹60L-₹100L+), zero layoffs. |
 | 147 | 2026-05-06 | Sprinklr | Frontend Engineer (Lead/Senior) | 3.3/5 | Evaluated | ✅ | [147](reports/147-sprinklr-frontend-engineer-2026-05-06.md) | CAUTION: 2.25yr exp gap (7+ req), outbound evangelism hard gap, 3 layoff rounds (Feb 2025: 500/15%); tech stack now strong match |
 | 145 | 2026-05-06 | Rippling | Senior Software Engineer, Frontend Full Stack (HRIS) | 3.9/5 | Evaluated | ✅ | [145](reports/145-rippling-senior-swe-frontend-fullstack-hris-2026-05-06.md) | Senior (6+ yrs req, Stevens has 4.75); Django gap (Flask adjacent); exceptional comp + company; RSA = HRIS product analog |
 | 144 | 2026-05-06 | Databricks | Software Engineer SDE 2, Full Stack (LakeFlow) | 4.3/5 | Evaluated | ✅ | [144](reports/144-databricks-sde2-fullstack-lakeflow-2026-05-06.md) | HIGH PRIORITY -- React+Segment+SDUI direct match; pre-IPO equity ($134B val); 65% YoY growth; apply immediately |

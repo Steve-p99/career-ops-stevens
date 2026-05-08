@@ -99,14 +99,15 @@ ML model forecasting power output for a Combined Cycle Power Plant using AWS, Io
 
 | Category | Skills |
 |----------|--------|
-| **Frontend** | Angular (3 yrs), React, Next.js (SSR/SSG), TypeScript, JavaScript, SCSS, CSS Modules, CSS-in-JS, Material UI, Design Systems |
+| **Frontend** | Angular (3 yrs), React, Next.js (SSR/SSG), TypeScript, JavaScript, SCSS, Sass, CSS Modules, CSS-in-JS, Tailwind CSS, Styled Components, Material UI, Design Systems |
+| **State Management** | Redux |
 | **SDUI** | Server-Driven UI (React + Angular), BFF Pattern |
 | **Backend** | Spring Boot, Python, Node.js |
 | **AI / ML** | Gen AI, LLM APIs, NLP, Rasa, Prompt Engineering |
 | **Architecture** | Microservices, REST APIs, Micro-frontends (Module Federation) |
 | **DevOps & Cloud** | Docker, Kubernetes, AWS, PCF, CI/CD, Git |
 | **Databases** | MongoDB, Oracle, SQL |
-| **Analytics & Tools** | Segment, Growthbook, Google Maps API, JIRA, Figma |
+| **Analytics & Tools** | Segment, Growthbook, Datadog, Google Maps API, JIRA, Figma |
 
 ---
 
@@ -114,6 +115,9 @@ ML model forecasting power output for a Combined Cycle Power Plant using AWS, Io
 
 **B.Tech — Computer Science**
 Sikkim Manipal Institute of Technology · 2017 – 2021 · CGPA: 9.69 / 10
+
+**High School Diploma — Computer Science**
+St. Columba's School, New Delhi · 2013 – 2017 · Grade: 9.2
 
 ---
 

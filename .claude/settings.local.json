@@ -87,7 +87,11 @@
       "WebFetch(domain:www.businesswire.com)",
       "Bash(node generate-pdf.mjs output/cv-stevens-philip-rippling-2026-05-06.html output/cv-stevens-philip-rippling-2026-05-06.pdf --format=a4)",
       "Bash(node \"c:\\\\Users\\\\steve\\\\OneDrive\\\\Desktop\\\\job ai\\\\career-ops\\\\generate-pdf.mjs\" \"output/cv-stevens-philip-postman-monetization-2026-05-06.html\" \"output/cv-stevens-philip-postman-monetization-2026-05-06.pdf\" --format=a4)",
-      "Bash(node generate-pdf.mjs \"output/cv-stevens-philip-sprinklr-frontend-2026-05-06.html\" \"output/cv-stevens-philip-sprinklr-frontend-2026-05-06.pdf\" --format=a4)"
+      "Bash(node generate-pdf.mjs \"output/cv-stevens-philip-sprinklr-frontend-2026-05-06.html\" \"output/cv-stevens-philip-sprinklr-frontend-2026-05-06.pdf\" --format=a4)",
+      "WebFetch(domain:jobs.nvidia.com)",
+      "WebFetch(domain:nvidia.wd5.myworkdayjobs.com)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-nvidia-security.html\" \"output/cv-stevens-philip-nvidia-security-fullstack-2026-05-06.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-general.html\" \"output/cv-stevens-philip-2026-05-07.pdf\" --format=a4)"
     ],
     "defaultMode": "bypassPermissions"
   }

@@ -240,6 +240,46 @@ search_queries:
     enabled: true
 
 
+# -- LinkedIn Jobs (Apify Actor: curious_coder/linkedin-jobs-scraper) --
+# Used by scan-linkedin.mjs. Each entry is a real LinkedIn jobs search URL
+# (the kind copied from an incognito linkedin.com/jobs/search session).
+#
+# Pricing: $0.001 per result. Keep `count` modest until you trust the queries.
+#
+# URL filter shortcuts:
+#   f_TPR=r604800   → posted in last 7 days (in seconds)
+#   f_TPR=r2592000  → posted in last 30 days
+#   f_E=4           → Mid-Senior level
+#   f_E=4,5         → Mid-Senior + Director
+#   f_JT=F          → Full-time
+#   f_WT=2          → Remote
+#   f_WT=1,2,3      → On-site / Remote / Hybrid (any)
+#
+# Stevens Philip — Senior Full-Stack & AI Engineer, Bengaluru / Remote India
+
+linkedin_apify_searches:
+
+  - name: LinkedIn Apify — Senior Software Engineer Bengaluru (last 7 days)
+    url: 'https://www.linkedin.com/jobs/search/?keywords=Senior%20Software%20Engineer&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r604800&f_E=4&f_JT=F'
+    count: 75
+    enabled: true
+
+  - name: LinkedIn Apify — AI / GenAI Engineer India remote+onsite (last 7 days)
+    url: 'https://www.linkedin.com/jobs/search/?keywords=AI%20Engineer&location=India&f_TPR=r604800&f_E=4&f_JT=F'
+    count: 75
+    enabled: true
+
+  - name: LinkedIn Apify — Senior Full Stack Bengaluru (last 30 days)
+    url: 'https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r2592000&f_E=4&f_JT=F'
+    count: 50
+    enabled: false  # Enable once cost budget is set
+
+  - name: LinkedIn Apify — Tech Lead / SDE3 Bengaluru (last 30 days)
+    url: 'https://www.linkedin.com/jobs/search/?keywords=Tech%20Lead&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r2592000&f_E=4%2C5&f_JT=F'
+    count: 50
+    enabled: false
+
+
 # -- Tracked Companies --
 # India product companies + global cos with India offices
 # Target: 35+ LPA CTC, Senior Full-Stack or AI roles
