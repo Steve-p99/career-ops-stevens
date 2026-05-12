@@ -2,6 +2,24 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 162 | 2026-05-12 | Docusign | Sr. Software Engineer Commerce Frontend | 4.1/5 | Evaluated | ❌ | [162](reports/162-docusign-sr-swe-commerce-frontend-2026-05-12.md) | React/Next.js/TypeScript match, hybrid Bengaluru, 8yr req is reach |
+| 165 | 2026-05-12 | StockX | AI Automation Engineer | 4.0/5 | Evaluated | ❌ | [165](reports/165-stockx-ai-automation-engineer-2026-05-12.md) | LLM/RAG/agent match, Bengaluru, strong AI fit |
+| 166 | 2026-05-12 | Deltek | Sr Software Engineer AI Platform | 4.3/5 | Evaluated | ❌ | [166](reports/166-deltek-sr-swe-ai-platform-2026-05-12.md) | Best AI match in batch - Python/LangChain/React, only 27 applicants, apply immediately |
+| 167 | 2026-05-12 | Walmart Global Tech India | Senior Software Engineer Frontend | 3.8/5 | Evaluated | ❌ | [167](reports/167-walmart-sr-swe-frontend-2026-05-12.md) | React/Next.js/TypeScript match, supply chain domain |
+| 168 | 2026-05-12 | Lowe's India | Senior Software Engineer Fullstack | 3.9/5 | Evaluated | ❌ | [168](reports/168-lowes-india-sr-swe-fullstack-2026-05-12.md) | React+Spring Boot exact match, Bengaluru, retail domain |
+| 170 | 2026-05-12 | Flipkart | Senior Software Engineer | 3.7/5 | Evaluated | ❌ | [170](reports/170-flipkart-sr-swe-2026-05-12.md) | Tier-1 brand, generic JD, 200+ applicants |
+| 171 | 2026-05-12 | Flipkart | Lead Software Engineer | 3.6/5 | Evaluated | ❌ | [171](reports/171-flipkart-lead-swe-2026-05-12.md) | Lead stretch role, Tier-1 brand, generic JD |
+| 172 | 2026-05-12 | Omio | Senior Software Engineer | 3.8/5 | Evaluated | ❌ | [172](reports/172-omio-sr-swe-2026-05-12.md) | AI-native engineering mandate, Java/Node, 7yr req gap |
+| 173 | 2026-05-12 | Persistent Systems | ReactJs AI Frontend Developer | 3.5/5 | Evaluated | ❌ | [173](reports/173-persistent-reactjs-ai-frontend-2026-05-12.md) | React+AI match, but primary location Pune |
+| 174 | 2026-05-12 | Persistent Systems | Gen AI Engineer | 3.7/5 | Evaluated | ❌ | [174](reports/174-persistent-gen-ai-engineer-2026-05-12.md) | Agentic AI match, hiring drive may have closed May 9 |
+| 175 | 2026-05-12 | Cisco | Software Engineer AI Agentic AI CLM | 3.8/5 | Evaluated | ❌ | [175](reports/175-cisco-ai-agentic-clm-swe-2026-05-12.md) | Agentic AI/LangChain/OpenAI, Bengaluru, 5yr match |
+| 176 | 2026-05-12 | Docusign | Senior Software Engineer | 4.0/5 | Evaluated | ❌ | [176](reports/176-docusign-sr-swe-2026-05-12.md) | React+Node full-stack, hybrid Bengaluru, 8yr req gap |
+| 179 | 2026-05-12 | Recro | AI ML Engineer | 3.8/5 | Evaluated | ❌ | [179](reports/179-recro-ai-ml-engineer-2026-05-12.md) | GenAI/RAG/agents match, staffing firm placement risk |
+| 180 | 2026-05-12 | SISA | Senior Software Engineer 1 Angular | 3.6/5 | Evaluated | ❌ | [180](reports/180-sisa-sr-swe-angular-2026-05-12.md) | Angular/Module Federation exact match, cybersecurity niche domain |
+| 181 | 2026-05-12 | Kinaxis | Senior Software Developer Front End | 3.7/5 | Evaluated | ❌ | [181](reports/181-kinaxis-sr-frontend-dev-2026-05-12.md) | TypeScript/React/Angular match, supply chain SaaS, 8yr gap |
+| 182 | 2026-05-12 | MakeMyTrip | Principal Software Engineer | 3.6/5 | Evaluated | ❌ | [182](reports/182-makemytrip-principal-swe-2026-05-12.md) | Java+React match, Principal is reach, 200+ applicants |
+| 183 | 2026-05-12 | Optum | Sr. Software Engineer Full Stack | 3.6/5 | Evaluated | ❌ | [183](reports/183-optum-sr-swe-fullstack-2026-05-12.md) | Java+Spring+React, AI tools interest, healthcare enterprise |
+| 184 | 2026-05-12 | Walmart Global Tech India | Senior Software Engineer Fullstack | 3.7/5 | Evaluated | ❌ | [184](reports/184-walmart-india-sr-swe-fullstack-2026-05-12.md) | Java+React+Node fullstack, Bengaluru |
 | 149 | 2026-05-09 | IBM | AI Software Engineer | 4.2/5 | Evaluated | ❌ | [149](reports/149-ibm-ai-swe-2026-05-09.md) | APPLY — strong React+Python+LLM/RAG match, IBM India Senior band ₹35-42L, Bengaluru. |
 | 150 | 2026-05-09 | Sezzle | AI Engineer II (Remote) | 4.6/5 | Evaluated | ❌ | [150](reports/150-sezzle-ai-engineer-ii-2026-05-09.md) | APPLY (top pick) — Remote India, $40-72K USD stated, 3-5y exact match, full-stack AI ownership. |
 | 151 | 2026-05-09 | Tech Mahindra | AI Developer - Google Gemini Enterprise | 3.4/5 | Evaluated | ❌ | [151](reports/151-tech-mahindra-ai-gemini-2026-05-09.md) | SKIP — UK night shift, services-co comp below ₹35L target, narrow Gemini-specific stack. |
@@ -29,7 +47,7 @@
 | 132 | 2026-05-02 | Amex GBT | Full Stack Developer | 1.5/5 | Evaluated | ❌ | [132](reports/132-amex-gbt-fullstack-developer-bangalore-2026-05-02.md) | SKIP — Junior (1-2yr req), night shift 3PM-midnight, comp ₹6-25L vs ₹35L+ target, legacy AngularJS stack |
 | 131 | 2026-05-02 | Expedia Group | Software Development Engineer III | 2.5/5 | Evaluated | ❌ | [131](reports/131-expedia-group-sde3-marketplace-health-2026-05-02.md) | SKIP — SDE3 but backend-only scope (no frontend); deadline passed 04/27; underlying match ~3.8 if rules waived |
 | 130 | 2026-05-02 | Mastercard | Lead – Full Stack Web Applications | 3.2/5 | Evaluated | ❌ | [130](reports/130-mastercard-lead-fullstack-pune-2026-05-02.md) | SKIP — Pune (not Bengaluru), 8+yr gap, no AI; Spring Boot match strong; only apply with referral |
-| 129 | 2026-05-02 | Emirates NBD | Lead Software Engineer (Full Stack - MERN) | 3.0/5 | Evaluated | ❌ | [129](reports/129-emirates-nbd-lead-swe-fullstack-mern-2026-05-02.md) | SKIP — 8-10yr bar vs 5yr Stevens; Node.js/MERN partial; banking domain gap; apply only with internal referral |
+| 129 | 2026-05-12 | Emirates NBD | Senior Software Engineer - Full Stack | 3.9/5 | Evaluated | ❌ | [163](reports/163-emirates-nbd-sr-swe-fullstack-2026-05-12.md) | Re-eval 2026-05-12 (3→3.9). React+Node match, banking on-site Bengaluru |
 | 69 | 2026-05-01 | Perplexity AI | Member of Technical Staff (Software Engineer, Monetization) | 1.5/5 | SKIP | ❌ | [069](reports/069-perplexity-ai-batch-skip-2026-05-01.md) | SF-only, no India hiring |
 | 70 | 2026-05-01 | Perplexity AI | Member of Technical Staff (AI Inference Engineer) | 1.5/5 | SKIP | ❌ | [069](reports/069-perplexity-ai-batch-skip-2026-05-01.md) | SF-only, no India hiring |
 | 71 | 2026-05-01 | Perplexity AI | Member of Technical Staff (Cloud Security Engineer) | 1.5/5 | SKIP | ❌ | [069](reports/069-perplexity-ai-batch-skip-2026-05-01.md) | SF-only, no India hiring |
@@ -73,8 +91,8 @@
 | 109 | 2026-05-01 | Vercel | Software Engineer, Lua | 2.0/5 | SKIP | ❌ | [097](reports/097-vercel-batch-skip-2026-05-01.md) | US-only, no India hiring |
 | 110 | 2026-05-01 | Vercel | Software Engineer, Workflows | 2.0/5 | SKIP | ❌ | [097](reports/097-vercel-batch-skip-2026-05-01.md) | US-only, no India hiring |
 | 111 | 2026-05-01 | Glean | Technical Lead, Billing & Revenue Platform | 2.0/5 | SKIP | ❌ | [111](reports/111-glean-tech-lead-billing-2026-05-01.md) | SF Bay Area hybrid 4d/wk — geographic SKIP |
-| 112 | 2026-05-01 | Okta | Principal Data Platform Engineer (Bengaluru) | 1.8/5 | SKIP | ❌ | [112](reports/112-okta-principal-data-platform-engineer-bengaluru-2026-05-01.md) | Domain mismatch — Snowflake/dbt/Databricks stack, no overlap with SWE profile |
-| 113 | 2026-05-01 | Okta | Senior Data Platform Engineer (Bengaluru) | 1.8/5 | SKIP | ❌ | [113](reports/113-okta-senior-data-platform-engineer-bengaluru-2026-05-01.md) | Domain mismatch — Snowflake/dbt/Databricks stack, no overlap with SWE profile |
+| 112 | 2026-05-12 | Okta | Principal UI Software Engineer | 4.2/5 | SKIP | ❌ | [161](reports/161-okta-principal-ui-swe-2026-05-12.md) | Re-eval 2026-05-12 (1.8→4.2). React/TypeScript specialist role at Okta Bengaluru, 10yr req is reach but skill match strong |
+| 113 | 2026-05-12 | Okta | Senior Software Engineer Core Frontier | 4.0/5 | SKIP | ❌ | [169](reports/169-okta-core-frontier-swe-2026-05-12.md) | Re-eval 2026-05-12 (1.8→4). Node.js/TypeScript, Auth0 Bengaluru founding team, 5yr req match |
 | 114 | 2026-05-01 | Linear | Senior / Staff Product Engineer | 2.5/5 | SKIP | ❌ | [114](reports/114-linear-senior-staff-product-engineer-2026-05-01.md) | US/Europe remote only — geographic SKIP (4.2/5 tech fit if India-eligible) |
 | 115 | 2026-05-01 | Linear | Senior / Staff Product Engineer, AI | 2.5/5 | SKIP | ❌ | [115](reports/115-linear-senior-staff-product-engineer-ai-2026-05-01.md) | N.America remote only — geographic SKIP (4.5/5 tech fit if India-eligible) |
 | 116 | 2026-05-01 | dbt Labs | Senior Platform Software Engineer, Transport | 2.0/5 | SKIP | ❌ | [116](reports/116-116-dbt-labs-senior-platform-swe-transport-2026-05-01.md) | US Remote only — infra/Go stack, geographic SKIP |

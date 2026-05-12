@@ -139,66 +139,194 @@
 - [x] #127 | https://jobs.ashbyhq.com/supabase/847a7bd7-6b75-444a-aeda-d0b28a11c764 | Supabase | Platform Engineer - Multicloud | 2.2/5 | PDF ❌
 - [x] #128 | https://jobs.ashbyhq.com/supabase/bf3628f2-f6e8-414e-a3fd-2f5ff481b60c | Supabase | AWS Tech Lead - Platform Operations | 2.0/5 | PDF ❌
 
-- [ ] https://www.linkedin.com/jobs/view/4407779028/ | Deloitte | Senior Java Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4398451931/ | Walmart Global Tech India | SENIOR, SOFTWARE ENGINEER
-- [ ] https://www.linkedin.com/jobs/view/4407757183/ | Walmart Global Tech India | (IND) SENIOR, SOFTWARE ENGINEER
-- [ ] https://www.linkedin.com/jobs/view/4410558285/ | Nemetschek Group | Senior Software Engineer - WPF
-- [ ] https://www.linkedin.com/jobs/view/4344361401/ | slice | Senior Staff Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4297739868/ | Databricks | Senior Software Engineer (Infrastructure)
-- [ ] https://www.linkedin.com/jobs/view/4409363608/ | Infinite Convergence Solutions | Senior Software Engineer - Front End
-- [ ] https://www.linkedin.com/jobs/view/4409365601/ | Infinite Convergence Solutions | Senior Software Engineer - Back End
-- [ ] https://www.linkedin.com/jobs/view/4362363782/ | McKinsey & Company | Principal Software Engineer I - Periscope
-- [ ] https://www.linkedin.com/jobs/view/4409286718/ | eBay | Senior Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4407762576/ | Emirates NBD | Senior Software Engineer - Node JS
-- [ ] https://www.linkedin.com/jobs/view/4297754026/ | Databricks | Senior Staff Software Engineer (Backend)
-- [ ] https://www.linkedin.com/jobs/view/4408651565/ | Endava | Staff Software Engineer / Lead Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4408659453/ | Endava | Senior Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4410941869/ | Uber | Senior Software Engineer - Mobility Verticals
-- [ ] https://www.linkedin.com/jobs/view/4407744280/ | Okta | Principal Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4335999823/ | Nexthink | Senior Backend Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4379836986/ | Okta | Principal UI Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4379643701/ | Docusign | Sr. Software Engineer, Commerce Backend
-- [ ] https://www.linkedin.com/jobs/view/4410025900/ | MakeMyTrip | Principal Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4322051959/ | Kobie | Senior Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4401172463/ | Google | Senior Software Engineer, HighTide
-- [ ] https://www.linkedin.com/jobs/view/4297750027/ | Databricks | Sr Staff Software Engineer (Backend)
-- [ ] https://www.linkedin.com/jobs/view/4407759247/ | Emirates NBD | Senior Software Engineer - Full Stack
-- [ ] https://www.linkedin.com/jobs/view/4410571050/ | Flywire | Senior Software Engineer II, Payments Platform (Back End)
-- [ ] https://www.linkedin.com/jobs/view/4407750482/ | Walmart Global Tech India | (IND) SENIOR, SOFTWARE ENGINEER - Front End
-- [ ] https://www.linkedin.com/jobs/view/4346110070/ | Cognite | Senior Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4409306465/ | Grid Dynamics | Senior Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4297726988/ | Databricks | Senior Software Engineer (Backend)
-- [ ] https://www.linkedin.com/jobs/view/4399515556/ | Walmart Global Tech India | SENIOR, SOFTWARE ENGINEER - Frontend
-- [ ] https://www.linkedin.com/jobs/view/4399506621/ | Walmart Global Tech India | Senior, Software Engineer - Front End
-- [ ] https://www.linkedin.com/jobs/view/4398130745/ | Google | Senior Software Engineer, Networking
-- [ ] https://www.linkedin.com/jobs/view/4411274635/ | Uber | Sr Software Engineer-Backend
-- [ ] https://www.linkedin.com/jobs/view/4409320016/ | Deltek | Senior Software Engineer (C#.Net)
-- [ ] https://www.linkedin.com/jobs/view/4399674047/ | Google | Senior Software Engineer, Infrastructure
-- [ ] https://www.linkedin.com/jobs/view/4408990350/ | Delart | Senior Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4407206752/ | Smart Working | Lead Software Developer (Remote, Full-Time) [HR173]
-- [ ] https://www.linkedin.com/jobs/view/4379156314/ | Docusign | Sr. Software Engineer, Commerce Frontend
-- [ ] https://www.linkedin.com/jobs/view/4398827718/ | Walmart Global Tech India | Senior Software Engineer - UI
-- [ ] https://www.linkedin.com/jobs/view/4406280270/ | Lowe's India | Senior Software Engineer Fullstack
-- [ ] https://www.linkedin.com/jobs/view/4409338575/ | nference | Senior Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4410469724/ | REGUL SOLUTIONS | .Net - Lead Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4325260307/ | Intuit | Senior Staff Software Engineer
-- [ ] https://www.linkedin.com/jobs/view/4407764164/ | Emirates NBD | Lead Software Engineer (Full Stack- MERN)
-- [ ] https://www.linkedin.com/jobs/view/4388886277/ | Accenture in India | AI / ML Engineer
-- [ ] https://www.linkedin.com/jobs/view/4388959680/ | StockX | AI Automation Engineer
-- [ ] https://www.linkedin.com/jobs/view/4408809629/ | Persistent Systems | ReactJs AI Frontend Developer
-- [ ] https://www.linkedin.com/jobs/view/4408489318/ | Persistent Systems | Gen AI Engineer
-- [ ] https://www.linkedin.com/jobs/view/4408654729/ | The Hartford India | AI ML Engineer - Data & Analytics
-- [ ] https://www.linkedin.com/jobs/view/4399502472/ | UST | ML Engineer I
-- [ ] https://www.linkedin.com/jobs/view/4399560274/ | Onit India | AI Engineer
-- [ ] https://www.linkedin.com/jobs/view/4395959899/ | UST | Python Developer - Agentic AI, Cloud & CI/CD
-- [ ] https://www.linkedin.com/jobs/view/4410559543/ | Grazitti Interactive | Full Stack AI Engineer
-- [ ] https://www.linkedin.com/jobs/view/4408195479/ | Kinaxis | Staff Python Developer, AI/ML
-- [ ] https://www.linkedin.com/jobs/view/4408989428/ | LTIMindtree | AI/ML, Python
-- [ ] https://www.linkedin.com/jobs/view/4410727677/ | GEDU Services | AI Developer
-- [ ] https://www.linkedin.com/jobs/view/4408487389/ | Access Healthcare | Senior AI/ML Engineer
-- [ ] https://www.linkedin.com/jobs/view/4408986760/ | Neurealm | AI Enablement Engineer
-- [ ] https://www.linkedin.com/jobs/view/4409953463/ | The BigCjobs.com | AI ML Engineer - Generative AI - 5+ years - Upto 40LPA
-- [ ] https://www.linkedin.com/jobs/view/4408654178/ | Unosecur | AI/ML Engineer
+- [x] SKIP | https://www.linkedin.com/jobs/view/4407779028/ | Deloitte | Senior Java Software Engineer | reason: IT services, backend Java only
+- [x] #167 | https://www.linkedin.com/jobs/view/4398451931/ | Walmart Global Tech India | SENIOR, SOFTWARE ENGINEER | 3.8/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4407757183/ | Walmart Global Tech India | (IND) SENIOR, SOFTWARE ENGINEER | reason: duplicate of #167
+- [x] SKIP | https://www.linkedin.com/jobs/view/4410558285/ | Nemetschek Group | Senior Software Engineer - WPF | reason: WPF/.NET desktop stack
+- [x] SKIP | https://www.linkedin.com/jobs/view/4344361401/ | slice | Senior Staff Software Engineer | reason: Staff+ overshoot, backend fintech
+- [x] SKIP | https://www.linkedin.com/jobs/view/4297739868/ | Databricks | Senior Software Engineer (Infrastructure) | reason: infra/Go stack
+- [x] SKIP | https://www.linkedin.com/jobs/view/4409363608/ | Infinite Convergence Solutions | Senior Software Engineer - Front End | reason: small telecom company, below comp target
+- [x] SKIP | https://www.linkedin.com/jobs/view/4409365601/ | Infinite Convergence Solutions | Senior Software Engineer - Back End | reason: small telecom company, below comp target
+- [x] SKIP | https://www.linkedin.com/jobs/view/4362363782/ | McKinsey & Company | Principal Software Engineer I - Periscope | reason: consulting firm, data stack
+- [x] SKIP | https://www.linkedin.com/jobs/view/4409286718/ | eBay | Senior Software Engineer | reason: backend Java distributed, no frontend
+- [x] SKIP | https://www.linkedin.com/jobs/view/4407762576/ | Emirates NBD | Senior Software Engineer - Node JS | reason: Node.js backend only, lower priority than #163/#164
+- [x] SKIP | https://www.linkedin.com/jobs/view/4297754026/ | Databricks | Senior Staff Software Engineer (Backend) | reason: Staff+ overshoot, infra stack
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408651565/ | Endava | Staff Software Engineer / Lead Software Engineer | reason: IT consultancy, unknown client stack
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408659453/ | Endava | Senior Software Engineer | reason: IT consultancy, unknown client stack
+- [x] #178 | https://www.linkedin.com/jobs/view/4410941869/ | Uber | Senior Software Engineer - Mobility Verticals | 3.6/5
+- [x] #177 | https://www.linkedin.com/jobs/view/4407744280/ | Okta | Principal Software Engineer | 3.8/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4335999823/ | Nexthink | Senior Backend Software Engineer | reason: C++/Go backend, digital workplace
+- [x] #161 | https://www.linkedin.com/jobs/view/4379836986/ | Okta | Principal UI Software Engineer | 4.2/5
+- [x] #162 | https://www.linkedin.com/jobs/view/4379643701/ | Docusign | Sr. Software Engineer, Commerce Backend | 4.1/5
+- [x] #182 | https://www.linkedin.com/jobs/view/4410025900/ | MakeMyTrip | Principal Software Engineer | 3.6/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4322051959/ | Kobie | Senior Software Engineer | reason: small loyalty marketing company, niche domain
+- [x] SKIP | https://www.linkedin.com/jobs/view/4401172463/ | Google | Senior Software Engineer, HighTide | reason: FAANG bar, 7+ yrs competitive
+- [x] SKIP | https://www.linkedin.com/jobs/view/4297750027/ | Databricks | Sr Staff Software Engineer (Backend) | reason: Staff+ overshoot, infra stack
+- [x] #163 | https://www.linkedin.com/jobs/view/4407759247/ | Emirates NBD | Senior Software Engineer - Full Stack | 3.9/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4410571050/ | Flywire | Senior Software Engineer II, Payments Platform (Back End) | reason: payments backend, no frontend component
+- [x] #167 | https://www.linkedin.com/jobs/view/4407750482/ | Walmart Global Tech India | (IND) SENIOR, SOFTWARE ENGINEER - Front End | 3.8/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4346110070/ | Cognite | Senior Software Engineer | reason: industrial IoT Python/Go backend
+- [x] SKIP | https://www.linkedin.com/jobs/view/4409306465/ | Grid Dynamics | Senior Software Engineer | reason: IT consultancy, unclear stack
+- [x] SKIP | https://www.linkedin.com/jobs/view/4297726988/ | Databricks | Senior Software Engineer (Backend) | reason: Golang/distributed systems, not frontend
+- [x] #167 | https://www.linkedin.com/jobs/view/4399515556/ | Walmart Global Tech India | SENIOR, SOFTWARE ENGINEER - Frontend | 3.8/5
+- [x] #167 | https://www.linkedin.com/jobs/view/4399506621/ | Walmart Global Tech India | Senior, Software Engineer - Front End | 3.8/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4398130745/ | Google | Senior Software Engineer, Networking | reason: FAANG bar, systems/C++ stack
+- [x] SKIP | https://www.linkedin.com/jobs/view/4411274635/ | Uber | Sr Software Engineer-Backend | reason: Uber Backend Golang/distributed, #178 covers Uber
+- [x] SKIP | https://www.linkedin.com/jobs/view/4409320016/ | Deltek | Senior Software Engineer (C#.Net) | reason: C#/.NET stack hard mismatch
+- [x] SKIP | https://www.linkedin.com/jobs/view/4399674047/ | Google | Senior Software Engineer, Infrastructure | reason: FAANG bar, infra/SRE focus
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408990350/ | Delart | Senior Software Engineer | reason: unknown small company, no brand signal
+- [x] SKIP | https://www.linkedin.com/jobs/view/4407206752/ | Smart Working | Lead Software Developer (Remote, Full-Time) [HR173] | reason: recruiter posting, unknown client
+- [x] #162 | https://www.linkedin.com/jobs/view/4379156314/ | Docusign | Sr. Software Engineer, Commerce Frontend | 4.1/5
+- [x] #167 | https://www.linkedin.com/jobs/view/4398827718/ | Walmart Global Tech India | Senior Software Engineer - UI | 3.8/5
+- [x] #168 | https://www.linkedin.com/jobs/view/4406280270/ | Lowe's India | Senior Software Engineer Fullstack | 3.9/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4409338575/ | nference | Senior Software Engineer | reason: healthcare AI startup, backend Python/ML
+- [x] SKIP | https://www.linkedin.com/jobs/view/4410469724/ | REGUL SOLUTIONS | .Net - Lead Software Engineer | reason: .NET stack hard mismatch
+- [x] SKIP | https://www.linkedin.com/jobs/view/4325260307/ | Intuit | Senior Staff Software Engineer | reason: Staff+ overshoot, finance domain
+- [x] #164 | https://www.linkedin.com/jobs/view/4407764164/ | Emirates NBD | Lead Software Engineer (Full Stack- MERN) | 3.8/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4388886277/ | Accenture in India | AI / ML Engineer | reason: IT services, consulting culture, low comp ceiling
+- [x] #165 | https://www.linkedin.com/jobs/view/4388959680/ | StockX | AI Automation Engineer | 4.0/5
+- [x] #173 | https://www.linkedin.com/jobs/view/4408809629/ | Persistent Systems | ReactJs AI Frontend Developer | 3.5/5
+- [x] #174 | https://www.linkedin.com/jobs/view/4408489318/ | Persistent Systems | Gen AI Engineer | 3.7/5
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408654729/ | The Hartford India | AI ML Engineer - Data & Analytics | reason: US insurance analytics, not SDE archetype
+- [x] SKIP | https://www.linkedin.com/jobs/view/4399502472/ | UST | ML Engineer I | reason: IT services, junior ML title, wrong archetype
+- [x] SKIP | https://www.linkedin.com/jobs/view/4399560274/ | Onit India | AI Engineer | reason: contract lifecycle SaaS niche domain
+- [x] SKIP | https://www.linkedin.com/jobs/view/4395959899/ | UST | Python Developer - Agentic AI, Cloud & CI/CD | reason: UST IT services, consulting culture
+- [x] SKIP | https://www.linkedin.com/jobs/view/4410559543/ | Grazitti Interactive | Full Stack AI Engineer | reason: small marketing tech, below comp target
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408195479/ | Kinaxis | Staff Python Developer, AI/ML | reason: Python/ML only, different role from #181 (frontend)
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408989428/ | LTIMindtree | AI/ML, Python | reason: IT services, consulting culture
+- [x] SKIP | https://www.linkedin.com/jobs/view/4410727677/ | GEDU Services | AI Developer | reason: small edtech, below comp target
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408487389/ | Access Healthcare | Senior AI/ML Engineer | reason: healthcare BPO/IT services, not product company
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408986760/ | Neurealm | AI Enablement Engineer | reason: tiny startup, low confidence
+- [x] SKIP | https://www.linkedin.com/jobs/view/4409953463/ | The BigCjobs.com | AI ML Engineer - Generative AI - 5+ years - Upto 40LPA | reason: job board posting, unknown employer
+- [x] SKIP | https://www.linkedin.com/jobs/view/4408654178/ | Unosecur | AI/ML Engineer | reason: tiny startup, unknown company
+
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-at-epsilon-4412673283 | Epsilon | Senior Software Engineer | reason: marketing data company, Java backend focus
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-ii-at-alegeus-4410731282 | Alegeus | Senior Software Engineer II | reason: US healthcare benefits fintech, likely US-located
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-infrastructure-at-databricks-4297739868 | Databricks | Senior Software Engineer (Infrastructure) | reason: duplicate, infra stack
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-money-at-databricks-4297758000 | Databricks | Senior Software Engineer (Money) | reason: backend Go stack, payments domain
+- [x] SKIP | https://in.linkedin.com/jobs/view/sr-software-engineer-search-at-databricks-4297736957 | Databricks | Sr Software Engineer, Search | reason: search/backend, not frontend
+- [x] #169 | https://in.linkedin.com/jobs/view/senior-software-engineer-core-frontier-at-okta-4409289667 | Okta | Senior Software Engineer (Core Frontier) | 4.0/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-staff-software-engineer-backend-at-databricks-4297754026 | Databricks | Senior Staff Software Engineer (Backend) | reason: duplicate Staff+ overshoot
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-search-at-databricks-4350839741 | Databricks | Senior Software Engineer - Search | reason: search backend, not frontend
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-devops-at-roku | Roku | Senior Software Engineer, Devops | reason: DevOps/infra focus
+- [ ] https://in.linkedin.com/jobs/view/senior-software-engineer-%C2%A0-devops-at-roku-4371838406 | Roku | Senior Software Engineer,  Devops
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-ii-at-sumo-logic-4404366967 | Sumo Logic | Senior Software Engineer II | reason: log analytics backend, Go/Java stack
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-data-at-uber-4411657123 | Uber | Senior Software Engineer - Data | reason: data platform/pipeline, not SDE archetype
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-net-backend-full-stack-at-epam-systems-4304642544 | EPAM Systems | Senior Software Engineer (.NET Backend / Full Stack) | reason: .NET stack hard mismatch
+- [x] #180 | https://in.linkedin.com/jobs/view/senior-software-engineer-1-at-sisa-4409908894 | SISA | Senior Software Engineer 1 | 3.6/5
+- [x] #167 | https://in.linkedin.com/jobs/view/senior-software-engineer-at-walmart-global-tech-india-4398451931 | Walmart Global Tech India | SENIOR, SOFTWARE ENGINEER | 3.8/5
+- [x] #183 | https://in.linkedin.com/jobs/view/sr-software-engineer-full-stack-at-optum-4399178074 | Optum | Sr. Software Engineer - Full Stack | 3.6/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-at-payu-4412658707 | PayU | Senior Software Engineer | reason: payments backend Java, no frontend component
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-biztech-at-airbnb-4412166731 | Airbnb | Senior Software Engineer, BizTech | reason: internal tools, likely US-located
+- [x] #162 | https://in.linkedin.com/jobs/view/sr-software-engineer-commerce-backend-at-docusign-4379643701 | Docusign | Sr. Software Engineer, Commerce Backend | 4.1/5
+- [x] #176 | https://in.linkedin.com/jobs/view/senior-software-engineer-at-docusign-4318666333 | Docusign | Senior Software Engineer | 4.0/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer%E2%80%93-payments-integrations-at-kaseya-4413032127 | Kaseya | Senior Software Engineer– Payments & Integrations | reason: IT management SaaS, payments backend focus
+- [x] #178 | https://in.linkedin.com/jobs/view/senior-software-engineer-mobility-verticals-at-uber-4410941869 | Uber | Senior Software Engineer - Mobility Verticals | 3.6/5
+- [x] #161 | https://in.linkedin.com/jobs/view/principal-ui-software-engineer-at-okta-4379836986 | Okta | Principal UI Software Engineer | 4.2/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-at-duolingo-4404366783 | Duolingo | Senior Software Engineer | reason: likely US/NY, mobile-heavy stack
+- [x] SKIP | https://in.linkedin.com/jobs/view/sr-staff-software-engineer-backend-at-databricks-4297750027 | Databricks | Sr Staff Software Engineer (Backend) | reason: duplicate Staff+ overshoot
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-devops-at-roku-4413296273 | Roku | Senior Software Engineer - Devops | reason: DevOps/infra focus
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-staff-software-engineer-at-slice-4344361401 | slice | Senior Staff Software Engineer | reason: duplicate Staff+ overshoot
+- [x] #184 | https://in.linkedin.com/jobs/view/ind-senior-software-engineer-at-walmart-global-tech-india-4410100771 | Walmart Global Tech India | (IND)SENIOR, SOFTWARE ENGINEER | 3.7/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-backend-remote-at-jitterbit-4403881115 | Jitterbit | Senior Software Engineer - Backend - Remote | reason: iPaaS backend, Ruby/Java stack
+- [x] #172 | https://in.linkedin.com/jobs/view/senior-software-engineer-at-omio-4392568004 | Omio | Senior Software Engineer | 3.8/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/leader-software-engineering-at-cisco-4411868538 | Cisco | Leader, Software Engineering | reason: management role, team management required
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-at-capgemini-4409666213 | Capgemini | Senior Software Engineer | reason: IT services, consulting culture, low comp ceiling
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-hightide-at-google-4401172463 | Google | Senior Software Engineer, HighTide | reason: duplicate Google FAANG bar
+- [x] SKIP | https://in.linkedin.com/jobs/view/ind-senior-software-engineer-at-walmart-global-tech-india-4409263237 | Walmart Global Tech India | (IND) SENIOR, SOFTWARE ENGINEER | reason: duplicate Walmart, covered by #184
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-at-renesas-electronics-4391578783 | Renesas Electronics | Senior Software Engineer | reason: semiconductor/embedded, C/C++ stack
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-staff-software-engineer-payments-at-airbnb-4403111057 | Airbnb | Senior Staff Software Engineer, Payments | reason: Staff+ overshoot, likely US-located
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-engineering-productivity-core-at-google-4403651325 | Google | Senior Software Engineer, Engineering Productivity, Core | reason: FAANG bar, eng productivity/infra focus
+- [x] #170 | https://in.linkedin.com/jobs/view/senior-software-engineer-at-flipkart-internet-pvt-ltd-4412685240 | Flipkart Internet Pvt Ltd | Senior Software Engineer | 3.7/5
+- [x] #177 | https://in.linkedin.com/jobs/view/principal-software-engineer-at-okta-4412596708 | Okta | Principal Software Engineer | 3.8/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-at-ebay-4409286718 | eBay | Senior Software Engineer | reason: duplicate eBay, backend Java distributed
+- [x] SKIP | https://in.linkedin.com/jobs/view/lead-software-engineer-at-razorpay-4412627738 | Razorpay | Lead Software Engineer | reason: backend payments, no frontend specification
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-payments-at-airbnb-4372976939 | Airbnb | Senior Software Engineer -Payments | reason: US-located, payments backend Java
+- [x] SKIP | https://in.linkedin.com/jobs/view/sr-software-engineer-backend-at-uber-4411274635 | Uber | Sr Software Engineer-Backend | reason: Uber backend duplicate, covered by #178
+- [x] #171 | https://in.linkedin.com/jobs/view/lead-software-engineer-at-flipkart-4411335878 | Flipkart | Lead Software Engineer | 3.6/5
+- [x] #162 | https://in.linkedin.com/jobs/view/sr-software-engineer-commerce-frontend-at-docusign-4379156314 | Docusign | Sr. Software Engineer, Commerce Frontend | 4.1/5
+- [x] #175 | https://in.linkedin.com/jobs/view/software-engineering-technical-leader-at-cisco-4404079882 | Cisco | Software Engineering Technical Leader | 3.8/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/sr-software-engineer-at-solera-holdings-llc-4290112381 | Solera Holdings, LLC. | Sr. Software Engineer | reason: automotive software, likely US-based
+- [x] SKIP | https://in.linkedin.com/jobs/view/sr-java-developer-with-ai-exposure-6%2B-years-any-ust-location-immediate-joiner-at-ust-4394222982 | UST | Sr. Java Developer with AI Exposure | reason: IT services consulting culture
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-i-at-dover-india-4401280409 | Dover India | Senior Software Engineer-I | reason: industrial manufacturing IT, niche domain
+- [x] SKIP | https://in.linkedin.com/jobs/view/principal-software-engineer-customer-experience-engineering-at-snowflake-4410736523 | Snowflake | Principal Software Engineer - Customer Experience Engineering | reason: Principal overshoot, data warehouse domain
+- [x] #181 | https://in.linkedin.com/jobs/view/senior-software-developer-front-end-at-kinaxis-4402289973 | Kinaxis | Senior Software Developer - Front End | 3.7/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-backend-at-goodscore-4409230683 | GoodScore | Senior Software Engineer - Backend | reason: tiny fintech startup, backend only
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-java-software-engineer-at-zemoso-technologies-4410131903 | Zemoso Technologies | Senior Java Software Engineer | reason: product studio/consultancy, client-dependent stack
+- [x] SKIP | https://in.linkedin.com/jobs/view/sr-software-engineer-backend-at-five9-4401197450 | Five9 | Sr. Software Engineer | Backend | reason: CCaaS backend Java, no frontend
+- [x] SKIP | https://in.linkedin.com/jobs/view/sr-software-engineer-at-deltek-4412115370 | Deltek | Sr Software Engineer | reason: different from #166 (AI Platform), likely C#/.NET
+- [x] SKIP | https://in.linkedin.com/jobs/view/senior-software-engineer-at-lseg-4319485122 | LSEG | Senior Software Engineer | reason: financial data, C#/.NET/Java backend
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-developer-at-ntt-data-north-america-4411616604 | NTT DATA North America | AI/ML Developer | reason: IT services, consulting culture
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-soojh-ai-4412655580 | Soojh AI | AI/ML Engineer | reason: tiny startup, low brand signal
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-developer-at-numeric-technologies-4413404336 | Numeric Technologies | AI Developer | reason: small unknown company
+- [x] SKIP | https://in.linkedin.com/jobs/view/ml-engineer-at-grid-dynamics-4412910114 | Grid Dynamics | ML Engineer | reason: ML engineer not SDE, consultancy
+- [x] SKIP | https://in.linkedin.com/jobs/view/ml-engineer-advanced-analytics-at-ibm-4395050761 | IBM | ML Engineer-Advanced Analytics | reason: IT services, analytics/data focus
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-enginner-at-qx-global-group-4412147071 | QX Global Group | AI ML Enginner | reason: IT services, low brand
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-engineer-at-teradata-4402148724 | Teradata | AI Engineer | reason: legacy data warehouse company
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-kernel-technology-limited-formerly-nano-kernel-4413125406 | Kernel Technology Limited (Formerly Nano kernel) | AI/ML Engineer | reason: unknown micro-company
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-accenture-in-india-4339070414 | Accenture in India | AI / ML Engineer | reason: IT services, consulting culture
+- [x] SKIP | https://in.linkedin.com/jobs/view/software-development-engineer-ii-machine-learning-at-media-net-4382611265 | Media.net | Software Development Engineer II (Machine Learning) | reason: ad tech ML, not SDE archetype
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-birlasoft-4411969762 | Birlasoft | AI/ML Engineer | reason: IT services, consulting culture
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-synechron-4412758895 | Synechron | AI/ML engineer | reason: IT services, banking domain
+- [x] #179 | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-recro-4411030089 | Recro | AI/ML Engineer | 3.8/5
+- [x] #175 | https://in.linkedin.com/jobs/view/software-engineer-ai-agentic-ai-python-dsa-algorithm-asiloft-contract-lifecycle-management-ironclad-conga-preferred-5%2Byrs-at-cisco-4411970087 | Cisco | Software Engineer - AI/Agentic AI CLM | 3.8/5
+- [x] #173 | https://in.linkedin.com/jobs/view/reactjs-ai-frontend-developer-at-persistent-systems-4408809629 | Persistent Systems | ReactJs AI Frontend Developer | 3.5/5
+- [x] #175 | https://in.linkedin.com/jobs/view/software-engineer-ai-engineer-design-and-implement-ai-agents-python-jupyter-ml-libraries-predictive-models-automation-monitoring-5%2B-yrs-at-cisco-4411961470 | Cisco | Software Engineer - AI Engineer (Agentic) | 3.8/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-developer-python-generative-ai-at-zorba-ai-4412634870 | Zorba AI | AI/ML Developer-Python , Generative AI | reason: tiny unknown startup
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-papigen-4413084762 | Papigen | AI/ML Engineer | reason: unknown micro-company
+- [x] SKIP | https://in.linkedin.com/jobs/view/python-genai-engineer-at-infosys-4402198074 | Infosys | Python GenAI Engineer | reason: IT services, consulting culture
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-developer-at-gedu-services-4410727677 | GEDU Services | AI Developer | reason: duplicate, small edtech
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-engineer-at-ibm-4399511339 | IBM | AI Engineer | reason: IT services, consulting culture
+- [x] #174 | https://in.linkedin.com/jobs/view/gen-ai-engineer-at-persistent-systems-4408489318 | Persistent Systems | Gen AI Engineer | 3.7/5
+- [x] #165 | https://in.linkedin.com/jobs/view/ai-automation-engineer-at-stockx-4388959680 | StockX | AI Automation Engineer | 4.0/5
+- [x] SKIP | https://in.linkedin.com/jobs/view/ai-ml-engineer-at-vlink-inc-4413278967 | VLink Inc | AI/ML Engineer | reason: IT staffing/services, low brand
+
+- [x] SKIP | https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4694513005 | Razorpay | Product Manager II — Website Builder (Full-Stack Builder Role) | reason: PM role, not SDE
+- [x] SKIP | https://job-boards.greenhouse.io/phonepe/jobs/7725588003 | PhonePe | HRBP Lead - Mass Retail | reason: HR role, not SDE
+- [x] SKIP | https://job-boards.greenhouse.io/phonepe/jobs/7635017003 | PhonePe | Software Engineer - Backend 5 to 7 years (Pune) | reason: Pune location filtered
+- [x] SKIP | https://job-boards.greenhouse.io/phonepe/jobs/7725611003 | PhonePe | Software Engineer - Backend 7 to 10 years (Pune) | reason: Pune location filtered
+- [x] SKIP | https://job-boards.greenhouse.io/postman/jobs/7529392003 | Postman | Enterprise Solutions Engineer | reason: pre-sales SE, wrong archetype
+- [x] SKIP | https://job-boards.greenhouse.io/postman/jobs/7636725003 | Postman | Software Engineer (Backend), Integrations | reason: pure backend, no frontend
+- [x] SKIP | https://job-boards.greenhouse.io/gleanwork/jobs/4612814005 | Glean | Manager, AI Outcomes | reason: management/CSM role
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5208218008 | Anthropic (remote) | AI Compliance Officer | reason: compliance role, US remote only
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/4461444008 | Anthropic (remote) | Applied AI Architect, Industries | reason: US/EU remote only, Solutions Architect archetype
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5112486008 | Anthropic (remote) | Applied AI Architect, Partnerships | reason: US/EU remote only
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5209776008 | Anthropic (remote) | Security Software Engineer, Platform Integration | reason: US remote only, security focus
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5211305008 | Anthropic (remote) | Staff Software Engineer, Kubernetes Platform | reason: US remote only, K8s infra
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5211498008 | Anthropic (remote) | Staff Software Engineer, Node Infra | reason: US remote only, infra focus
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5159146008 | Anthropic (remote) | Staff+ Software Engineer, Privacy | reason: US remote only
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5205704008 | Anthropic (remote) | Staff+ Software Engineer, Public Sector | reason: US remote only
+- [x] SKIP | https://job-boards.greenhouse.io/anthropic/jobs/5215028008 | Anthropic (remote) | Staff + Sr. Software Engineer, Cloud Inference Launch Engineering | reason: US remote only, infra
+- [x] SKIP | https://job-boards.greenhouse.io/arizeai/jobs/5989512004 | Arize AI (remote) | AI Application Engineer, APJ | reason: Solutions/pre-sales archetype
+- [x] SKIP | https://job-boards.greenhouse.io/arizeai/jobs/5993755004 | Arize AI (remote) | AI Solutions Engineer, East | reason: US East pre-sales, wrong archetype
+- [x] SKIP | https://job-boards.greenhouse.io/arizeai/jobs/5989503004 | Arize AI (remote) | AI Solutions Manager, APJ | reason: Solutions Manager, wrong archetype
+- [x] SKIP | https://job-boards.greenhouse.io/arizeai/jobs/5989510004 | Arize AI (remote) | AI Solutions Manager, EMEA | reason: EMEA Solutions Manager, wrong archetype + location
+- [x] SKIP | https://job-boards.greenhouse.io/arizeai/jobs/5987435004 | Arize AI (remote) | AI Solutions Manager, SMB | reason: Solutions Manager, wrong archetype
+- [x] SKIP | https://job-boards.greenhouse.io/arizeai/jobs/5986448004 | Arize AI (remote) | Technical Product Marketing Manager, Competitive Intelligence & Sales Enablement (AI Native) | reason: marketing role, wrong archetype
+- [x] SKIP | https://job-boards.greenhouse.io/mixpanel/jobs/7513876 | Mixpanel India | Manager, Solutions Engineering | reason: management role
+- [x] SKIP | https://job-boards.greenhouse.io/mixpanel/jobs/7774151 | Mixpanel India | Software Engineer, Backend | reason: Mixpanel backend Go/Python, US-located
+- [x] SKIP | https://job-boards.greenhouse.io/hackerrank/jobs/7771695 | HackerRank | Software Development Engineer in Test II | reason: SDET role, not SDE archetype
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8533365002 | Amplitude India | Senior AI Software Engineer | reason: Amplitude India — US/Canada located
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8541556002 | Amplitude India | Senior Platform Engineer (Cloud Platform) | reason: Amplitude India — US/Canada located, infra focus
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8541791002 | Amplitude India | Senior Software Engineer | reason: Amplitude India — US/Canada located
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8541634002 | Amplitude India | Senior Software Engineer | reason: Amplitude India — US/Canada located
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8542021002 | Amplitude India | Senior Software Engineer (Experiment) | reason: Amplitude India — US/Canada located
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8542174002 | Amplitude India | Senior Software Engineer, Product Adoption | reason: Amplitude India — US/Canada located
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8541677002 | Amplitude India | Senior Software Engineer - SDK | reason: Amplitude India — US/Canada located, SDK/C++ focus
+- [x] SKIP | https://job-boards.greenhouse.io/amplitude/jobs/8344364002 | Amplitude India | Senior Storyteller: AI & Innovation | reason: marketing/content role, not SDE
+- [x] SKIP | https://jobs.ashbyhq.com/cohere/7a420921-b7dc-4341-a134-6fe209615e86 | Cohere (remote) | Engineering Manager, Agentic Platform | reason: management role + US/Canada remote
+- [x] SKIP | https://boards.greenhouse.io/cloudflare/jobs/7505995?gh_jid=7505995 | Cloudflare | Senior Solutions Engineer | reason: pre-sales Solutions Engineer, wrong archetype
+- [x] SKIP | https://boards.greenhouse.io/cloudflare/jobs/7864156?gh_jid=7864156 | Cloudflare | Senior Solutions Engineer, Majors, Raleigh, NC | reason: US location + pre-sales
+- [x] SKIP | https://boards.greenhouse.io/cloudflare/jobs/7822857?gh_jid=7822857 | Cloudflare | Senior Strategic Solutions Engineer, Bengaluru | reason: pre-sales Solutions Engineer, wrong archetype
+- [x] SKIP | https://job-boards.greenhouse.io/launchdarkly/jobs/7727869003 | LaunchDarkly | Senior App Engineer (AI & Automation) | reason: US remote only
+- [x] SKIP | https://job-boards.greenhouse.io/launchdarkly/jobs/7731365003 | LaunchDarkly | Solutions Engineer - APAC | reason: pre-sales SE, wrong archetype
+- [x] SKIP | https://job-boards.greenhouse.io/launchdarkly/jobs/7724911003 | LaunchDarkly | Technical and Agentic Enablement Lead | reason: enablement/GTM role, not SDE
+- [x] SKIP | https://boards.greenhouse.io/figma/jobs/5989185004?gh_jid=5989185004 | Figma | Product Manager, AI Growth | reason: PM role, not SDE
+- [x] SKIP | https://job-boards.greenhouse.io/pagerduty/jobs/5987780004 | PagerDuty | Software Engineer - Core Product | reason: US remote only, Go/Ruby backend
+- [x] SKIP | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4692406005 | dbt Labs | Senior Platform Engineer, Storage | reason: US remote, storage/infra backend
+- [x] SKIP | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4668292005 | dbt Labs | Senior Software Engineer ll | reason: US remote, Python/data stack
+- [x] SKIP | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4692350005 | dbt Labs | Senior Software Engineer, Semantic Layer | reason: US remote, semantic layer/data
+- [x] SKIP | https://job-boards.greenhouse.io/dbtlabsinc/jobs/4641221005 | dbt Labs | Staff Software Engineer | reason: US remote, Staff+ overshoot
 
 ## Procesados
 <!-- URLs moved here once evaluated -->
