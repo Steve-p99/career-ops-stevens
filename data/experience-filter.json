@@ -1,0 +1,586 @@
+{
+  "keep": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407779028/",
+      "id": "4407779028",
+      "company": "Deloitte",
+      "title": "Senior Java Software Engineer",
+      "min_years": 5,
+      "desc_len": 1752
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4398451931/",
+      "id": "4398451931",
+      "company": "Walmart Global Tech India",
+      "title": "SENIOR, SOFTWARE ENGINEER",
+      "min_years": 6,
+      "desc_len": 7466
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4297739868/",
+      "id": "4297739868",
+      "company": "Databricks",
+      "title": "Senior Software Engineer (Infrastructure)",
+      "min_years": 7,
+      "desc_len": 3963
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4409363608/",
+      "id": "4409363608",
+      "company": "Infinite Convergence Solutions",
+      "title": "Senior Software Engineer - Front End",
+      "min_years": 7,
+      "desc_len": 3292
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4409365601/",
+      "id": "4409365601",
+      "company": "Infinite Convergence Solutions",
+      "title": "Senior Software Engineer - Back End",
+      "min_years": 7,
+      "desc_len": 3291
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4335999823/",
+      "id": "4335999823",
+      "company": "Nexthink",
+      "title": "Senior Backend Software Engineer",
+      "min_years": 7,
+      "desc_len": 4828
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4322051959/",
+      "id": "4322051959",
+      "company": "Kobie",
+      "title": "Senior Software Engineer",
+      "min_years": 3,
+      "desc_len": 5078
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4348350415/",
+      "id": "4348350415",
+      "company": "Databricks",
+      "title": "Senior Software Engineer - Backend",
+      "min_years": 6,
+      "desc_len": 4000
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4411639934/",
+      "id": "4411639934",
+      "company": "Uber",
+      "title": "Sr Software Engineer",
+      "min_years": 6,
+      "desc_len": 2005
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4388198869/",
+      "id": "4388198869",
+      "company": "Cognite",
+      "title": "Senior Software Engineer - Frontend (Full Stack)",
+      "min_years": 6,
+      "desc_len": 3089
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4346110070/",
+      "id": "4346110070",
+      "company": "Cognite",
+      "title": "Senior Software Engineer",
+      "min_years": 6,
+      "desc_len": 4066
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4297726988/",
+      "id": "4297726988",
+      "company": "Databricks",
+      "title": "Senior Software Engineer (Backend)",
+      "min_years": 6,
+      "desc_len": 3999
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4399506621/",
+      "id": "4399506621",
+      "company": "Walmart Global Tech India",
+      "title": "Senior, Software Engineer - Front End",
+      "min_years": 6,
+      "desc_len": 6079
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408981993/",
+      "id": "4408981993",
+      "company": "Rippling",
+      "title": "Senior Software Engineer",
+      "min_years": 6,
+      "desc_len": 3380
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4411274635/",
+      "id": "4411274635",
+      "company": "Uber",
+      "title": "Sr Software Engineer-Backend",
+      "min_years": 6,
+      "desc_len": 2267
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4409320016/",
+      "id": "4409320016",
+      "company": "Deltek",
+      "title": "Senior Software Engineer (C#.Net)",
+      "min_years": 4,
+      "desc_len": 4735
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408990350/",
+      "id": "4408990350",
+      "company": "Delart",
+      "title": "Senior Software Engineer",
+      "min_years": 7,
+      "desc_len": 3919
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4398827718/",
+      "id": "4398827718",
+      "company": "Walmart Global Tech India",
+      "title": "Senior Software Engineer - UI",
+      "min_years": 7,
+      "desc_len": 7204
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4406280270/",
+      "id": "4406280270",
+      "company": "Lowe's India",
+      "title": "Senior Software Engineer Fullstack",
+      "min_years": 5,
+      "desc_len": 3744
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4409338575/",
+      "id": "4409338575",
+      "company": "nference",
+      "title": "Senior Software Engineer",
+      "min_years": 3,
+      "desc_len": 3398
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410469724/",
+      "id": "4410469724",
+      "company": "REGUL SOLUTIONS",
+      "title": ".Net - Lead Software Engineer",
+      "min_years": 5,
+      "desc_len": 5527
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4369764602/",
+      "id": "4369764602",
+      "company": "Amazon",
+      "title": "Sr. Software Development Engineer",
+      "min_years": 5,
+      "desc_len": 2853
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4344003603/",
+      "id": "4344003603",
+      "company": "Zinier",
+      "title": "AI Engineer",
+      "min_years": 3,
+      "desc_len": 4006
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4388959680/",
+      "id": "4388959680",
+      "company": "StockX",
+      "title": "AI Automation Engineer",
+      "min_years": 4,
+      "desc_len": 4038
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408809629/",
+      "id": "4408809629",
+      "company": "Persistent Systems",
+      "title": "ReactJs AI Frontend Developer",
+      "min_years": 5,
+      "desc_len": 3602
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408654729/",
+      "id": "4408654729",
+      "company": "The Hartford India",
+      "title": "AI ML Engineer - Data & Analytics",
+      "min_years": 3,
+      "desc_len": 3145
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408184335/",
+      "id": "4408184335",
+      "company": "Tech Mahindra",
+      "title": "AI Developer - Google Gemini Enterprise",
+      "min_years": 5,
+      "desc_len": 2880
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4399502472/",
+      "id": "4399502472",
+      "company": "UST",
+      "title": "ML Engineer I",
+      "min_years": 3,
+      "desc_len": 356
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4402908693/",
+      "id": "4402908693",
+      "company": "Anaplan",
+      "title": "Software Engineer - AI",
+      "min_years": 3,
+      "desc_len": 6943
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4378063866/",
+      "id": "4378063866",
+      "company": "Sezzle",
+      "title": "AI Engineer II (Remote)",
+      "min_years": 5,
+      "desc_len": 6601
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410559543/",
+      "id": "4410559543",
+      "company": "Grazitti Interactive",
+      "title": "Full Stack AI Engineer",
+      "min_years": 3,
+      "desc_len": 2338
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408989428/",
+      "id": "4408989428",
+      "company": "LTIMindtree",
+      "title": "AI/ML, Python",
+      "min_years": 4,
+      "desc_len": 1180
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410727677/",
+      "id": "4410727677",
+      "company": "GEDU Services",
+      "title": "AI Developer",
+      "min_years": 3,
+      "desc_len": 2110
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408487389/",
+      "id": "4408487389",
+      "company": "Access Healthcare",
+      "title": "Senior AI/ML Engineer",
+      "min_years": 4,
+      "desc_len": 4408
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4409953463/",
+      "id": "4409953463",
+      "company": "The BigCjobs.com",
+      "title": "AI ML Engineer - Generative AI - 5+ years - Upto 40LPA",
+      "min_years": 5,
+      "desc_len": 1547
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408654178/",
+      "id": "4408654178",
+      "company": "Unosecur",
+      "title": "AI/ML Engineer",
+      "min_years": 6,
+      "desc_len": 4261
+    }
+  ],
+  "marginal": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407762576/",
+      "id": "4407762576",
+      "company": "Emirates NBD",
+      "title": "Senior Software Engineer - Node JS",
+      "min_years": 8,
+      "desc_len": 1925
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4379643701/",
+      "id": "4379643701",
+      "company": "Docusign",
+      "title": "Sr. Software Engineer, Commerce Backend",
+      "min_years": 8,
+      "desc_len": 5274
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410025900/",
+      "id": "4410025900",
+      "company": "MakeMyTrip",
+      "title": "Principal Software Engineer",
+      "min_years": 8,
+      "desc_len": 1930
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407759247/",
+      "id": "4407759247",
+      "company": "Emirates NBD",
+      "title": "Senior Software Engineer - Full Stack",
+      "min_years": 8,
+      "desc_len": 5615
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410571050/",
+      "id": "4410571050",
+      "company": "Flywire",
+      "title": "Senior Software Engineer II, Payments Platform (Back End)",
+      "min_years": 8,
+      "desc_len": 5481
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4399515556/",
+      "id": "4399515556",
+      "company": "Walmart Global Tech India",
+      "title": "SENIOR, SOFTWARE ENGINEER - Frontend",
+      "min_years": 8,
+      "desc_len": 6635
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4379156314/",
+      "id": "4379156314",
+      "company": "Docusign",
+      "title": "Sr. Software Engineer, Commerce Frontend",
+      "min_years": 8,
+      "desc_len": 5873
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407764164/",
+      "id": "4407764164",
+      "company": "Emirates NBD",
+      "title": "Lead Software Engineer (Full Stack- MERN)",
+      "min_years": 8,
+      "desc_len": 3346
+    }
+  ],
+  "skip": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4344361401/",
+      "id": "4344361401",
+      "company": "slice",
+      "title": "Senior Staff Software Engineer",
+      "min_years": 10,
+      "desc_len": 4552
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4362363782/",
+      "id": "4362363782",
+      "company": "McKinsey & Company",
+      "title": "Principal Software Engineer I - Periscope",
+      "min_years": 11,
+      "desc_len": 6014
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4409286718/",
+      "id": "4409286718",
+      "company": "eBay",
+      "title": "Senior Software Engineer",
+      "min_years": 15,
+      "desc_len": 5102
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4297754026/",
+      "id": "4297754026",
+      "company": "Databricks",
+      "title": "Senior Staff Software Engineer (Backend)",
+      "min_years": 15,
+      "desc_len": 4815
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407744280/",
+      "id": "4407744280",
+      "company": "Okta",
+      "title": "Principal Software Engineer",
+      "min_years": 12,
+      "desc_len": 12421
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4379836986/",
+      "id": "4379836986",
+      "company": "Okta",
+      "title": "Principal UI Software Engineer",
+      "min_years": 10,
+      "desc_len": 6755
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4297750027/",
+      "id": "4297750027",
+      "company": "Databricks",
+      "title": "Sr Staff Software Engineer (Backend)",
+      "min_years": 15,
+      "desc_len": 4815
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4409306465/",
+      "id": "4409306465",
+      "company": "Grid Dynamics",
+      "title": "Senior Software Engineer",
+      "min_years": 2,
+      "desc_len": 1762
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4325260307/",
+      "id": "4325260307",
+      "company": "Intuit",
+      "title": "Senior Staff Software Engineer",
+      "min_years": 10,
+      "desc_len": 3086
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4388886277/",
+      "id": "4388886277",
+      "company": "Accenture in India",
+      "title": "AI / ML Engineer",
+      "min_years": 12,
+      "desc_len": 2148
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408489318/",
+      "id": "4408489318",
+      "company": "Persistent Systems",
+      "title": "Gen AI Engineer",
+      "min_years": 10,
+      "desc_len": 3412
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408195479/",
+      "id": "4408195479",
+      "company": "Kinaxis",
+      "title": "Staff Python Developer, AI/ML",
+      "min_years": 10,
+      "desc_len": 6286
+    }
+  ],
+  "unknown": [
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407757183/",
+      "id": "4407757183",
+      "company": "Walmart Global Tech India",
+      "title": "(IND) SENIOR, SOFTWARE ENGINEER",
+      "min_years": null,
+      "desc_len": 7639
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410558285/",
+      "id": "4410558285",
+      "company": "Nemetschek Group",
+      "title": "Senior Software Engineer - WPF",
+      "min_years": null,
+      "desc_len": 1674
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408651565/",
+      "id": "4408651565",
+      "company": "Endava",
+      "title": "Staff Software Engineer / Lead Software Engineer",
+      "min_years": null,
+      "desc_len": 9380
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408659453/",
+      "id": "4408659453",
+      "company": "Endava",
+      "title": "Senior Software Engineer",
+      "min_years": null,
+      "desc_len": 8029
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410941869/",
+      "id": "4410941869",
+      "company": "Uber",
+      "title": "Senior Software Engineer - Mobility Verticals",
+      "min_years": null,
+      "desc_len": 2967
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4401172463/",
+      "id": "4401172463",
+      "company": "Google",
+      "title": "Senior Software Engineer, HighTide",
+      "min_years": null,
+      "desc_len": 4280
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407750482/",
+      "id": "4407750482",
+      "company": "Walmart Global Tech India",
+      "title": "(IND) SENIOR, SOFTWARE ENGINEER - Front End",
+      "min_years": null,
+      "desc_len": 7814
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4398130745/",
+      "id": "4398130745",
+      "company": "Google",
+      "title": "Senior Software Engineer, Networking",
+      "min_years": null,
+      "desc_len": 2819
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4399674047/",
+      "id": "4399674047",
+      "company": "Google",
+      "title": "Senior Software Engineer, Infrastructure",
+      "min_years": null,
+      "desc_len": 4320
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4407206752/",
+      "id": "4407206752",
+      "company": "Smart Working",
+      "title": "Lead Software Developer (Remote, Full-Time) [HR173]",
+      "min_years": null,
+      "desc_len": 4912
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4410795412/",
+      "id": "4410795412",
+      "company": "Ema",
+      "title": "Software Engineer, Machine Learning",
+      "min_years": null,
+      "desc_len": 4613
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4399560274/",
+      "id": "4399560274",
+      "company": "Onit India",
+      "title": "AI Engineer",
+      "min_years": null,
+      "desc_len": 6094
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4395959899/",
+      "id": "4395959899",
+      "company": "UST",
+      "title": "Python Developer - Agentic AI, Cloud & CI/CD",
+      "min_years": null,
+      "desc_len": 1035
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4267435259/",
+      "id": "4267435259",
+      "company": "eBay",
+      "title": "Software Engineer, ML Systems",
+      "min_years": null,
+      "desc_len": 4372
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408166563/",
+      "id": "4408166563",
+      "company": "IBM",
+      "title": "AI Software Engineer",
+      "min_years": null,
+      "desc_len": 3145
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/view/4408986760/",
+      "id": "4408986760",
+      "company": "Neurealm",
+      "title": "AI Enablement Engineer",
+      "min_years": null,
+      "desc_len": 1498
+    }
+  ]
+}

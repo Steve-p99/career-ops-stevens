@@ -139,9 +139,82 @@
 - [x] #127 | https://jobs.ashbyhq.com/supabase/847a7bd7-6b75-444a-aeda-d0b28a11c764 | Supabase | Platform Engineer - Multicloud | 2.2/5 | PDF ❌
 - [x] #128 | https://jobs.ashbyhq.com/supabase/bf3628f2-f6e8-414e-a3fd-2f5ff481b60c | Supabase | AWS Tech Lead - Platform Operations | 2.0/5 | PDF ❌
 
+- [ ] https://www.linkedin.com/jobs/view/4407779028/ | Deloitte | Senior Java Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4398451931/ | Walmart Global Tech India | SENIOR, SOFTWARE ENGINEER
+- [ ] https://www.linkedin.com/jobs/view/4407757183/ | Walmart Global Tech India | (IND) SENIOR, SOFTWARE ENGINEER
+- [ ] https://www.linkedin.com/jobs/view/4410558285/ | Nemetschek Group | Senior Software Engineer - WPF
+- [ ] https://www.linkedin.com/jobs/view/4344361401/ | slice | Senior Staff Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4297739868/ | Databricks | Senior Software Engineer (Infrastructure)
+- [ ] https://www.linkedin.com/jobs/view/4409363608/ | Infinite Convergence Solutions | Senior Software Engineer - Front End
+- [ ] https://www.linkedin.com/jobs/view/4409365601/ | Infinite Convergence Solutions | Senior Software Engineer - Back End
+- [ ] https://www.linkedin.com/jobs/view/4362363782/ | McKinsey & Company | Principal Software Engineer I - Periscope
+- [ ] https://www.linkedin.com/jobs/view/4409286718/ | eBay | Senior Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4407762576/ | Emirates NBD | Senior Software Engineer - Node JS
+- [ ] https://www.linkedin.com/jobs/view/4297754026/ | Databricks | Senior Staff Software Engineer (Backend)
+- [ ] https://www.linkedin.com/jobs/view/4408651565/ | Endava | Staff Software Engineer / Lead Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4408659453/ | Endava | Senior Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4410941869/ | Uber | Senior Software Engineer - Mobility Verticals
+- [ ] https://www.linkedin.com/jobs/view/4407744280/ | Okta | Principal Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4335999823/ | Nexthink | Senior Backend Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4379836986/ | Okta | Principal UI Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4379643701/ | Docusign | Sr. Software Engineer, Commerce Backend
+- [ ] https://www.linkedin.com/jobs/view/4410025900/ | MakeMyTrip | Principal Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4322051959/ | Kobie | Senior Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4401172463/ | Google | Senior Software Engineer, HighTide
+- [ ] https://www.linkedin.com/jobs/view/4297750027/ | Databricks | Sr Staff Software Engineer (Backend)
+- [ ] https://www.linkedin.com/jobs/view/4407759247/ | Emirates NBD | Senior Software Engineer - Full Stack
+- [ ] https://www.linkedin.com/jobs/view/4410571050/ | Flywire | Senior Software Engineer II, Payments Platform (Back End)
+- [ ] https://www.linkedin.com/jobs/view/4407750482/ | Walmart Global Tech India | (IND) SENIOR, SOFTWARE ENGINEER - Front End
+- [ ] https://www.linkedin.com/jobs/view/4346110070/ | Cognite | Senior Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4409306465/ | Grid Dynamics | Senior Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4297726988/ | Databricks | Senior Software Engineer (Backend)
+- [ ] https://www.linkedin.com/jobs/view/4399515556/ | Walmart Global Tech India | SENIOR, SOFTWARE ENGINEER - Frontend
+- [ ] https://www.linkedin.com/jobs/view/4399506621/ | Walmart Global Tech India | Senior, Software Engineer - Front End
+- [ ] https://www.linkedin.com/jobs/view/4398130745/ | Google | Senior Software Engineer, Networking
+- [ ] https://www.linkedin.com/jobs/view/4411274635/ | Uber | Sr Software Engineer-Backend
+- [ ] https://www.linkedin.com/jobs/view/4409320016/ | Deltek | Senior Software Engineer (C#.Net)
+- [ ] https://www.linkedin.com/jobs/view/4399674047/ | Google | Senior Software Engineer, Infrastructure
+- [ ] https://www.linkedin.com/jobs/view/4408990350/ | Delart | Senior Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4407206752/ | Smart Working | Lead Software Developer (Remote, Full-Time) [HR173]
+- [ ] https://www.linkedin.com/jobs/view/4379156314/ | Docusign | Sr. Software Engineer, Commerce Frontend
+- [ ] https://www.linkedin.com/jobs/view/4398827718/ | Walmart Global Tech India | Senior Software Engineer - UI
+- [ ] https://www.linkedin.com/jobs/view/4406280270/ | Lowe's India | Senior Software Engineer Fullstack
+- [ ] https://www.linkedin.com/jobs/view/4409338575/ | nference | Senior Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4410469724/ | REGUL SOLUTIONS | .Net - Lead Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4325260307/ | Intuit | Senior Staff Software Engineer
+- [ ] https://www.linkedin.com/jobs/view/4407764164/ | Emirates NBD | Lead Software Engineer (Full Stack- MERN)
+- [ ] https://www.linkedin.com/jobs/view/4388886277/ | Accenture in India | AI / ML Engineer
+- [ ] https://www.linkedin.com/jobs/view/4388959680/ | StockX | AI Automation Engineer
+- [ ] https://www.linkedin.com/jobs/view/4408809629/ | Persistent Systems | ReactJs AI Frontend Developer
+- [ ] https://www.linkedin.com/jobs/view/4408489318/ | Persistent Systems | Gen AI Engineer
+- [ ] https://www.linkedin.com/jobs/view/4408654729/ | The Hartford India | AI ML Engineer - Data & Analytics
+- [ ] https://www.linkedin.com/jobs/view/4399502472/ | UST | ML Engineer I
+- [ ] https://www.linkedin.com/jobs/view/4399560274/ | Onit India | AI Engineer
+- [ ] https://www.linkedin.com/jobs/view/4395959899/ | UST | Python Developer - Agentic AI, Cloud & CI/CD
+- [ ] https://www.linkedin.com/jobs/view/4410559543/ | Grazitti Interactive | Full Stack AI Engineer
+- [ ] https://www.linkedin.com/jobs/view/4408195479/ | Kinaxis | Staff Python Developer, AI/ML
+- [ ] https://www.linkedin.com/jobs/view/4408989428/ | LTIMindtree | AI/ML, Python
+- [ ] https://www.linkedin.com/jobs/view/4410727677/ | GEDU Services | AI Developer
+- [ ] https://www.linkedin.com/jobs/view/4408487389/ | Access Healthcare | Senior AI/ML Engineer
+- [ ] https://www.linkedin.com/jobs/view/4408986760/ | Neurealm | AI Enablement Engineer
+- [ ] https://www.linkedin.com/jobs/view/4409953463/ | The BigCjobs.com | AI ML Engineer - Generative AI - 5+ years - Upto 40LPA
+- [ ] https://www.linkedin.com/jobs/view/4408654178/ | Unosecur | AI/ML Engineer
+
 ## Procesados
 <!-- URLs moved here once evaluated -->
 - [x] #001 | https://job-boards.greenhouse.io/postman/jobs/7583237003 | Postman | SWE Frontend, Performance & Monitoring | 4.3/5 | PDF ❌
 - [x] #002 | https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4664589005 | Razorpay | Full Stack Builder | 4.5/5 | PDF ❌
 - [x] #003 | https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4684214005 | Razorpay | Lead AI Engineer | 3.9/5 | PDF ❌
 - [x] #004 | https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4681579005 | Razorpay | Lead Software Development Engineer | 4.0/5 | PDF ❌
+- [x] #156 | https://www.linkedin.com/jobs/view/4348350415/ | Databricks | Senior Software Engineer - Backend | 3.7/5 | PDF ❌
+- [x] #160 | https://www.linkedin.com/jobs/view/4411639934/ | Uber | Sr Software Engineer | 3.6/5 | PDF ❌
+- [x] #157 | https://www.linkedin.com/jobs/view/4388198869/ | Cognite | Senior Software Engineer - Frontend (Full Stack) | 4.5/5 | PDF ❌
+- [x] #158 | https://www.linkedin.com/jobs/view/4408981993/ | Rippling | Senior Software Engineer | 3.8/5 | PDF ❌
+- [x] #159 | https://www.linkedin.com/jobs/view/4369764602/ | Amazon | Sr. Software Development Engineer | 3.9/5 | PDF ❌
+- [x] #152 | https://www.linkedin.com/jobs/view/4344003603/ | Zinier | AI Engineer | 3.7/5 | PDF ❌
+- [x] #154 | https://www.linkedin.com/jobs/view/4410795412/ | Ema | Software Engineer, Machine Learning | 4.4/5 | PDF ❌
+- [x] #151 | https://www.linkedin.com/jobs/view/4408184335/ | Tech Mahindra | AI Developer - Google Gemini Enterprise | 3.4/5 | PDF ❌
+- [x] #153 | https://www.linkedin.com/jobs/view/4402908693/ | Anaplan | Software Engineer - AI | 3.4/5 | PDF ❌
+- [x] #150 | https://www.linkedin.com/jobs/view/4378063866/ | Sezzle | AI Engineer II (Remote) | 4.6/5 | PDF ❌
+- [x] #155 | https://www.linkedin.com/jobs/view/4267435259/ | eBay | Software Engineer, ML Systems | 4.0/5 | PDF ❌
+- [x] #149 | https://www.linkedin.com/jobs/view/4408166563/ | IBM | AI Software Engineer | 4.2/5 | PDF ❌
