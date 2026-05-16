@@ -1,0 +1,65 @@
+Role Description
+=================
+
+
+---
+ACKO GENERAL INSURANCE -- Software Development Engineer 2
+Jan 2025 - Present · Bengaluru
+---
+
+Full-stack SDE2 with end-to-end ownership across RSA (Roadside Assistance), PUD (Pickup & Drop), Claims, and CES product lines using React and Angular SDUI architecture. Responsible for API contract design, high-level and low-level system design, production rollout, cross-team coordination, and mentoring junior engineers.
+
+Key contributions:
+
+Architected the Admissibility AI Agent -- an end-to-end agentic classification pipeline for insurance claims. The system cross-references damage reports with incident descriptions using a configurable ML rules engine, classifies claims as admissible, fraudulent, document-deficient, or manual-review, and surfaces per-rule evidence to claims handlers. Handler override signals feed back into model retraining via a closed HITL feedback loop.
+Owned the complete RSA platform: dynamic question engine, slot booking, Google Maps integration, garage selection, custodian flow, live tracking, and Advisor Portal for ops agents. Impact: +91% app registrations, -50% registration time, -43% weekly support calls, CES ~90%.
+Designed and delivered the config-driven SDUI PUD frontend across 1,000+ garages -- garage selection, dynamic pricing by pin code, real-time status polling. Built reusable node-based navigation and data-enricher patterns adopted as shared primitives across product lines.
+Built CES Live Tracking UI: real-time field-executive tracking with Google Maps, ETA via Distance Matrix API, and SLA state machine (On Time / At Risk / Breached).
+Led cross-team API contract standardization across RSA, PUD, and platform teams before backend implementation. Resolved 30+ portal bugs in FFv2 in 3-4 days.
+Implemented IRDAI-compliant PII-masked data flows, RBAC-controlled access to claim and user data, Segment analytics, and Growthbook feature-flag rollouts on AWS.
+Built Acko Global Care LLM pipeline (Ackathon 2024, 4th Place): diagnosis extraction from medical reports, hospital and specialist recommendation, treatment cost estimation, and best-doctor ranking.
+
+---
+DELL TECHNOLOGIES -- Software Engineer 2 (Promoted from SDE1)
+Feb 2023 - Jan 2025 · Bengaluru
+---
+
+Security & DevOps Lead across two product lines -- DISCP (procurement) and One Cost. Owned CI/CD infrastructure, PCF vulnerability remediation, and full-stack delivery of enterprise admin tools.
+
+Key contributions:
+- Owned security posture across DISCP and One Cost: resolved 60-70% of PCF CVEs and improved CI/CD pipeline coverage from 60% to 97% using GitHub Actions and Jenkins. Managed Docker and Kubernetes deployments.
+- Designed and delivered the Unified Cost Management Dashboard -- full-stack enterprise admin on PCF with Angular + DevExtreme frontend, Spring Boot REST APIs, Layer-7 auth (enterprise SSO), and RBAC (approver/viewer/admin roles). Achieved 50% approval-efficiency gain and $65M ROI in the fiscal year.
+- Built Item Usage Dashboard -- Flask Mail + Angular + TLS email notification engine, reducing manual process intervention by 20%.
+- Promoted from SDE1 to SDE2 based on technical ownership, delivery impact, and leadership of security and DevOps initiatives across product lines.
+
+
+---
+DELL TECHNOLOGIES -- Software Engineer 1
+Aug 2021 - Feb 2023 · Bengaluru
+---
+
+Full-stack engineer on DISCP procurement tools. Delivered monitoring, automation, and data-validation systems for OPs and Dev Engineering teams.
+
+Key contributions:
+- Built Eye On Desktop (Electron JS) -- a proactive desktop monitoring widget that reduced issue-identification response time by 35% for OPs and Dev Engineering teams.
+- Built Buddy Board -- Angular + Python + Spring Boot automated data-validation and status dashboard for DISCP procurement workflows, eliminating manual data-entry errors.
+
+
+---
+DELL TECHNOLOGIES -- Software Engineer Intern (AI-Enabled)
+Feb 2021 - May 2021 · Bengaluru
+---
+
+AI and NLP engineering intern. Built production AI tools for internal Dell teams.
+
+Key contributions:
+- Built the PRISMO & DISCP AI Chatbot using Rasa NLP with wake-word detection, containerised on Docker and Kubernetes -- achieved 20% interaction efficiency gain, trained on real user conversation data.
+- Built a custom Speech Recognition Engine tuned for Dell-specific abbreviations and terminology -- achieved 85% accuracy in production transcriptions.
+
+
+---
+BHARAT ELECTRONICS LIMITED -- SDE Winter Intern
+Dec 2019 - Jan 2020 · Ghaziabad
+---
+
+- Developed Radar Console Displays for multi-object tracking using Qt IDE, implementing trajectory, distance, and bearing calculations for defence electronics systems.

@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 185 | 2026-05-14 | GoComet | SDE 3 | 3.4/5 | Evaluated | ✅ | [185](reports/185-gocomet-sde3-2026-05-14.md) | Warm inbound recruiter; backend-heavy (Node.js/Python/Java); hybrid Bengaluru; 35-50L range |
 | 162 | 2026-05-12 | Docusign | Sr. Software Engineer Commerce Frontend | 4.1/5 | Evaluated | ❌ | [162](reports/162-docusign-sr-swe-commerce-frontend-2026-05-12.md) | React/Next.js/TypeScript match, hybrid Bengaluru, 8yr req is reach |
 | 165 | 2026-05-12 | StockX | AI Automation Engineer | 4.0/5 | Evaluated | ❌ | [165](reports/165-stockx-ai-automation-engineer-2026-05-12.md) | LLM/RAG/agent match, Bengaluru, strong AI fit |
 | 166 | 2026-05-12 | Deltek | Sr Software Engineer AI Platform | 4.3/5 | Evaluated | ❌ | [166](reports/166-deltek-sr-swe-ai-platform-2026-05-12.md) | Best AI match in batch - Python/LangChain/React, only 27 applicants, apply immediately |

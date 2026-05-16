@@ -91,7 +91,18 @@
       "WebFetch(domain:jobs.nvidia.com)",
       "WebFetch(domain:nvidia.wd5.myworkdayjobs.com)",
       "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-nvidia-security.html\" \"output/cv-stevens-philip-nvidia-security-fullstack-2026-05-06.pdf\" --format=a4)",
-      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-general.html\" \"output/cv-stevens-philip-2026-05-07.pdf\" --format=a4)"
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-general.html\" \"output/cv-stevens-philip-2026-05-07.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-okta-frontier.html\" \"output/cv-stevens-philip-okta-frontier-2026-05-13.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-cisco-ai-clm.html\" \"output/cv-stevens-philip-cisco-ai-clm-2026-05-13.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-walmart-fullstack.html\" \"output/cv-stevens-philip-walmart-fullstack-2026-05-13.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-lowes-fullstack.html\" \"output/cv-stevens-philip-lowes-fullstack-2026-05-13.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-recro-ai-ml.html\" \"output/cv-stevens-philip-recro-ai-ml-2026-05-13.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-persistent-genai.html\" \"output/cv-stevens-philip-persistent-genai-2026-05-13.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-optum-fullstack.html\" \"output/cv-stevens-philip-optum-fullstack-2026-05-13.pdf\" --format=a4)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-flipkart-lead.html\" \"output/cv-stevens-philip-flipkart-lead-2026-05-13.pdf\" --format=a4)",
+      "WebFetch(domain:talent.lowes.com)",
+      "WebFetch(domain:gocomet.dassh.ai)",
+      "Bash(node generate-pdf.mjs \"C:/Users/steve/AppData/Local/Temp/cv-stevens-philip-gocomet-sde3.html\" \"output/cv-stevens-philip-gocomet-sde3-2026-05-14.pdf\" --format=a4)"
     ],
     "defaultMode": "bypassPermissions"
   }
