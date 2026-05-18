@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stevens Philip — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  /* === HEADER === */
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .contact-row .separator {
+    color: #ccc;
+  }
+
+  /* === SECTIONS === */
+  .section {
+    margin-bottom: 18px;
+  }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  /* === PROFESSIONAL SUMMARY === */
+  .summary-text {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #2f2f2f;
+  }
+
+  /* Links must never break across lines */
+  a {
+    white-space: nowrap;
+  }
+
+  /* === CORE COMPETENCIES === */
+  .competencies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  /* === WORK EXPERIENCE === */
+  .job {
+    margin-bottom: 14px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period {
+    font-size: 10.5px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .job-role {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+  }
+
+  .job-location {
+    font-size: 10px;
+    color: #888;
+  }
+
+  .job ul {
+    padding-left: 18px;
+    margin-top: 6px;
+  }
+
+  .job li {
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  .job li strong {
+    font-weight: 600;
+  }
+
+  /* === PROJECTS === */
+  .project {
+    margin-bottom: 12px;
+  }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc {
+    font-size: 10.5px;
+    color: #444;
+    margin-top: 3px;
+    line-height: 1.55;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #888;
+    margin-top: 3px;
+  }
+
+  /* === EDUCATION === */
+  .edu-item {
+    margin-bottom: 8px;
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title {
+    font-weight: 600;
+    font-size: 11px;
+    color: #333;
+  }
+
+  .edu-org {
+    color: hsl(270, 70%, 45%);
+    font-weight: 500;
+  }
+
+  .edu-year {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .edu-desc {
+    font-size: 10px;
+    color: #666;
+    margin-top: 2px;
+    line-height: 1.5;
+  }
+
+  /* === CERTIFICATIONS === */
+  .cert-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(90px, max-content) 44px;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+
+  .cert-title {
+    font-size: 10.5px;
+    font-weight: 500;
+    color: #333;
+    min-width: 0;
+  }
+
+  .cert-org {
+    color: hsl(270, 70%, 45%);
+    white-space: nowrap;
+  }
+
+  .cert-year {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+    text-align: right;
+  }
+
+  /* === SKILLS === */
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+
+  .skill-item {
+    font-size: 10.5px;
+    color: #444;
+  }
+
+  .skill-category {
+    font-weight: 600;
+    color: #333;
+    font-size: 10.5px;
+  }
+
+  /* === PRINT === */
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      padding: 0;
+    }
+  }
+
+  /* === PAGE BREAK CONTROL === */
+  .avoid-break,
+  .job,
+  .project,
+  .edu-item,
+  .cert-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Stevens Philip</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>9380546501</span>
+      <span class="separator">|</span>
+      <span>stevensp99@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/stevens-philip/">linkedin.com/in/stevens-philip</a>
+      <span class="separator">|</span>
+      <a href="https://stevens-philip-portfolio.vercel.app">stevens-philip-portfolio.vercel.app</a>
+      <span class="separator">|</span>
+      <span>Bengaluru, India</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">Senior Frontend Engineer with deep React + TypeScript expertise and server-driven UI specialization. 3+ years building production React SDUI at scale (Acko RSA: 1000+ garage network, +91% adoption). Strong component architecture thinking (design systems, reusable primitives, Redux state management). Java/Spring Boot backend depth ensures full-stack perspective without sacrificing frontend excellence. Proven ability to architect performant, scalable UI systems and mentor engineers on component patterns.</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <div class="competency-tag">React (3 yrs production)</div>
+      <div class="competency-tag">TypeScript</div>
+      <div class="competency-tag">SDUI Architecture</div>
+      <div class="competency-tag">Redux</div>
+      <div class="competency-tag">Tailwind CSS</div>
+      <div class="competency-tag">CSS Modules</div>
+      <div class="competency-tag">Material UI</div>
+      <div class="competency-tag">Design Systems</div>
+      <div class="competency-tag">CSS-in-JS</div>
+      <div class="competency-tag">Vitest (learnable)</div>
+      <div class="competency-tag">Playwright</div>
+      <div class="competency-tag">Java/Spring Boot</div>
+      <div class="competency-tag">Kotlin (learnable)</div>
+      <div class="competency-tag">Performance Optimization</div>
+      <div class="competency-tag">Bundle Analysis</div>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+    
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-company">Acko General Insurance</div>
+          <div class="job-role">Software Development Engineer 2 · Full-Stack & AI-Enabled</div>
+        </div>
+        <div class="job-period">Jan 2025 – Present</div>
+      </div>
+      <div class="job-location">Bengaluru</div>
+      <ul>
+        <li><strong>RSA Platform (React SDUI):</strong> RSA SDUI — Config-driven platform, 1000+ garage network, component reuse</li>
+        <li><strong>Admissibility AI Agent:</strong> ML-based claims classification (admissible/fraud/doc-deficient); integrated AI recommendations with handler override tracking for continuous model improvement</li>
+        <li><strong>Cross-team Leadership:</strong> Mentored junior engineers on API contracts and production patterns; established shared SDUI primitives (node-based navigation, data-enricher patterns) adopted across RSA/PUD</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-company">Dell Technologies</div>
+          <div class="job-role">Software Engineer 2 (Promoted from SDE1)</div>
+        </div>
+        <div class="job-period">Feb 2023 – Jan 2025</div>
+      </div>
+      <div class="job-location">Bengaluru</div>
+      <ul>
+        <li><strong>Unified Cost Management Dashboard:</strong> Angular + Spring Boot architecture, Layer-7 auth, $65M ROI in FY, 50% approval-efficiency improvement, deployed on PCF</li>
+        <li><strong>Security & DevOps Leadership:</strong> Improved test coverage from 60% → 97%+; led PCF vulnerability remediation (60–70% completion)</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Projects & Achievements</div>
+    
+    <div class="project">
+      <div><span class="project-title">Acko Global Care — AI Medical Tourism Platform</span><span class="project-badge">2025</span></div>
+      <div class="project-desc">End-to-end LLM pipeline: medical report analysis → hospital & specialist recommendation → cost estimation → doctor ranking. Built during Ackathon 2024 (4th place).</div>
+    </div>
+    <div class="project">
+      <div><span class="project-title">Dell TIDE Hack2Evolve — Gen AI Patent</span><span class="project-badge">Authorised</span></div>
+      <div class="project-desc">Gen AI system for code reusability and sustainability in enterprise environments.</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+    
+    <div class="edu-item">
+      <div class="edu-header">
+        <div>
+          <div class="edu-title">B.Tech — Computer Science</div>
+          <div class="edu-org">Sikkim Manipal Institute of Technology</div>
+        </div>
+        <div class="edu-year">2017–2021</div>
+      </div>
+      <div class="edu-desc">CGPA: 9.69 / 10</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <div>
+          <div class="edu-title">High School Diploma — Computer Science</div>
+          <div class="edu-org">St. Columba's School, New Delhi</div>
+        </div>
+        <div class="edu-year">2013–2017</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section avoid-break">
+    <div class="section-title">Certifications</div>
+    
+    <div class="cert-item">
+      <div class="cert-title">Patent Authorised — DELL</div>
+      <div class="cert-org">TIDE</div>
+      <div class="cert-year">2024</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-title">1st — GSCM-TECH-A-THON, DELL</div>
+      <div class="cert-org">Hack2Evolve</div>
+      <div class="cert-year">2024</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-title">4th — Ackathon 2024, ACKO</div>
+      <div class="cert-org">Acko Global Care</div>
+      <div class="cert-year">2025</div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+    
+    <div class="skills-grid">
+      <div>
+        <span class="skill-category">Languages & Frameworks:</span>
+        <div class="skill-item">React (3 yrs production)</div><div class="skill-item">TypeScript</div><div class="skill-item">SDUI Architecture</div><div class="skill-item">Redux</div><div class="skill-item">Tailwind CSS</div><div class="skill-item">CSS Modules</div><div class="skill-item">Material UI</div><div class="skill-item">Design Systems</div>
+      </div>
+      <div>
+        <span class="skill-category">DevOps & Tools:</span>
+        <div class="skill-item">CSS-in-JS</div><div class="skill-item">Vitest (learnable)</div><div class="skill-item">Playwright</div><div class="skill-item">Java/Spring Boot</div><div class="skill-item">Kotlin (learnable)</div><div class="skill-item">Performance Optimization</div><div class="skill-item">Bundle Analysis</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

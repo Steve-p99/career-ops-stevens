@@ -1,0 +1,36 @@
+Subject: Senior Full-Stack Engineer (Java + Angular) — Stevens Philip
+
+---
+
+Dear TRG Screen Hiring Team,
+
+I'm writing to express my strong interest in the Senior Full-Stack Engineer position at TRG Screen. With 5 years of production experience building scalable Java + Spring Boot services paired with enterprise Angular interfaces, I'm excited about the opportunity to bring that full-stack ownership to TRG Screen's financial market-data platform.
+
+**The Right Technical Fit**
+
+My background aligns precisely with your stack and requirements:
+
+• **Full-Stack Java + Angular at Enterprise Scale:** At Dell, I led the Unified Cost Management Dashboard — a Spring Boot microservices backend powering an Angular + DevExtreme frontend serving enterprise procurement teams. The result: 50% approval-efficiency gain and $65M ROI in FY. This is hands-on production experience with the exact technologies you're using — Java, Spring Boot, REST APIs, microservices architecture, and Angular v10+ frontends.
+
+• **Microservices & REST API Design:** At Acko, I architected and shipped three concurrent platforms (RSA, PUD, Claims) using Spring Boot microservices behind React + Angular SDUI frontends. This experience taught me API contract discipline, service boundaries, and the mentorship patterns needed to scale a codebase across multiple teams.
+
+• **Measurable Impact:** RSA registrations grew 18% → 34.5% (+91%), registration time halved from 12 min → 6 min, and weekly support calls dropped 350 → 200. These aren't vanity metrics — they reflect deep ownership of both backend reliability and frontend user experience.
+
+• **DevOps & Production Readiness:** I drove DevOps test coverage from 60% to 97%+ across Dell's procurement systems and led PCF vulnerability remediation (60–70%). I'm comfortable owning deployment pipelines, CI/CD, Docker containerization, and the operational rigor that financial systems demand.
+
+**Why TRG Screen**
+
+Financial market-data tooling is exactly where I want to deepen my expertise. The precision, reliability, and architectural discipline required by financial systems appeals to me — it's a step up from consumer-scale insurance platforms toward systems that people depend on for real decisions. I'm drawn to TRG Screen's stability, hands-on engineering culture, and the chance to mentor the next generation of full-stack engineers.
+
+**Mentorship & Team Contributions**
+
+Beyond code, I actively mentor junior engineers. At Acko, I mentored team members on RSA fast-follower features and PUD garage logic, led API contract discussions across teams, and drove code-quality standards through architectural reviews. I believe great engineers lift their teams — and I'm committed to that at TRG Screen.
+
+I'm ready to contribute immediately and would welcome the chance to discuss how my experience scales with your technical challenges.
+
+Best regards,
+**Stevens Philip**
+📧 stevensp99@gmail.com
+📞 +91 9380546501
+🔗 linkedin.com/in/stevens-philip
+🌐 stevens-philip-portfolio.vercel.app

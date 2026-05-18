@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stevens Philip — CV</title>
+<style>
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./fonts/space-grotesk-latin-ext.woff2') format('woff2');
+    font-weight: 300 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/dm-sans-latin-ext.woff2') format('woff2');
+    font-weight: 100 1000;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 8.5in;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  /* === HEADER === */
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .contact-row .separator {
+    color: #ccc;
+  }
+
+  /* === SECTIONS === */
+  .section {
+    margin-bottom: 18px;
+  }
+
+  .section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  /* === PROFESSIONAL SUMMARY === */
+  .summary-text {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #2f2f2f;
+  }
+
+  /* Links must never break across lines */
+  a {
+    white-space: nowrap;
+  }
+
+  /* === CORE COMPETENCIES === */
+  .competencies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .competency-tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  /* === WORK EXPERIENCE === */
+  .job {
+    margin-bottom: 14px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period {
+    font-size: 10.5px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .job-role {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+  }
+
+  .job-location {
+    font-size: 10px;
+    color: #888;
+  }
+
+  .job ul {
+    padding-left: 18px;
+    margin-top: 6px;
+  }
+
+  .job li {
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  .job li strong {
+    font-weight: 600;
+  }
+
+  /* === PROJECTS === */
+  .project {
+    margin-bottom: 12px;
+  }
+
+  .project-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc {
+    font-size: 10.5px;
+    color: #444;
+    margin-top: 3px;
+    line-height: 1.55;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #888;
+    margin-top: 3px;
+  }
+
+  /* === EDUCATION === */
+  .edu-item {
+    margin-bottom: 8px;
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title {
+    font-weight: 600;
+    font-size: 11px;
+    color: #333;
+  }
+
+  .edu-org {
+    color: hsl(270, 70%, 45%);
+    font-weight: 500;
+  }
+
+  .edu-year {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .edu-desc {
+    font-size: 10px;
+    color: #666;
+    margin-top: 2px;
+    line-height: 1.5;
+  }
+
+  /* === CERTIFICATIONS === */
+  .cert-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(90px, max-content) 44px;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 6px;
+  }
+
+  .cert-title {
+    font-size: 10.5px;
+    font-weight: 500;
+    color: #333;
+    min-width: 0;
+  }
+
+  .cert-org {
+    color: hsl(270, 70%, 45%);
+    white-space: nowrap;
+  }
+
+  .cert-year {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+    text-align: right;
+  }
+
+  /* === SKILLS === */
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+
+  .skill-item {
+    font-size: 10.5px;
+    color: #444;
+  }
+
+  .skill-category {
+    font-weight: 600;
+    color: #333;
+    font-size: 10.5px;
+  }
+
+  /* === PRINT === */
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      padding: 0;
+    }
+  }
+
+  /* === PAGE BREAK CONTROL === */
+  .avoid-break,
+  .job,
+  .project,
+  .edu-item,
+  .cert-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header avoid-break">
+    <h1>Stevens Philip</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <span>9380546501</span>
+      <span class="separator">|</span>
+      <span>stevensp99@gmail.com</span>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/stevens-philip/">linkedin.com/in/stevens-philip</a>
+      <span class="separator">|</span>
+      <a href="https://stevens-philip-portfolio.vercel.app">stevens-philip-portfolio.vercel.app</a>
+      <span class="separator">|</span>
+      <span>Bengaluru, India</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section avoid-break">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">Senior Backend Engineer with ~5 years designing and shipping production REST APIs serving millions of users. Deep expertise in distributed systems, microservices architecture, and public API contract design. Proven ability architecting authentication-adjacent systems (IRDAI-compliant PII masking, Layer-7 security) and leading cross-team standards for backward compatibility. Experienced mentoring engineers on reliability, testing strategy, and observability. Seeking founding-team role building identity platform extensions where I can own distributed systems design and establish technical standards.</div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <div class="competency-tag">REST APIs (Public)</div>
+      <div class="competency-tag">API Contract Design</div>
+      <div class="competency-tag">TypeScript & Node.js</div>
+      <div class="competency-tag">Spring Boot (Java)</div>
+      <div class="competency-tag">Python</div>
+      <div class="competency-tag">Distributed Systems</div>
+      <div class="competency-tag">Microservices</div>
+      <div class="competency-tag">Reliability & Testing</div>
+      <div class="competency-tag">Multi-cloud (AWS/Azure)</div>
+      <div class="competency-tag">Docker & Kubernetes</div>
+      <div class="competency-tag">Mentorship & Leadership</div>
+      <div class="competency-tag">OAuth2 & Auth</div>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-company">Acko General Insurance</div>
+          <div class="job-role">Software Development Engineer 2 · Full-Stack & API Design</div>
+        </div>
+        <div class="job-period">Jan 2025 – Present</div>
+      </div>
+      <div class="job-location">Bengaluru</div>
+      <ul>
+        <li><strong>REST API Design & Contracts (Multi-product):</strong> Architected public-facing and internal REST API contracts for RSA, PUD, and Claims platforms. Established API versioning standards, backward-compatibility rules, and deprecation timelines across teams. Documented contract checklist ensuring security, reliability, and extensibility. Led code-review sessions on API contract patterns. Result: API-related production incidents −80% in mentored team.</li>
+        <li><strong>RSA Platform — Distributed System Architecture:</strong> Designed and shipped microservices backing Roadside Assistance Platform: garage eligibility service, slot booking engine, live tracking coordinator, and PII-masked phone service (IRDAI-compliant). Built REST API layer serving React frontend and mobile clients. Implemented feature-flag rollout strategy with Growthbook. Impact: 1000+ garage network, app registrations +91%, reliability 99.9%.</li>
+        <li><strong>Admissibility AI Agent — System Design:</strong> Architected backend microservice for AI-powered claims classification. Designed async task queue, ML model integration, and feedback loop architecture. Built API contracts between ML pipeline and frontend handlers. Implemented observability (structured logging, distributed tracing) for production monitoring.</li>
+        <li><strong>Multi-product Coordination & Testing Strategy:</strong> Led cross-team integration of RSA, PUD, and CES microservices. Established testing strategy (unit → integration → e2e) and observability standards. Designed fallback strategies for service failures. Mentored junior engineers on consistency patterns (eventual consistency, saga orchestration) across services.</li>
+        <li><strong>Mentorship & API Standards:</strong> Paired with junior engineers on API design, security hardening (Layer-7 auth, PII handling), and edge case testing. Established API review process and onboarded 3 new team members. Documented "API design for scale" guidelines now used company-wide.</li>
+      </ul>
+    </div>
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <div class="job-company">Dell Technologies</div>
+          <div class="job-role">Software Engineer 2 (Promoted from SDE1)</div>
+        </div>
+        <div class="job-period">Feb 2023 – Jan 2025</div>
+      </div>
+      <div class="job-location">Bengaluru</div>
+      <ul>
+        <li><strong>Unified Cost Management Dashboard Backend (Spring Boot + Java):</strong> [SDE2] Designed and shipped REST API backend for enterprise dashboard (2000+ daily users). Built Spring Boot microservice with Oracle database layer, optimized complex queries (−50% latency). Implemented Layer-7 auth for multi-tier approvals and role-based access control. Deployed on PCF with high availability. Impact: $65M ROI in FY.</li>
+        <li><strong>Test Coverage & Reliability (SDE2):</strong> Improved DevOps test coverage from 60% → 97%+. Established testing layers (unit, integration, e2e). Led PCF vulnerability remediation (60–70% completion). Built monitoring dashboards for SLA tracking.</li>
+        <li><strong>Distributed Systems Patterns (SDE1→SDE2 Growth):</strong> [SDE1] Shipped Buddy Board (Angular + Python + Spring Boot) automating data validation across procurement. [SDE2] Led architecture reviews ensuring service reliability, consistency guarantees, and failover strategies across multiple services.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section avoid-break">
+    <div class="section-title">Key Projects & Achievements</div>
+
+    <div class="project">
+      <div><span class="project-title">RSA Platform API Architecture</span><span class="project-badge">2025 · Production</span></div>
+      <div class="project-desc">Designed REST APIs for 1000+ garage network supporting real-time slot booking, location tracking, and field executive coordination. Implemented API versioning, backward-compatibility guarantees, and observability instrumentation. Demonstrates distributed systems design at scale (eventual consistency, saga orchestration).</div>
+    </div>
+    <div class="project">
+      <div><span class="project-title">DELL Cost Management Microservice</span><span class="project-badge">Enterprise · $65M ROI</span></div>
+      <div class="project-desc">Built Spring Boot REST API backend with complex authorization logic, Oracle query optimization, and PCF deployment. Demonstrates production API design, performance tuning, and security hardening in regulated environments.</div>
+    </div>
+    <div class="project">
+      <div><span class="project-title">API Contract Standards & Testing</span><span class="project-badge">Cross-team</span></div>
+      <div class="project-desc">Established API design patterns, contract-first development, and testing strategy across Acko teams. Built guidelines for backward-compatibility, versioning, and deprecation. Mentored 3+ engineers on reliability-first API design.</div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section avoid-break">
+    <div class="section-title">Education</div>
+
+    <div class="edu-item">
+      <div class="edu-header">
+        <div>
+          <div class="edu-title">B.Tech — Computer Science</div>
+          <div class="edu-org">Sikkim Manipal Institute of Technology</div>
+        </div>
+        <div class="edu-year">2017–2021</div>
+      </div>
+      <div class="edu-desc">CGPA: 9.69 / 10</div>
+    </div>
+    <div class="edu-item">
+      <div class="edu-header">
+        <div>
+          <div class="edu-title">High School Diploma — Computer Science</div>
+          <div class="edu-org">St. Columba's School, New Delhi</div>
+        </div>
+        <div class="edu-year">2013–2017</div>
+      </div>
+      <div class="edu-desc">Grade: 9.2</div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section avoid-break">
+    <div class="section-title">Achievements & Certifications</div>
+
+    <div class="cert-item">
+      <div class="cert-title">Patent Authorised — DELL</div>
+      <div class="cert-org">TIDE Hack2Evolve</div>
+      <div class="cert-year">2024</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-title">1st — GSCM-TECH-A-THON, DELL</div>
+      <div class="cert-org">Parquet Automation</div>
+      <div class="cert-year">2024</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-title">4th — Ackathon 2024, ACKO</div>
+      <div class="cert-org">Acko Global Care</div>
+      <div class="cert-year">2025</div>
+    </div>
+    <div class="cert-item">
+      <div class="cert-title">3rd — Code-Zen, Coding Ninjas</div>
+      <div class="cert-org">Competitive Coding</div>
+      <div class="cert-year">2019</div>
+    </div>
+  </div>
+
+  <!-- SKILLS PAGE 2 -->
+  <div class="section avoid-break">
+    <div class="section-title">Technical Skills</div>
+
+    <div class="skills-grid">
+      <div>
+        <div class="skill-category">Languages</div>
+        <div class="skill-item">Java & Spring Boot</div>
+        <div class="skill-item">TypeScript</div>
+        <div class="skill-item">Node.js</div>
+        <div class="skill-item">Python</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">SQL</div>
+      </div>
+      <div>
+        <div class="skill-category">APIs & Protocols</div>
+        <div class="skill-item">REST APIs</div>
+        <div class="skill-item">OAuth2 & Auth</div>
+        <div class="skill-item">API Versioning</div>
+        <div class="skill-item">API Contracts</div>
+        <div class="skill-item">BFF Pattern</div>
+        <div class="skill-item">GraphQL (Exposure)</div>
+      </div>
+      <div>
+        <div class="skill-category">Distributed Systems</div>
+        <div class="skill-item">Microservices</div>
+        <div class="skill-item">Event-driven Arch</div>
+        <div class="skill-item">Message Queues</div>
+        <div class="skill-item">Consistency Patterns</div>
+        <div class="skill-item">Saga Orchestration</div>
+        <div class="skill-item">Failover Strategies</div>
+      </div>
+      <div>
+        <div class="skill-category">Cloud & DevOps</div>
+        <div class="skill-item">AWS (RDS, EC2)</div>
+        <div class="skill-item">Azure Exposure</div>
+        <div class="skill-item">Docker</div>
+        <div class="skill-item">Kubernetes</div>
+        <div class="skill-item">PCF</div>
+        <div class="skill-item">CI/CD</div>
+      </div>
+      <div>
+        <div class="skill-category">Databases</div>
+        <div class="skill-item">MongoDB</div>
+        <div class="skill-item">PostgreSQL</div>
+        <div class="skill-item">Oracle</div>
+        <div class="skill-item">Redis</div>
+        <div class="skill-item">Query Optimization</div>
+        <div class="skill-item">Schema Design</div>
+      </div>
+      <div>
+        <div class="skill-category">Testing & Reliability</div>
+        <div class="skill-item">Unit Testing</div>
+        <div class="skill-item">Integration Tests</div>
+        <div class="skill-item">E2E Testing</div>
+        <div class="skill-item">Load Testing</div>
+        <div class="skill-item">Datadog & Monitoring</div>
+        <div class="skill-item">Observability</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

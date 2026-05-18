@@ -272,12 +272,12 @@ linkedin_apify_searches:
   - name: LinkedIn Apify — Senior Full Stack Bengaluru (last 30 days)
     url: 'https://www.linkedin.com/jobs/search/?keywords=Senior%20Full%20Stack&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r2592000&f_E=4&f_JT=F'
     count: 50
-    enabled: false  # Enable once cost budget is set
+    enabled: true
 
-  - name: LinkedIn Apify — Tech Lead / SDE3 Bengaluru (last 30 days)
-    url: 'https://www.linkedin.com/jobs/search/?keywords=Tech%20Lead&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r2592000&f_E=4%2C5&f_JT=F'
+  - name: LinkedIn Apify — SDE3 Bengaluru (last 30 days)
+    url: 'https://www.linkedin.com/jobs/search/?keywords=SDE3&location=Bengaluru%2C%20Karnataka%2C%20India&f_TPR=r2592000&f_E=4&f_JT=F'
     count: 50
-    enabled: false
+    enabled: true
 
 
 # -- Tracked Companies --
@@ -296,7 +296,7 @@ tracked_companies:
     scan_method: websearch
     scan_query: 'site:careers.google.com "Software Engineer" India Bengaluru Senior'
     notes: "Bengaluru + Hyderabad. SWE L5/L6 = 60-120LPA. Strong AI hiring."
-    enabled: true
+    enabled: false
 
   - name: Microsoft India
     careers_url: https://careers.microsoft.com/global/en/search-results?location=India

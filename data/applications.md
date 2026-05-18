@@ -2,6 +2,35 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 206 | 2026-05-17 | Trintech | Senior Software Engineer | 3.8/5 | Evaluated | ❌ | [206](reports/206-trintech-2026-05-17.md) | Evaluate |
+| 207 | 2026-05-17 | Equinix | Senior Staff Software Engineer - Full Stack Platform | 3.9/5 | Evaluated | ❌ | [207](reports/207-equinix-2026-05-17.md) | Evaluate |
+| 208 | 2026-05-17 | SpotDraft | Software Development Engineer - III | 4.1/5 | Evaluated | ❌ | [208](reports/208-spotdraft-2026-05-17.md) | APPLY |
+| 209 | 2026-05-17 | WEX | Software Development Engineer - 3 | 4.3/5 | Evaluated | ❌ | [209](reports/209-wex-2026-05-17.md) | APPLY |
+| 210 | 2026-05-17 | Inflection.io | SDE3 Backend Software Engineer | 3.9/5 | Evaluated | ❌ | [210](reports/210-inflection-2026-05-17.md) | Evaluate |
+| 211 | 2026-05-17 | Scapia | Senior Software Engineer (SDE3/4) | 4.1/5 | Evaluated | ❌ | [211](reports/211-scapia-2026-05-17.md) | APPLY |
+| 212 | 2026-05-17 | Curefit | Senior Software Development Engineer 2 | 4.4/5 | Evaluated | ❌ | [212](reports/212-curefit-2026-05-17.md) | APPLY |
+| 213 | 2026-05-17 | Porter | Senior Software Engineer | 4.5/5 | Evaluated | ❌ | [213](reports/213-porter-2026-05-17.md) | APPLY |
+| 214 | 2026-05-17 | Infinite Convergence Solutions | Senior Full Stack Software Engineer | 3.6/5 | Evaluated | ❌ | [214](reports/214-infinite-convergence-2026-05-17.md) | Evaluate |
+| 215 | 2026-05-17 | Apple | AI/ML Software Engineer - SES Gen AI Solutions, IS&T | 4.2/5 | Evaluated | ❌ | [215](reports/215-apple-2026-05-17.md) | APPLY |
+| 216 | 2026-05-17 | Syndigo | Lead Software Engineer | 3.5/5 | SKIP | ❌ | [216](reports/216-syndigo-2026-05-17.md) | SKIP |
+| 186 | 2026-05-17 | TRG Screen | Senior SDE (Java+Angular FullStack) | 4.5/5 | Evaluated | ✅ | [186](reports/186-trg-screen-2026-05-17.md) | Exact tech fit, consulting firm, mentoring opportunity |
+| 187 | 2026-05-17 | Walmart Global Tech | Senior SDE (Java FullStack) | 4.4/5 | Evaluated | ✅ | [187](reports/187-walmart-java-fullstack-2026-05-17.md) | BEST MATCH: exact Spring Boot+React, Bangalore, recent |
+| 188 | 2026-05-17 | Walmart Global Tech | Senior SDE (IND) | 4.2/5 | Evaluated | ✅ | [188](reports/188-walmart-ind-sde-2026-05-17.md) | Same Walmart stack, different team, 2 days old |
+| 189 | 2026-05-17 | Flipkart | Lead Software Engineer | 4.1/5 | Evaluated | ✅ | [189](reports/189-flipkart-lead-2026-05-17.md) | Opportunity to punch up to Lead, verify stack |
+| 190 | 2026-05-17 | Flipkart | Senior SDE | 4.0/5 | Evaluated | ✅ | [190](reports/190-flipkart-senior-sde-2026-05-17.md) | Product company, Bangalore, stack unspecified |
+| 191 | 2026-05-17 | Roku | Senior SDE (FullStack) | 4.0/5 | Evaluated | ✅ | [191](reports/191-roku-fullstack-2026-05-17.md) | React+Express+AI, 12+ yrs requirement high but screen-friendly |
+| 192 | 2026-05-17 | Okta | Senior SDE | 3.8/5 | Evaluated | ✅ | [192](reports/192-okta-senior-sde-2026-05-17.md) | Founding engineer, Node.js stack (different from primary), very fresh |
+| 193 | 2026-05-17 | LinkedIn | Senior SDE (Applications) | 3.6/5 | Evaluated | ✅ | [193](reports/193-linkedin-applications-2026-05-17.md) | Backend-only, not full-stack preference |
+| 194 | 2026-05-17 | Walmart | Senior SDE (Java Backend) | 3.5/5 | Evaluated | ✅ | [194](reports/194-walmart-java-backend-2026-05-17.md) | Backend-only, skip per full-stack preference |
+| 195 | 2026-05-17 | Intuit | Senior SDE (Credit Karma) | 3.3/5 | Evaluated | ❌ | [195](reports/195-intuit-credit-karma-2026-05-17.md) | Scala/functional mismatch, backend-only, skip |
+| 196 | 2026-05-17 | Walmart Global Tech India | Senior Software Engineer - Java Fullstack | 3.8/5 | Evaluated | ✅ | [196](reports/196-walmart-gti-2026-05-17.md) | Java/Spring Boot + React full-stack. Excellent tech match, minor office preference concern. Evaluate office flexibility before applying. |
+| 197 | 2026-05-17 | Okta | Senior Software Engineer | 4.1/5 | Evaluated | ✅ | [197](reports/197-okta-2026-05-17.md) | Identity platform (100M daily logins). Node.js + distributed systems. Exact year match, slight Node.js ramp. APPLY — high-growth division, competitive comp. |
+| 198 | 2026-05-17 | Roku | Senior Software Engineer - FullStack | 3.2/5 | SKIP | ❌ | [198](reports/198-roku-2026-05-17.md) | 12+ years required vs ~5 years (2.4x overshoot). Support platform domain. Infrastructure-heavy (not product-heavy). Skip — better opportunities exist. |
+| 199 | 2026-05-17 | Cisco | Senior Full-Stack Wireless Software Engineer | 2.8/5 | SKIP | ❌ | [199](reports/199-cisco-2026-05-17.md) | Embedded systems (wireless 802.11, C/C++), not web development. Zero C/C++/wireless background. Hard blockers. Skip. |
+| 200 | 2026-05-17 | Setu | SDE III | 3.1/5 | SKIP | ❌ | [200](reports/200-setu-2026-05-17.md) | Backend-only (Golang), not full-stack. Violates SDE3 constraint (must be full-stack). Posted 2 weeks ago. Skip — wait until Stevens has Golang production experience. |
+| 201 | 2026-05-17 | Rippling | Senior Software Engineer - Fullstack | 4.3/5 | Evaluated | ✅ | [201](reports/201-rippling-2026-05-17.md) | React/Golang/Python full-stack. Series D ($1.85B+ funded). Excellent alignment: product-led, mentorship culture, autonomy. TOP CANDIDATE — STRONG APPLY. |
+| 204 | 2026-05-17 | BlackLine | Senior Software Engineer - Front End (Full Stack) | 4.2/5 | Evaluated | ✅ | [204](reports/204-blackline-2026-05-17.md) | Full-stack + AI-first mindset. Go/Python + React/TypeScript. Public SaaS. Excellent AI alignment (Admissibility Agent + Acko Global Care). TOP CANDIDATE #2 — STRONG APPLY. |
+| 205 | 2026-05-17 | Siemens | Senior Software Developer - Full Stack | 3.6/5 | Evaluated | ✅ | [205](reports/205-siemens-2026-05-17.md) | C# .NET + Angular stack. Microsoft full-stack. Posting 3 weeks old. Tech-stack ramp (learnable). Evaluate — tertiary option, verify apply button active. |
 | 185 | 2026-05-14 | GoComet | SDE 3 | 3.4/5 | Evaluated | ✅ | [185](reports/185-gocomet-sde3-2026-05-14.md) | Warm inbound recruiter; backend-heavy (Node.js/Python/Java); hybrid Bengaluru; 35-50L range |
 | 162 | 2026-05-12 | Docusign | Sr. Software Engineer Commerce Frontend | 4.1/5 | Evaluated | ❌ | [162](reports/162-docusign-sr-swe-commerce-frontend-2026-05-12.md) | React/Next.js/TypeScript match, hybrid Bengaluru, 8yr req is reach |
 | 165 | 2026-05-12 | StockX | AI Automation Engineer | 4.0/5 | Evaluated | ❌ | [165](reports/165-stockx-ai-automation-engineer-2026-05-12.md) | LLM/RAG/agent match, Bengaluru, strong AI fit |
